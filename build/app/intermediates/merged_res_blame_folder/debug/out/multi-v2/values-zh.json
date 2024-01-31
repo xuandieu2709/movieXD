@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "vn.xdeuhug.luckyMoney.app-mergeDebugResources-74:/values-zh/values-zh.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\e6e4bf187105b8fddd24a4a090336ea3\\transformed\\jetified-refresh-layout-kernel-2.0.3\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,163",
+                        "endColumns": "107,91",
+                        "endOffsets": "158,250"
+                    }
+                }
+            ]
+        }
+    ]
+}

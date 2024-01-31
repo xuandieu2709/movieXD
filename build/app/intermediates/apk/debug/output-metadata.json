@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "vn.xdeuhug.luckyMoney",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 15,
+      "versionName": "1.9.5",
+      "outputFile": "LuckyMoney_v1.9.5_release_0122.apk"
+    }
+  ],
+  "elementType": "File"
+}

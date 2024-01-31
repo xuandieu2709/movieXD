@@ -1,0 +1,71 @@
+R_DEF: Internal format may change without notice
+local
+attr? bar_leftDrawable
+attr? bar_leftDrawablePadding
+attr? bar_leftDrawableSize
+attr? bar_leftDrawableTint
+attr? bar_leftText
+attr? bar_leftTextColor
+attr? bar_leftTextHint
+attr? bar_leftTextSize
+attr? bar_lineDrawable
+attr? bar_lineMargin
+attr? bar_lineSize
+attr? bar_lineVisible
+attr? bar_rightDrawable
+attr? bar_rightDrawablePadding
+attr? bar_rightDrawableSize
+attr? bar_rightDrawableTint
+attr? bar_rightText
+attr? bar_rightTextColor
+attr? bar_rightTextHint
+attr? bar_rightTextSize
+attr? drawableHeight
+attr? drawableWidth
+attr? errorColor
+attr? fillDrawable
+attr? grade
+attr? gradeCount
+attr? gradeHeight
+attr? gradeSpace
+attr? gradeStep
+attr? gradeWidth
+attr? halfDrawable
+attr? inputRegex
+attr? normalDrawable
+attr? pb_animDuration
+attr? pb_lineColor
+attr? pb_lineSize
+attr? progressColor
+attr? progressStyle
+attr? regexType
+attr? scaleRatio
+attr? sizeRatio
+attr? succeedColor
+attr? triangle
+drawable input_delete_ic
+drawable rating_star_fill_ic
+drawable rating_star_half_ic
+drawable rating_star_off_ic
+id chinese
+id count
+id english
+id half
+id loading
+id mobile
+id name
+id nonnull
+id number
+id one
+id progress
+styleable CustomViewStub android:layout
+styleable DrawableTextView drawableWidth drawableHeight
+styleable PlayButton pb_lineColor pb_lineSize pb_animDuration
+styleable RatioFrameLayout sizeRatio
+styleable RegexEditText inputRegex regexType
+styleable ScaleImageView scaleRatio
+styleable SettingBar bar_leftText bar_leftTextColor bar_leftTextSize bar_leftTextHint bar_leftDrawable bar_leftDrawablePadding bar_leftDrawableSize bar_leftDrawableTint bar_rightText bar_rightTextColor bar_rightTextSize bar_rightTextHint bar_rightDrawable bar_rightDrawablePadding bar_rightDrawableSize bar_rightDrawableTint bar_lineVisible bar_lineDrawable bar_lineSize bar_lineMargin
+styleable SimpleRatingBar grade gradeCount gradeWidth gradeHeight gradeSpace gradeStep normalDrawable halfDrawable fillDrawable
+styleable SlantedTextView android:text android:textSize android:textColor android:textStyle android:gravity android:colorBackground android:paddingVertical android:paddingHorizontal triangle
+styleable SubmitButton progressColor succeedColor errorColor progressStyle
+styleable SwitchButton android:checked android:enabled

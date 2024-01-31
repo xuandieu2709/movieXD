@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Màu sắc được tham chiếu trong các kiểu -->
+    <color name="common_primary_color">@color/white</color>
+    <color name="common_primary_dark_color">@color/black</color>
+    <color name="common_accent_color">@color/orange</color>
+    <color name="common_window_background_color">#F4F4F4</color>
+    <color name="common_text_color">#696A6C</color>
+    <color name="common_text_hint_color">#C5C6C9</color>
+
+    <!-- Màu của nút bấm -->
+    <color name="common_button_pressed_color">#FFA233</color>
+    <!-- Màu của nút khi nó bị tắt -->
+    <!-- màu của đường phân cách -->
+    <color name="common_line_color">#ECECEC</color>
+    <!-- màu biểu tượng vector -->
+    <color name="common_icon_color">#7C7C7C</color>
+
+    <!-- Màu văn bản của nút xác nhận hộp thoại -->
+    <!-- Màu văn bản của nút hủy hộp thoại -->
+    <color name="common_cancel_text_color">#F44336</color>
+
+    <color name="main_bg">#C7D9EC</color>
+    <!--    Red-->
+    <color name="red_900">#BB0014</color>
+    <color name="red_500">#F7002E</color>
+    <color name="red_app_senior_sociable">#EF5250</color>
+
+
+    <color name="orange_700">#E96012</color>
+
+
+    <color name="yellow">#f7bc0e</color>
+
+    <color name="gray_100">#F5F6FA</color>
+    <color name="gray_200">#F1F2F5</color>
+    <color name="gray_300">#E7E8EB</color>
+    <color name="gray_600">#7D7E81</color>
+    <color name="gray_800">#494A4D</color>
+    <color name="gray_900">#28282B</color>
+
+    <color name="blue_app_senior_sociable">#1684AC</color>
+
+    <color name="green_100">#DFEEE2</color>
+    <color name="green_007">#48B28D</color>
+
+    <color name="text_color_blue">#1462B0</color>
+
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <!-- Chat Activity -->
+
+</resources>

@@ -1,0 +1,9 @@
+vn.xdeuhug.luckyMoney.test.app-jetified-core-1.5.0-0 C:\Users\DELL\.gradle\caches\transforms-3\84eefd386cd87070e6c4613a2313ffc3\transformed\jetified-core-1.5.0\res
+vn.xdeuhug.luckyMoney.test.app-jetified-annotation-experimental-1.3.0-1 C:\Users\DELL\.gradle\caches\transforms-3\de43dda4ec325e309be33e9aa6946f8a\transformed\jetified-annotation-experimental-1.3.0\res
+vn.xdeuhug.luckyMoney.test.app-androidTest-2 C:\Users\DELL\Desktop\LuckyMoney\app\src\androidTest\res
+vn.xdeuhug.luckyMoney.test.app-androidTestDebug-3 C:\Users\DELL\Desktop\LuckyMoney\app\src\androidTestDebug\res
+vn.xdeuhug.luckyMoney.test.app-androidTest-4 C:\Users\DELL\Desktop\LuckyMoney\build\app\generated\res\resValues\androidTest\debug
+vn.xdeuhug.luckyMoney.test.app-androidTest-5 C:\Users\DELL\Desktop\LuckyMoney\build\app\generated\res\rs\androidTest\debug
+vn.xdeuhug.luckyMoney.test.app-mergeDebugAndroidTestResources-6 C:\Users\DELL\Desktop\LuckyMoney\build\app\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+vn.xdeuhug.luckyMoney.test.app-mergeDebugAndroidTestResources-7 C:\Users\DELL\Desktop\LuckyMoney\build\app\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+vn.xdeuhug.luckyMoney.test.app-merged_res-8 C:\Users\DELL\Desktop\LuckyMoney\build\app\intermediates\merged_res\debugAndroidTest

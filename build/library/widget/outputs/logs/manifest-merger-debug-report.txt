@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\seniorsociable\library\widget\src\main\AndroidManifest.xml:1:1-41
+INJECTED from C:\seniorsociable\library\widget\src\main\AndroidManifest.xml:1:1-41
+INJECTED from C:\seniorsociable\library\widget\src\main\AndroidManifest.xml:1:1-41
+	package
+		ADDED from C:\seniorsociable\library\widget\src\main\AndroidManifest.xml:1:11-38
+		INJECTED from C:\seniorsociable\library\widget\src\main\AndroidManifest.xml
+		INJECTED from C:\seniorsociable\library\widget\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\seniorsociable\library\widget\src\main\AndroidManifest.xml:1:1-41
+uses-sdk
+INJECTED from C:\seniorsociable\library\widget\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\seniorsociable\library\widget\src\main\AndroidManifest.xml
+INJECTED from C:\seniorsociable\library\widget\src\main\AndroidManifest.xml
+INJECTED from C:\seniorsociable\library\widget\src\main\AndroidManifest.xml
+INJECTED from C:\seniorsociable\library\widget\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\seniorsociable\library\widget\src\main\AndroidManifest.xml
+		ADDED from C:\seniorsociable\library\widget\src\main\AndroidManifest.xml
+		INJECTED from C:\seniorsociable\library\widget\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\seniorsociable\library\widget\src\main\AndroidManifest.xml
+		ADDED from C:\seniorsociable\library\widget\src\main\AndroidManifest.xml
+		INJECTED from C:\seniorsociable\library\widget\src\main\AndroidManifest.xml

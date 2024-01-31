@@ -1,0 +1,75 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="google_maps_key" templateMergeStrategy="preserve">AIzaSyBBRjynN80G_I1dD4QxjzJlBkPM_HQBS2I</string>
+    <string name="facebook_app_id">1459597228217742</string>
+    <string name="facebook_client_token">86d3e326ccabd6b54ef1258edac47b5d</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="app_name" translatable="false">Techres - Senior Sociable</string>
+    <string name="start">Bắt đầu</string>
+    <string name="token_expired">Phiên đăng nhập hết hạn. Vui lòng đăng nhập lại</string>
+    <string name="loading">Đang tải…</string>
+    <string name="common_confirm">Xác nhận</string>
+    <string name="common_cancel">Hủy bỏ</string>
+    <string name="status_layout_error_request">Yêu cầu lỗi, vui lòng thử lại</string>
+    <string name="status_layout_error_network">Lỗi mạng, vui lòng thử lại</string>
+    <string name="status_layout_retry">Thử lại</string>
+    <string name="common_network_error">Mạng hiện tại không khả dụng, vui lòng kiểm tra cài đặt mạng</string>
+    <string name="common_no_more_data">Không có thêm dữ liệu</string>
+    <string name="common_web_ssl_error_title">Chứng chỉ bảo mật trang web hiện tại đã hết hạn hoặc không đáng tin cậy\nTiếp tục duyệt</string>
+    <string name="common_web_ssl_error_allow">Tiếp tục</string>
+    <string name="common_web_ssl_error_reject">Quay lại</string>
+    <string name="common_web_call_phone_title">Số lượng hiện tại %s</string>
+    <string name="common_web_call_phone_allow">Quay số</string>
+    <string name="common_web_call_phone_reject">Hủy bỏ</string>
+    <string name="http_data_explain_error">Ngoại lệ phân tích cú pháp dữ liệu, vui lòng đợi</string>
+    <string name="http_server_out_time">Không có phản hồi từ máy chủ</string>
+    <string name="http_network_error">Yêu cầu không thành công, vui lòng kiểm tra cài đặt mạng</string>
+    <string name="http_response_error">Máy chủ phản hồi bất thường, vui lòng thử lại sau</string>
+    <string name="http_server_error">Lỗi kết nối máy chủ, vui lòng thử lại sau</string>
+    <string name="http_request_cancel">Yêu cầu đã bị gián đoạn, vui lòng thử lại</string>
+    <string name="http_response_null_body">Dữ liệu máy chủ trả về ngoại lệ, vui lòng thử lại sau</string>
+    <string name="http_response_md5_error">Tải xuống không thành công, xác minh tệp md5 không thành công</string>
+    <string name="monday">Thứ 2</string>
+    <string name="tuesday">Thứ 3</string>
+    <string name="wednesday">Thứ 4</string>
+    <string name="thursday">Thứ 5</string>
+    <string name="friday">Thứ 6</string>
+    <string name="saturday">Thứ 7</string>
+    <string name="sunday">Chủ nhật</string>
+    <string name="notification">Thông báo</string>
+
+
+    <string name="confirm">Xác nhận</string>
+    <string name="cancel">Hủy</string>
+    <string name="back_confirm">Nhấn lần nữa để thoát ứng dụng</string>
+    <string name="link_youtube_1">youtu.be/</string>
+    <string name="link_youtube_4">youtube.com/watch?v=</string>
+    <string name="link_youtube_3">youtube.com/shorts/</string>
+
+    <string name="finish_now">Vừa xong</string>
+    <string name="minute_ago">%d phút</string>
+    <string name="minute_ago_notify">%d phút trước</string>
+    <string name="hour_ago">%d giờ</string>
+    <string name="hour_ago_notify">%d giờ trước</string>
+    <string name="day_ago">%d ngày</string>
+    <string name="day_ago_notify">%d ngày trước</string>
+    <string name="month_ago_notify">%d tháng trước</string>
+    <string name="close">Đóng</string>
+    <string name="beta">Beta</string>
+
+    <string name="lucky_money">Lì Xì Đầu Năm</string>
+    <string name="congratulation_received">Chúc mừng bạn nhận được</string>
+    <string name="sound">Âm thanh</string>
+    <string name="lucky_setting">Tiền lì xì</string>
+    <string name="config_sound">Cấu hình âm thanh </string>
+    <string name="music_background">Nhạc nền</string>
+    <string name="quit">Quay lại</string>
+    <string name="back_notification">Nhấn lần nữa để quay lại!</string>
+    <string name="money_current">Tiền lì xì</string>
+    <string name="save">Lưu</string>
+    <string name="max_number_99">Số lượng tiền lì xì tối đa là 99</string>
+    <string name="not_have_money">Hết tiền lì xì rồi!</string>
+    <string name="add_money">Thêm lì xì</string>
+    <string name="spinner_lucky">Vòng quay lì xì</string>
+</resources>
+
+

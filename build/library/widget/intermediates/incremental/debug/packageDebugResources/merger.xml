@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\seniorsociable\library\widget\src\main\res"/><source path="C:\seniorsociable\build\library\widget\generated\res\rs\debug"/><source path="C:\seniorsociable\build\library\widget\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\seniorsociable\library\widget\src\main\res"><file name="input_delete_ic" path="C:\seniorsociable\library\widget\src\main\res\drawable\input_delete_ic.xml" qualifiers="" type="drawable"/><file name="rating_star_fill_ic" path="C:\seniorsociable\library\widget\src\main\res\drawable\rating_star_fill_ic.xml" qualifiers="" type="drawable"/><file name="rating_star_half_ic" path="C:\seniorsociable\library\widget\src\main\res\drawable\rating_star_half_ic.xml" qualifiers="" type="drawable"/><file name="rating_star_off_ic" path="C:\seniorsociable\library\widget\src\main\res\drawable\rating_star_off_ic.xml" qualifiers="" type="drawable"/><file path="C:\seniorsociable\library\widget\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="SwitchButton">
+        
+        <attr name="android:checked"/>
+        
+        <attr name="android:enabled"/>
+    </declare-styleable><declare-styleable name="RegexEditText">
+        
+        <attr format="string" name="inputRegex"/>
+        
+        <attr name="regexType">
+            
+            <enum name="mobile" value="0x01"/>
+            
+            <enum name="chinese" value="0x02"/>
+            
+            <enum name="english" value="0x03"/>
+            
+            <enum name="number" value="0x04"/>
+            
+            <enum name="count" value="0x05"/>
+            
+            <enum name="name" value="0x06"/>
+            
+            <enum name="nonnull" value="0x07"/>
+        </attr>
+    </declare-styleable><declare-styleable name="SettingBar">
+        
+        <attr format="string" name="bar_leftText"/>
+        <attr format="color" name="bar_leftTextColor"/>
+        <attr format="dimension" name="bar_leftTextSize"/>
+        <attr format="string" name="bar_leftTextHint"/>
+        <attr format="reference" name="bar_leftDrawable"/>
+        <attr format="dimension" name="bar_leftDrawablePadding"/>
+        <attr format="dimension" name="bar_leftDrawableSize"/>
+        <attr format="color" name="bar_leftDrawableTint"/>
+        
+        <attr format="string" name="bar_rightText"/>
+        <attr format="color" name="bar_rightTextColor"/>
+        <attr format="dimension" name="bar_rightTextSize"/>
+        <attr format="string" name="bar_rightTextHint"/>
+        <attr format="reference" name="bar_rightDrawable"/>
+        <attr format="dimension" name="bar_rightDrawablePadding"/>
+        <attr format="dimension" name="bar_rightDrawableSize"/>
+        <attr format="color" name="bar_rightDrawableTint"/>
+        
+        <attr format="boolean" name="bar_lineVisible"/>
+        <attr format="reference|color" name="bar_lineDrawable"/>
+        <attr format="dimension" name="bar_lineSize"/>
+        <attr format="dimension" name="bar_lineMargin"/>
+    </declare-styleable><declare-styleable name="SubmitButton">
+        
+        <attr format="color" name="progressColor"/>
+        
+        <attr format="color" name="succeedColor"/>
+        
+        <attr format="color" name="errorColor"/>
+        
+        <attr format="enum" name="progressStyle">
+            
+            <enum name="loading" value="0x00"/>
+            
+            <enum name="progress" value="0x01"/>
+        </attr>
+    </declare-styleable><declare-styleable name="SlantedTextView">
+        <attr name="android:text"/>
+        <attr name="android:textSize"/>
+        <attr name="android:textColor"/>
+        <attr name="android:textStyle"/>
+        <attr name="android:gravity"/>
+        <attr name="android:colorBackground"/>
+        <attr name="android:paddingVertical"/>
+        <attr name="android:paddingHorizontal"/>
+        
+        <attr format="boolean" name="triangle"/>
+    </declare-styleable><declare-styleable name="CustomViewStub">
+        
+        <attr name="android:layout"/>
+    </declare-styleable><declare-styleable name="ScaleImageView">
+        
+        <attr format="float" name="scaleRatio"/>
+    </declare-styleable><declare-styleable name="RatioFrameLayout">
+        
+        <attr format="string" name="sizeRatio"/>
+    </declare-styleable><declare-styleable name="DrawableTextView">
+        
+        <attr format="dimension" name="drawableWidth"/>
+        
+        <attr format="dimension" name="drawableHeight"/>
+    </declare-styleable><declare-styleable name="SimpleRatingBar">
+        
+        <attr format="float" name="grade"/>
+        
+        <attr format="integer" name="gradeCount"/>
+        
+        <attr format="dimension" name="gradeWidth"/>
+        
+        <attr format="dimension" name="gradeHeight"/>
+        
+        <attr format="dimension" name="gradeSpace"/>
+        
+        <attr format="enum" name="gradeStep">
+            
+            <enum name="half" value="0x00"/>
+            
+            <enum name="one" value="0x01"/>
+        </attr>
+        
+        <attr format="reference" name="normalDrawable"/>
+        
+        <attr format="reference" name="halfDrawable"/>
+        
+        <attr format="reference" name="fillDrawable"/>
+    </declare-styleable><declare-styleable name="PlayButton">
+        
+        <attr format="color" name="pb_lineColor"/>
+        
+        <attr format="integer" name="pb_lineSize"/>
+        
+        <attr format="integer" name="pb_animDuration"/>
+    </declare-styleable></file></source><source path="C:\seniorsociable\build\library\widget\generated\res\rs\debug"/><source path="C:\seniorsociable\build\library\widget\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\seniorsociable\library\widget\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\seniorsociable\library\widget\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="SlantedTextView">
+        <attr name="android:text"/>
+        <attr name="android:textSize"/>
+        <attr name="android:textColor"/>
+        <attr name="android:textStyle"/>
+        <attr name="android:gravity"/>
+        <attr name="android:colorBackground"/>
+        <attr name="android:paddingVertical"/>
+        <attr name="android:paddingHorizontal"/>
+        
+        <attr format="boolean" name="triangle"/>
+    </declare-styleable><declare-styleable name="ScaleImageView">
+        
+        <attr format="float" name="scaleRatio"/>
+    </declare-styleable><declare-styleable name="SettingBar">
+        
+        <attr format="string" name="bar_leftText"/>
+        <attr format="color" name="bar_leftTextColor"/>
+        <attr format="dimension" name="bar_leftTextSize"/>
+        <attr format="string" name="bar_leftTextHint"/>
+        <attr format="reference" name="bar_leftDrawable"/>
+        <attr format="dimension" name="bar_leftDrawablePadding"/>
+        <attr format="dimension" name="bar_leftDrawableSize"/>
+        <attr format="color" name="bar_leftDrawableTint"/>
+        
+        <attr format="string" name="bar_rightText"/>
+        <attr format="color" name="bar_rightTextColor"/>
+        <attr format="dimension" name="bar_rightTextSize"/>
+        <attr format="string" name="bar_rightTextHint"/>
+        <attr format="reference" name="bar_rightDrawable"/>
+        <attr format="dimension" name="bar_rightDrawablePadding"/>
+        <attr format="dimension" name="bar_rightDrawableSize"/>
+        <attr format="color" name="bar_rightDrawableTint"/>
+        
+        <attr format="boolean" name="bar_lineVisible"/>
+        <attr format="reference|color" name="bar_lineDrawable"/>
+        <attr format="dimension" name="bar_lineSize"/>
+        <attr format="dimension" name="bar_lineMargin"/>
+    </declare-styleable><declare-styleable name="DrawableTextView">
+        
+        <attr format="dimension" name="drawableWidth"/>
+        
+        <attr format="dimension" name="drawableHeight"/>
+    </declare-styleable><declare-styleable name="SimpleRatingBar">
+        
+        <attr format="float" name="grade"/>
+        
+        <attr format="integer" name="gradeCount"/>
+        
+        <attr format="dimension" name="gradeWidth"/>
+        
+        <attr format="dimension" name="gradeHeight"/>
+        
+        <attr format="dimension" name="gradeSpace"/>
+        
+        <attr format="enum" name="gradeStep">
+            
+            <enum name="half" value="0x00"/>
+            
+            <enum name="one" value="0x01"/>
+        </attr>
+        
+        <attr format="reference" name="normalDrawable"/>
+        
+        <attr format="reference" name="halfDrawable"/>
+        
+        <attr format="reference" name="fillDrawable"/>
+    </declare-styleable><declare-styleable name="RegexEditText">
+        
+        <attr format="string" name="inputRegex"/>
+        
+        <attr name="regexType">
+            
+            <enum name="mobile" value="0x01"/>
+            
+            <enum name="chinese" value="0x02"/>
+            
+            <enum name="english" value="0x03"/>
+            
+            <enum name="number" value="0x04"/>
+            
+            <enum name="count" value="0x05"/>
+            
+            <enum name="name" value="0x06"/>
+            
+            <enum name="nonnull" value="0x07"/>
+        </attr>
+    </declare-styleable><declare-styleable name="SwitchButton">
+        
+        <attr name="android:checked"/>
+        
+        <attr name="android:enabled"/>
+    </declare-styleable><declare-styleable name="PlayButton">
+        
+        <attr format="color" name="pb_lineColor"/>
+        
+        <attr format="integer" name="pb_lineSize"/>
+        
+        <attr format="integer" name="pb_animDuration"/>
+    </declare-styleable><declare-styleable name="CustomViewStub">
+        
+        <attr name="android:layout"/>
+    </declare-styleable><declare-styleable name="RatioFrameLayout">
+        
+        <attr format="string" name="sizeRatio"/>
+    </declare-styleable><declare-styleable name="SubmitButton">
+        
+        <attr format="color" name="progressColor"/>
+        
+        <attr format="color" name="succeedColor"/>
+        
+        <attr format="color" name="errorColor"/>
+        
+        <attr format="enum" name="progressStyle">
+            
+            <enum name="loading" value="0x00"/>
+            
+            <enum name="progress" value="0x01"/>
+        </attr>
+    </declare-styleable></configuration></mergedItems></merger>

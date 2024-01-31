@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Áp dụng các kiểu chủ đề -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- màu nền cửa sổ -->
+        <item name="android:windowBackground">@color/common_window_background_color</item>
+        <!-- Màu chính của ứng dụng, được Thanh công cụ ActionBar sử dụng theo mặc định -->
+        <item name="colorPrimary">@color/common_primary_color</item>
+        <!-- Màu tối chính của ứng dụng, được sử dụng theo mặc định cho thanh trạng thái -->
+        <item name="colorPrimaryDark">@color/common_primary_dark_color</item>
+        <!-- Màu nhấn của ứng dụng, màu này được sử dụng theo mặc định cho hiệu ứng lựa chọn của các điều khiển chung, chẳng hạn như CheckBox RadioButton Switch -->
+        <item name="colorAccent">@color/common_accent_color</item>
+        <!-- Màu văn bản mặc định, Nút, Màu văn bản TextView -->
+        <item name="android:textColor">@color/common_text_color</item>
+        <!-- Kích thước phông chữ mặc định, kích thước phông chữ của Nút, TextView -->
+        <item name="android:textSize">@dimen/sp_14</item>
+        <!-- Màu lời nhắc mặc định, màu văn bản lời nhắc của Nút và Chế độ xem văn bản -->
+        <item name="android:textColorHint">@color/common_text_hint_color</item>
+        <!-- ActionMode ghi đè Thanh hành động không được đặt xuống dưới -->
+        <item name="windowActionModeOverlay">true</item>
+
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- Màu ActionMode -->
+        <item name="actionModeBackground">@color/common_primary_color</item>
+        <!-- Giải quyết vấn đề chuỗi tiếng Anh của Nút của Android 5.1 trở lên tự động là chữ hoa -->
+        <item name="android:textAllCaps">false</item>
+        <!-- Giải quyết vấn đề ImageView không thể tự động kéo giãn hình ảnh theo tỷ lệ -->
+        <!--        <item name="vn.xdeuhug.luckyMoney:adjustViewBounds">true</item>-->
+        <!-- Phương thức nhập liệu bị ẩn theo mặc định. Bật tùy chọn này sẽ khiến hộp thoại nhập liệu không đóng bàn phím mềm sau khi đóng. -->
+        <!--        <item name="vn.xdeuhug.luckyMoney:windowSoftInputMode">stateHidden</item>-->
+        <!-- Tắt hiệu ứng gợn nước của RecyclerView NestedScrollView ViewPager -->
+        <item name="android:overScrollMode">never</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <!-- Tắt khoảng cách văn bản đi kèm với TextView -->
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:statusBarColor">@color/main_bg</item>
+    </style>
+
+    <!-- Phong cách chủ đề trang Splash -->
+    <style name="SplashTheme" parent="AppTheme">
+        <!-- https://www.jianshu.com/p/d0d907754603 -->
+
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+<!--        <item name="vn.xdeuhug.luckyMoney:windowBackground">@drawable/splash_background</item>-->
+    </style>
+
+    <!-- Kiểu nút mặc định -->
+
+    <!--    //SheetDialog-->
+
+    <!--    Hiển thị dialog-->
+    <!-- Kiểu hộp văn bản mặc định -->
+    <!--chu chay-->
+
+
+    <!-- Custom item spinner   -->
+    <!--  TEXT MARQUEE  -->
+    <!--  TEXT PRICE  -->
+    <!--Reaction Button Style-->
+
+</resources>

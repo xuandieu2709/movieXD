@@ -1,0 +1,6 @@
+include ':app'
+include ':library:base'
+include ':library:widget'
+//include ':library:selector'
+//DynamicFeatures module
+include ':features'
