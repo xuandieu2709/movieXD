@@ -1,4 +1,0 @@
-#Mon Jan 22 09:47:34 ICT 2024
-base.0=C\:\\Users\\DELL\\Desktop\\LuckyMoney\\build\\app\\intermediates\\dex\\debugAndroidTest\\mergeDexDebugAndroidTest\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

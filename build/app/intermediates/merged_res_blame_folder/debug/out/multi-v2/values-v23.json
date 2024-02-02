@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "vn.xdeuhug.luckyMoney.app-mergeDebugResources-74:/values-v23/values-v23.xml",
+            "outputFile": "vn.xdeuhug.movieXD.app-mergeDebugResources-75:/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\d9da8e647f9af907f708199106b3316f\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
@@ -34,22 +34,22 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\fa3903479aee5d46fa725d77987f80af\\transformed\\material-1.7.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\ad6e58042b31fb7fe1c17721fa03d0f6\\transformed\\material-1.11.0\\res\\values-v23\\values-v23.xml",
                     "from": {
-                        "startLines": "2,5,8,13,17,20,23,26,31,34,38",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,271,481,801,1038,1245,1452,1655,1987,2189,2454",
-                        "endLines": "4,7,12,16,19,22,25,30,33,37,41",
-                        "endColumns": "10,10,10,10,10,10,10,10,10,10,10",
-                        "endOffsets": "266,476,796,1033,1240,1447,1650,1982,2184,2449,2722"
+                        "startLines": "2,5,9,13,16,19,22,25,28,32",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,271,413,574,784,991,1198,1401,1603,1868",
+                        "endLines": "4,8,12,15,18,21,24,27,31,35",
+                        "endColumns": "10,10,10,10,10,10,10,10,10,10",
+                        "endOffsets": "266,408,569,779,986,1193,1396,1598,1863,2136"
                     },
                     "to": {
-                        "startLines": "53,56,59,64,68,71,74,77,82,85,89",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3382,3598,3808,4128,4365,4572,4779,4982,5314,5516,5781",
-                        "endLines": "55,58,63,67,70,73,76,81,84,88,92",
-                        "endColumns": "10,10,10,10,10,10,10,10,10,10,10",
-                        "endOffsets": "3593,3803,4123,4360,4567,4774,4977,5309,5511,5776,6049"
+                        "startLines": "53,56,60,64,67,70,73,76,79,83",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3382,3598,3740,3901,4111,4318,4525,4728,4930,5195",
+                        "endLines": "55,59,63,66,69,72,75,78,82,86",
+                        "endColumns": "10,10,10,10,10,10,10,10,10,10",
+                        "endOffsets": "3593,3735,3896,4106,4313,4520,4723,4925,5190,5463"
                     }
                 }
             ]

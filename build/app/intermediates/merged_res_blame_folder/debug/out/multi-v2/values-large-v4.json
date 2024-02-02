@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "vn.xdeuhug.luckyMoney.app-mergeDebugResources-74:/values-large-v4/values-large-v4.xml",
+            "outputFile": "vn.xdeuhug.movieXD.app-mergeDebugResources-75:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
                     "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\d9da8e647f9af907f708199106b3316f\\transformed\\appcompat-1.6.1\\res\\values-large-v4\\values-large-v4.xml",
@@ -14,22 +14,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\fa3903479aee5d46fa725d77987f80af\\transformed\\material-1.7.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\ad6e58042b31fb7fe1c17721fa03d0f6\\transformed\\material-1.11.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
-                        "startLines": "2,3,4,10",
+                        "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "55,177,311,752",
-                        "endLines": "2,3,9,15",
-                        "endColumns": "121,133,10,10",
-                        "endOffsets": "172,306,747,1190"
+                        "startOffsets": "55,169,285,407",
+                        "endColumns": "113,115,121,133",
+                        "endOffsets": "164,280,402,536"
                     },
                     "to": {
-                        "startLines": "11,12,13,19",
+                        "startLines": "11,12,13,14",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "752,874,1008,1449",
-                        "endLines": "11,12,18,24",
-                        "endColumns": "121,133,10,10",
-                        "endOffsets": "869,1003,1444,1887"
+                        "startOffsets": "752,866,982,1104",
+                        "endColumns": "113,115,121,133",
+                        "endOffsets": "861,977,1099,1233"
                     }
                 }
             ]

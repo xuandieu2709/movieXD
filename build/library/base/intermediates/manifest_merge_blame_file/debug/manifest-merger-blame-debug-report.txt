@@ -4,8 +4,8 @@
 4
 5    <uses-sdk
 6        android:minSdkVersion="24"
-6-->C:\seniorsociable\library\base\src\main\AndroidManifest.xml
+6-->C:\Users\DELL\Desktop\MovieApp\library\base\src\main\AndroidManifest.xml
 7        android:targetSdkVersion="31" />
-7-->C:\seniorsociable\library\base\src\main\AndroidManifest.xml
+7-->C:\Users\DELL\Desktop\MovieApp\library\base\src\main\AndroidManifest.xml
 8
 9</manifest>

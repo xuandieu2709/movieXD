@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_240"
+    android:layout_marginBottom="@dimen/dp_8"
+    tools:background="@color/color_main_bg"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imvPoster"
+        android:layout_marginEnd="@dimen/dp_8"
+        android:layout_width="@dimen/dp_200"
+        android:layout_height="@dimen/dp_240"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_default"
+        android:contentDescription="@string/default_images" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <vn.xdeuhug.movieXD.widget.AppTextViewBold
+            android:id="@+id/tvTitle"
+            android:textSize="@dimen/sp_20"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Kungfu Panda" />
+
+        <vn.xdeuhug.movieXD.widget.AppTextView
+            android:id="@+id/tvReleaseDate"
+            android:layout_marginTop="@dimen/dp_8"
+            android:textColor="@color/gray_200"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="2020" />
+        <vn.xdeuhug.movieXD.widget.AppTextView
+            android:id="@+id/tvVoteCount"
+            android:layout_marginTop="@dimen/dp_8"
+            android:textColor="@color/gray_200"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="2020" />
+        <vn.xdeuhug.movieXD.widget.AppTextView
+            android:id="@+id/tvSumVoteCount"
+            android:layout_marginTop="@dimen/dp_8"
+            android:textColor="@color/gray_200"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="2020" />
+    </LinearLayout>
+</LinearLayout>

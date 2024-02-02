@@ -1,90 +1,70 @@
 [
     {
-        "merged": "vn.xdeuhug.luckyMoney.app-mergeDebugResources-75:/layout/tips_dialog.xml",
-        "source": "vn.xdeuhug.luckyMoney.app-main-68:/layout/tips_dialog.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\widget_status_layout.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\widget_status_layout.xml"
     },
     {
-        "merged": "vn.xdeuhug.luckyMoney.app-mergeDebugResources-75:/layout/item_money.xml",
-        "source": "vn.xdeuhug.luckyMoney.app-main-68:/layout/item_money.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\tips_dialog.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\tips_dialog.xml"
     },
     {
-        "merged": "vn.xdeuhug.luckyMoney.app-mergeDebugResources-75:/layout/splash_activity.xml",
-        "source": "vn.xdeuhug.luckyMoney.app-main-68:/layout/splash_activity.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\home_activity.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\home_activity.xml"
     },
     {
-        "merged": "vn.xdeuhug.luckyMoney.app-mergeDebugResources-75:/layout/dialog_lucky_box.xml",
-        "source": "vn.xdeuhug.luckyMoney.app-main-68:/layout/dialog_lucky_box.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\splash_activity.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\splash_activity.xml"
     },
     {
-        "merged": "vn.xdeuhug.luckyMoney.app-mergeDebugResources-75:/layout/message_dialog.xml",
-        "source": "vn.xdeuhug.luckyMoney.app-main-68:/layout/message_dialog.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\success_dialog.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\success_dialog.xml"
     },
     {
-        "merged": "vn.xdeuhug.luckyMoney.app-mergeDebugResources-75:/layout/widget_status_layout.xml",
-        "source": "vn.xdeuhug.luckyMoney.app-main-68:/layout/widget_status_layout.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\wait_dialog.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\wait_dialog.xml"
     },
     {
-        "merged": "vn.xdeuhug.luckyMoney.app-mergeDebugResources-75:/layout/activity_browser.xml",
-        "source": "vn.xdeuhug.luckyMoney.app-main-68:/layout/activity_browser.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\item_money.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\item_money.xml"
     },
     {
-        "merged": "vn.xdeuhug.luckyMoney.app-mergeDebugResources-75:/layout/input_dialog.xml",
-        "source": "vn.xdeuhug.luckyMoney.app-main-68:/layout/input_dialog.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\item_spinner.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\item_spinner.xml"
     },
     {
-        "merged": "vn.xdeuhug.luckyMoney.app-mergeDebugResources-75:/layout/success_dialog.xml",
-        "source": "vn.xdeuhug.luckyMoney.app-main-68:/layout/success_dialog.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\dialog_confirm.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\dialog_confirm.xml"
     },
     {
-        "merged": "vn.xdeuhug.luckyMoney.app-mergeDebugResources-75:/layout/dialog_lucky_money.xml",
-        "source": "vn.xdeuhug.luckyMoney.app-main-68:/layout/dialog_lucky_money.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\crash_activity.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\crash_activity.xml"
     },
     {
-        "merged": "vn.xdeuhug.luckyMoney.app-mergeDebugResources-75:/layout/home_activity.xml",
-        "source": "vn.xdeuhug.luckyMoney.app-main-68:/layout/home_activity.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\message_dialog.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\message_dialog.xml"
     },
     {
-        "merged": "vn.xdeuhug.luckyMoney.app-mergeDebugResources-75:/layout/custom_loading.xml",
-        "source": "vn.xdeuhug.luckyMoney.app-main-68:/layout/custom_loading.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\custom_loading.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\custom_loading.xml"
     },
     {
-        "merged": "vn.xdeuhug.luckyMoney.app-mergeDebugResources-75:/layout/wait_dialog.xml",
-        "source": "vn.xdeuhug.luckyMoney.app-main-68:/layout/wait_dialog.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\activity_browser.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\activity_browser.xml"
     },
     {
-        "merged": "vn.xdeuhug.luckyMoney.app-mergeDebugResources-75:/layout/item_spinner.xml",
-        "source": "vn.xdeuhug.luckyMoney.app-main-68:/layout/item_spinner.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\dialog_notification.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\dialog_notification.xml"
     },
     {
-        "merged": "vn.xdeuhug.luckyMoney.app-mergeDebugResources-75:/layout/dialog_sound.xml",
-        "source": "vn.xdeuhug.luckyMoney.app-main-68:/layout/dialog_sound.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\input_dialog.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\input_dialog.xml"
     },
     {
-        "merged": "vn.xdeuhug.luckyMoney.app-mergeDebugResources-75:/layout/ui_dialog.xml",
-        "source": "vn.xdeuhug.luckyMoney.app-main-68:/layout/ui_dialog.xml"
+        "merged": "vn.xdeuhug.movieXD.app-mergeDebugResources-76:/layout/splash_activity.xml",
+        "source": "vn.xdeuhug.movieXD.app-main-69:/layout/splash_activity.xml"
     },
     {
-        "merged": "vn.xdeuhug.luckyMoney.app-mergeDebugResources-75:/layout/activity_spinner.xml",
-        "source": "vn.xdeuhug.luckyMoney.app-main-68:/layout/activity_spinner.xml"
-    },
-    {
-        "merged": "vn.xdeuhug.luckyMoney.app-mergeDebugResources-75:/layout/dialog_setting_money.xml",
-        "source": "vn.xdeuhug.luckyMoney.app-main-68:/layout/dialog_setting_money.xml"
-    },
-    {
-        "merged": "vn.xdeuhug.luckyMoney.app-mergeDebugResources-75:/layout/crash_activity.xml",
-        "source": "vn.xdeuhug.luckyMoney.app-main-68:/layout/crash_activity.xml"
-    },
-    {
-        "merged": "vn.xdeuhug.luckyMoney.app-mergeDebugResources-75:/layout/dialog_confirm.xml",
-        "source": "vn.xdeuhug.luckyMoney.app-main-68:/layout/dialog_confirm.xml"
-    },
-    {
-        "merged": "vn.xdeuhug.luckyMoney.app-mergeDebugResources-75:/layout/dialog_notification.xml",
-        "source": "vn.xdeuhug.luckyMoney.app-main-68:/layout/dialog_notification.xml"
-    },
-    {
-        "merged": "vn.xdeuhug.luckyMoney.app-mergeDebugResources-75:/layout/dialog_not_have_money.xml",
-        "source": "vn.xdeuhug.luckyMoney.app-main-68:/layout/dialog_not_have_money.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\ui_dialog.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\ui_dialog.xml"
     }
 ]

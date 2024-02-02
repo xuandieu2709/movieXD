@@ -1,3 +1,0 @@
-vn.xdeuhug.luckyMoney.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme

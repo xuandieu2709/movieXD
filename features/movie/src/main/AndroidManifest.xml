@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution">
+
+    <dist:module
+        dist:instant="false"
+        dist:title="@string/title_movie">
+        <dist:delivery>
+            <dist:install-time />
+        </dist:delivery>
+        <dist:fusing dist:include="true" />
+    </dist:module>
+    <application>
+        <activity
+            android:name="vn.xdeuhug.movieXD.ui.activity.PlayMediaActivity"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="vn.xdeuhug.movieXD.ui.activity.DetailMovieActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="vn.xdeuhug.movieXD.ui.activity.SearchMovieActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+    </application>
+</manifest>

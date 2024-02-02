@@ -1,6 +1,9 @@
 include ':app'
 include ':library:base'
 include ':library:widget'
-//include ':library:selector'
+include ':library:selector'
+include ':library:jzvideo'
 //DynamicFeatures module
 include ':features'
+include ':features:movie'
+

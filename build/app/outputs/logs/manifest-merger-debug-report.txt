@@ -1,10 +1,12 @@
 -- Merging decision tree log ---
 application
-INJECTED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:114:5-218:19
+INJECTED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:114:5-212:19
 MERGED from [com.github.chuckerteam.chucker:library:3.5.2] C:\Users\DELL\.gradle\caches\transforms-3\8790069ab5a2981f2f934c92f23031a3\transformed\jetified-library-3.5.2\AndroidManifest.xml:15:5-44:19
 MERGED from [com.github.chuckerteam.chucker:library:3.5.2] C:\Users\DELL\.gradle\caches\transforms-3\8790069ab5a2981f2f934c92f23031a3\transformed\jetified-library-3.5.2\AndroidManifest.xml:15:5-44:19
-MERGED from [com.google.android.material:material:1.7.0] C:\Users\DELL\.gradle\caches\transforms-3\fa3903479aee5d46fa725d77987f80af\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.material:material:1.7.0] C:\Users\DELL\.gradle\caches\transforms-3\fa3903479aee5d46fa725d77987f80af\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\DELL\.gradle\caches\transforms-3\ad6e58042b31fb7fe1c17721fa03d0f6\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\DELL\.gradle\caches\transforms-3\ad6e58042b31fb7fe1c17721fa03d0f6\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-35:19
+MERGED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-35:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\DELL\.gradle\caches\transforms-3\2814c6a89d265262a551606f409cc77f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\DELL\.gradle\caches\transforms-3\2814c6a89d265262a551606f409cc77f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [com.airbnb.android:lottie:5.2.0] C:\Users\DELL\.gradle\caches\transforms-3\12b8145c336fb6acbd864a6ef599ba1b\transformed\jetified-lottie-5.2.0\AndroidManifest.xml:9:5-20
@@ -73,8 +75,6 @@ MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] C:\Users\DELL\.g
 MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] C:\Users\DELL\.gradle\caches\transforms-3\2dd2e0de460aff5a74e3931fc822a680\transformed\jetified-anko-support-v4-commons-0.10.8\AndroidManifest.xml:11:5-20
 MERGED from [androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\56c13ac25edc546f5ff66b6220c17368\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\56c13ac25edc546f5ff66b6220c17368\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
-MERGED from [:library:luckyWheel] C:\Users\DELL\Desktop\LuckyMoney\build\library\luckyWheel\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-13:19
-MERGED from [:library:luckyWheel] C:\Users\DELL\Desktop\LuckyMoney\build\library\luckyWheel\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-13:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\3da45eb1f6a5e8fefaea836375d1bf9c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\3da45eb1f6a5e8fefaea836375d1bf9c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [com.google.android.gms:play-services-measurement:21.2.2] C:\Users\DELL\.gradle\caches\transforms-3\c05ec9b169b9fe49760c64ed2761f62c\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:28:5-44:19
@@ -85,8 +85,8 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] C:\Users\DELL\.gradle\caches\transforms-3\d53f73491fecdc57c8b26c8928b5c727\transformed\jetified-play-services-measurement-impl-21.2.2\AndroidManifest.xml:29:5-30:19
 MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\DELL\.gradle\caches\transforms-3\223c9620b2c7ce94c419894c70b2850b\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\DELL\.gradle\caches\transforms-3\223c9620b2c7ce94c419894c70b2850b\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
-MERGED from [androidx.core:core:1.13.0-alpha03] C:\Users\DELL\.gradle\caches\transforms-3\f763bf04d288fe10bfdab59e819fc9f4\transformed\core-1.13.0-alpha03\AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.13.0-alpha03] C:\Users\DELL\.gradle\caches\transforms-3\f763bf04d288fe10bfdab59e819fc9f4\transformed\core-1.13.0-alpha03\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0-alpha04] C:\Users\DELL\.gradle\caches\transforms-3\0f9b7e7fe10eccf71772ec1bd7d1a0c2\transformed\core-1.13.0-alpha04\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0-alpha04] C:\Users\DELL\.gradle\caches\transforms-3\0f9b7e7fe10eccf71772ec1bd7d1a0c2\transformed\core-1.13.0-alpha04\AndroidManifest.xml:28:5-89
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\DELL\.gradle\caches\transforms-3\7fdb60806b7c7e66ffefbd7075edcccd\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\DELL\.gradle\caches\transforms-3\7fdb60806b7c7e66ffefbd7075edcccd\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\DELL\.gradle\caches\transforms-3\e0c1ada140692880cfdb3811f932eb6e\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
@@ -125,64 +125,69 @@ MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\DELL\.gradle\caches\tran
 MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\DELL\.gradle\caches\transforms-3\71c3a28013823d7192403d08f0a2149b\transformed\room-runtime-2.3.0\AndroidManifest.xml:24:5-29:19
 MERGED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\55a03f2c4927bc4a139482087850948c\transformed\jetified-core-1.10.3\AndroidManifest.xml:15:5-44:19
 MERGED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\55a03f2c4927bc4a139482087850948c\transformed\jetified-core-1.10.3\AndroidManifest.xml:15:5-44:19
+MERGED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:21:5-43:19
+MERGED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:21:5-43:19
+	android:extractNativeLibs
+		ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:23:9-42
 	android:requestLegacyExternalStorage
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:121:9-52
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:121:9-52
 	tools:ignore
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:127:9-61
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:127:9-61
 	android:roundIcon
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:123:9-48
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:123:9-48
 	android:icon
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:118:9-43
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:118:9-43
 	android:networkSecurityConfig
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:120:9-69
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:120:9-69
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.13.0-alpha03] C:\Users\DELL\.gradle\caches\transforms-3\f763bf04d288fe10bfdab59e819fc9f4\transformed\core-1.13.0-alpha03\AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.13.0-alpha04] C:\Users\DELL\.gradle\caches\transforms-3\0f9b7e7fe10eccf71772ec1bd7d1a0c2\transformed\core-1.13.0-alpha04\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:124:9-36
-		REJECTED from [:library:luckyWheel] C:\Users\DELL\Desktop\LuckyMoney\build\library\luckyWheel\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:124:9-36
 	android:label
-		INJECTED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:119:9-36
-		REJECTED from [:library:luckyWheel] C:\Users\DELL\Desktop\LuckyMoney\build\library\luckyWheel\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-41
+		INJECTED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:119:9-36
+	android:debuggable
+		ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:22:9-34
 	android:resizeableActivity
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:122:9-42
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:122:9-42
 	tools:targetApi
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:129:9-35
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:129:9-35
 	android:allowBackup
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:116:9-35
-		REJECTED from [:library:luckyWheel] C:\Users\DELL\Desktop\LuckyMoney\build\library\luckyWheel\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:116:9-35
 	android:theme
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:125:9-40
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:125:9-40
 	android:enableOnBackInvokedCallback
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:117:9-51
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:117:9-51
 	tools:replace
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:128:9-78
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:128:9-78
 	android:usesCleartextTraffic
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:126:9-44
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:126:9-44
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:115:9-64
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:115:9-61
 provider#androidx.core.content.FileProvider
-INJECTED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:141:9-149:20
+INJECTED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:141:9-149:20
 	android:grantUriPermissions
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:145:13-47
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:145:13-47
 	android:authorities
-		INJECTED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:143:13-60
+		INJECTED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:143:13-60
 	android:exported
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:144:13-37
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:144:13-37
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:142:13-62
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:142:13-62
 manifest
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:2:1-221:12
-INJECTED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:2:1-221:12
-INJECTED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:2:1-221:12
-INJECTED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:2:1-221:12
-MERGED from [:library:widget] C:\Users\DELL\Desktop\LuckyMoney\build\library\widget\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:library:base] C:\Users\DELL\Desktop\LuckyMoney\build\library\base\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:2:1-215:12
+INJECTED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:2:1-215:12
+INJECTED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:2:1-215:12
+INJECTED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:2:1-215:12
+MERGED from [:library:widget] C:\Users\DELL\Desktop\MovieApp\build\library\widget\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:library:base] C:\Users\DELL\Desktop\MovieApp\build\library\base\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [com.github.chuckerteam.chucker:library:3.5.2] C:\Users\DELL\.gradle\caches\transforms-3\8790069ab5a2981f2f934c92f23031a3\transformed\jetified-library-3.5.2\AndroidManifest.xml:2:1-46:12
 MERGED from [com.github.getActivity:ShapeView:6.0] C:\Users\DELL\.gradle\caches\transforms-3\efb05db5fd87d08bcf0ac2f2768be73a\transformed\jetified-ShapeView-6.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.androidadvance:topsnackbar:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\7ff45914d23c821ff7a01c0d4ce14514\transformed\jetified-topsnackbar-1.1.1\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.material:material:1.7.0] C:\Users\DELL\.gradle\caches\transforms-3\fa3903479aee5d46fa725d77987f80af\transformed\material-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\DELL\.gradle\caches\transforms-3\ad6e58042b31fb7fe1c17721fa03d0f6\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
+MERGED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-37:12
+MERGED from [com.github.ismaeldivita:chip-navigation-bar:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\170fb4daee3b044a883cf9b6e84e56d0\transformed\jetified-chip-navigation-bar-1.4.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\DELL\.gradle\caches\transforms-3\2814c6a89d265262a551606f409cc77f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [com.airbnb.android:lottie:5.2.0] C:\Users\DELL\.gradle\caches\transforms-3\12b8145c336fb6acbd864a6ef599ba1b\transformed\jetified-lottie-5.2.0\AndroidManifest.xml:2:1-11:12
 MERGED from [net.gotev:uploadservice:4.7.0] C:\Users\DELL\.gradle\caches\transforms-3\c468c9a89484950d3fa00849c2d207d1\transformed\jetified-uploadservice-4.7.0\AndroidManifest.xml:2:1-21:12
@@ -199,6 +204,7 @@ MERGED from [com.google.android.exoplayer:exoplayer:2.17.1] C:\Users\DELL\.gradl
 MERGED from [com.google.android.exoplayer:exoplayer-ui:2.17.1] C:\Users\DELL\.gradle\caches\transforms-3\9c9b8b4c369f81c43f9ef9c2fcc684f6\transformed\jetified-exoplayer-ui-2.17.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.3.0] C:\Users\DELL\.gradle\caches\transforms-3\4c6608bd13afea05adbfe2c9cf3bb87b\transformed\recyclerview-1.3.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-fragment:2.5.3] C:\Users\DELL\.gradle\caches\transforms-3\feeeca643797fd283d66a4f1a86369b4\transformed\navigation-fragment-2.5.3\AndroidManifest.xml:17:1-24:12
+MERGED from [:library:jzvideo] C:\Users\DELL\Desktop\MovieApp\build\library\jzvideo\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\9515380820508ac02a957007d8396245\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.fragment:fragment-ktx:1.5.4] C:\Users\DELL\.gradle\caches\transforms-3\0af203d483fa9f10208df210917e4573\transformed\jetified-fragment-ktx-1.5.4\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\DELL\.gradle\caches\transforms-3\01ffd2ab312477259bbab70329da00e9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:17:1-75:12
@@ -241,9 +247,13 @@ MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\DELL\.gradle
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\f9b27ef76d720d673a64ace3cbddb1a4\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\56c13ac25edc546f5ff66b6220c17368\transformed\jetified-window-1.0.0\AndroidManifest.xml:17:1-33:12
 MERGED from [com.github.getActivity:EasyHttp:12.5] C:\Users\DELL\.gradle\caches\transforms-3\b74dc2db621ee1f2b5ea1a159d2e8e41\transformed\jetified-EasyHttp-12.5\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] C:\Users\DELL\.gradle\caches\transforms-3\0e9a4a6ca414f357a8b29d31691acaa3\transformed\navigation-runtime-2.5.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\DELL\.gradle\caches\transforms-3\5f8753ee481d84396137f98c2a8aba47\transformed\jetified-activity-ktx-1.8.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\DELL\.gradle\caches\transforms-3\0cf49ec91f6386c8565a4a3eff3cddfa\transformed\jetified-activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.5.3] C:\Users\DELL\.gradle\caches\transforms-3\51b9a67eaa79118a215a437d2000051a\transformed\navigation-common-2.5.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\DELL\.gradle\caches\transforms-3\f006753e8b220a323dd7787c0cc57d86\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.databinding:databinding-adapters:7.2.2] C:\Users\DELL\.gradle\caches\transforms-3\7f805badad68a38d0e288cb85ecceaf1\transformed\databinding-adapters-7.2.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:7.2.2] C:\Users\DELL\.gradle\caches\transforms-3\a1137045da66d1a3c0c2af2c39cb920c\transformed\databinding-runtime-7.2.2\AndroidManifest.xml:17:1-24:12
-MERGED from [:library:luckyWheel] C:\Users\DELL\Desktop\LuckyMoney\build\library\luckyWheel\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\ccebd0a295ed516c1bf619cfa7043814\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\3da45eb1f6a5e8fefaea836375d1bf9c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\21658f9b5d97fe634fd3211d38a7cc54\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
@@ -267,15 +277,12 @@ MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\DELL\.g
 MERGED from [androidx.palette:palette-ktx:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\344fcbf908a7ca9c5fe8189a2fa9c1dd\transformed\jetified-palette-ktx-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.palette:palette:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\a981e2b35d93f071c65c6a0d001fb423\transformed\palette-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\dc379fdc16f01d2d044fff167fd05a20\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media:media:1.4.3] C:\Users\DELL\.gradle\caches\transforms-3\0b1ae9805759c4fd46025b5287618580\transformed\media-1.4.3\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\7be7e77f4fa689ee790acfa8ae3d0fb9\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.4.3] C:\Users\DELL\.gradle\caches\transforms-3\0b1ae9805759c4fd46025b5287618580\transformed\media-1.4.3\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\bee3be8762e533d9ecd0b21c30952341\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\54108f66ae03fbe3de6508877b936aeb\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.13.0-alpha03] C:\Users\DELL\.gradle\caches\transforms-3\f763bf04d288fe10bfdab59e819fc9f4\transformed\core-1.13.0-alpha03\AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.navigation:navigation-runtime:2.5.3] C:\Users\DELL\.gradle\caches\transforms-3\0e9a4a6ca414f357a8b29d31691acaa3\transformed\navigation-runtime-2.5.3\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-common:2.5.3] C:\Users\DELL\.gradle\caches\transforms-3\51b9a67eaa79118a215a437d2000051a\transformed\navigation-common-2.5.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.0-alpha04] C:\Users\DELL\.gradle\caches\transforms-3\0f9b7e7fe10eccf71772ec1bd7d1a0c2\transformed\core-1.13.0-alpha04\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\DELL\.gradle\caches\transforms-3\8af133c0da3f6189858170c2cb4b7314\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\DELL\.gradle\caches\transforms-3\d2bada45050495fab82e209562263717\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] C:\Users\DELL\.gradle\caches\transforms-3\07167244fc7a1c3fb3dd33d9839a07bb\transformed\jetified-lifecycle-service-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\DELL\.gradle\caches\transforms-3\a831094b823a6078078d3924d87d5c65\transformed\jetified-lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\DELL\.gradle\caches\transforms-3\7fdb60806b7c7e66ffefbd7075edcccd\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
@@ -284,7 +291,7 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\DELL
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\DELL\.gradle\caches\transforms-3\114c34e0b2852c2f51f81460fec5b253\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\DELL\.gradle\caches\transforms-3\29c027ac883e30de9aba4c3f52233ae3\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\DELL\.gradle\caches\transforms-3\a47a93746c0e356a032370b9785004c8\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\DELL\.gradle\caches\transforms-3\f006753e8b220a323dd7787c0cc57d86\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\DELL\.gradle\caches\transforms-3\d2bada45050495fab82e209562263717\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\DELL\.gradle\caches\transforms-3\fe68f02eac998e1f7e8a13cbbdb6794f\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\DELL\.gradle\caches\transforms-3\e0c1ada140692880cfdb3811f932eb6e\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\DELL\.gradle\caches\transforms-3\9b249599e11c353154b4e04a2e5be75d\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
@@ -292,10 +299,8 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\User
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.2] C:\Users\DELL\.gradle\caches\transforms-3\888ebb10ef3476c4d745af951f3b4da4\transformed\jetified-play-services-measurement-sdk-api-21.2.2\AndroidManifest.xml:17:1-28:12
 MERGED from [com.google.android.gms:play-services-measurement-base:21.2.2] C:\Users\DELL\.gradle\caches\transforms-3\f92734475eab95c2f360bb1291022447\transformed\jetified-play-services-measurement-base-21.2.2\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\3178937ecaa48525311d2f7409961e72\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
-MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\DELL\.gradle\caches\transforms-3\a19b80d238846e21532e4e1972a21ee6\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.6.0] C:\Users\DELL\.gradle\caches\transforms-3\2b2415e2fbb91545013c2a98240cc966\transformed\jetified-activity-1.6.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity-ktx:1.6.0] C:\Users\DELL\.gradle\caches\transforms-3\a8e2ef11da8b2795ed87227aad3f18c7\transformed\jetified-activity-ktx-1.6.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core-ktx:1.13.0-alpha03] C:\Users\DELL\.gradle\caches\transforms-3\17eb264ad74ddbd38ab445fb72cb999b\transformed\jetified-core-ktx-1.13.0-alpha03\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.5.7] C:\Users\DELL\.gradle\caches\transforms-3\128c9cd4aab471ad72baa52622704c01\transformed\fragment-1.5.7\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.13.0-alpha04] C:\Users\DELL\.gradle\caches\transforms-3\bb889c2cea55e9921163ea3ce73aef6e\transformed\jetified-core-ktx-1.13.0-alpha04\AndroidManifest.xml:2:1-7:12
 MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\DELL\.gradle\caches\transforms-3\b76205a0707789895d489eba6c325197\transformed\jetified-rxandroid-1.2.1\AndroidManifest.xml:15:1-21:12
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\DELL\.gradle\caches\transforms-3\e2b94e30b568bec270593f5c98bbcb5f\transformed\jetified-rxandroid-2.1.1\AndroidManifest.xml:15:1-20:12
 MERGED from [com.github.getActivity:TitleBar:9.2] C:\Users\DELL\.gradle\caches\transforms-3\0e308c00dec727c1d9e3f4f09bd18cbe\transformed\jetified-TitleBar-9.2\AndroidManifest.xml:2:1-9:12
@@ -313,8 +318,8 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\DELL\.gradle\c
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\f76a3084743206e89f7f61ab40da755a\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\cec18bed1c2360e85429e94953c28210\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\DELL\.gradle\caches\transforms-3\d5d617d988324ba693c69d71a1f21f1e\transformed\jetified-firebase-components-17.1.0\AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\DELL\.gradle\caches\transforms-3\e8bbd61e1047c3af1f9e0bc0fd10e91a\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] C:\Users\DELL\.gradle\caches\transforms-3\002bfd65ae5761590a3d55564e8bf630\transformed\jetified-gifdecoder-4.14.2\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\DELL\.gradle\caches\transforms-3\a747cc74b3d9761ef7356fd1475bd2bf\transformed\exifinterface-1.3.3\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\DELL\.gradle\caches\transforms-3\46b61769ebceacf68272b1d7f3299f38\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\1da4b4ea1a1d62a5cf3830cc2af7ec26\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\85d8c9d2ed9f268d1217d1832b75d9d5\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -342,32 +347,35 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\DELL\.gradle\cac
 MERGED from [androidx.print:print:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\42f63a2b7d5fa9897a585dbb4038af8b\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\DELL\.gradle\caches\transforms-3\b319e2056b9fcc4b6b3fb41de8a97325\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\55a03f2c4927bc4a139482087850948c\transformed\jetified-core-1.10.3\AndroidManifest.xml:2:1-46:12
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\DELL\.gradle\caches\transforms-3\de43dda4ec325e309be33e9aa6946f8a\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\b6e8c2fa6c5e4e144453e7194ccc7b03\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.github.getActivity:ToastUtils:10.5] C:\Users\DELL\.gradle\caches\transforms-3\dda73a47d1012383d4eaa074a4fde0a1\transformed\jetified-ToastUtils-10.5\AndroidManifest.xml:2:1-9:12
 MERGED from [org.simple:androideventbus:1.0.5.1] C:\Users\DELL\.gradle\caches\transforms-3\f2190c0d4e98bc6c49039cb1c29af6f5\transformed\jetified-androideventbus-1.0.5.1\AndroidManifest.xml:2:1-11:12
-INJECTED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:2:1-221:12
-INJECTED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:2:1-221:12
-INJECTED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:2:1-221:12
+MERGED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:2:1-215:12
+INJECTED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:2:1-215:12
+INJECTED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:2:1-215:12
 	package
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:5:5-36
-		INJECTED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:5:5-33
+		INJECTED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:2:1-221:12
-		INJECTED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:2:1-215:12
+		INJECTED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:4:5-51
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:4:5-51
 	xmlns:dist
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:3:5-61
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:3:5-61
 	android:versionCode
-		INJECTED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:2:1-221:12
-		INJECTED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:2:1-215:12
+		INJECTED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:7:5-79
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:7:5-79
+MERGED from [:library:jzvideo] C:\Users\DELL\Desktop\MovieApp\build\library\jzvideo\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
+MERGED from [:library:jzvideo] C:\Users\DELL\Desktop\MovieApp\build\library\jzvideo\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
 MERGED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\DELL\.gradle\caches\transforms-3\01ffd2ab312477259bbab70329da00e9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\DELL\.gradle\caches\transforms-3\01ffd2ab312477259bbab70329da00e9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:26:5-79
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\18eeb2c0c513d13181cbf423bbe1a46e\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
@@ -401,13 +409,13 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Us
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\DELL\.gradle\caches\transforms-3\dffabea656c5958a234d21448346e5f5\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\DELL\.gradle\caches\transforms-3\dffabea656c5958a234d21448346e5f5\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:7:22-76
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:7:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:8:5-76
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:8:5-76
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:8:22-73
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:8:22-73
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:9:5-67
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:9:5-67
 MERGED from [net.gotev:uploadservice:4.7.0] C:\Users\DELL\.gradle\caches\transforms-3\c468c9a89484950d3fa00849c2d207d1\transformed\jetified-uploadservice-4.7.0\AndroidManifest.xml:11:5-67
 MERGED from [net.gotev:uploadservice:4.7.0] C:\Users\DELL\.gradle\caches\transforms-3\c468c9a89484950d3fa00849c2d207d1\transformed\jetified-uploadservice-4.7.0\AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\DELL\.gradle\caches\transforms-3\01ffd2ab312477259bbab70329da00e9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:25:5-67
@@ -435,131 +443,135 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.2] C:
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\DELL\.gradle\caches\transforms-3\99ed839bb3ec76acefe0c18f23f5fcfd\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:25:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\DELL\.gradle\caches\transforms-3\99ed839bb3ec76acefe0c18f23f5fcfd\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:25:5-67
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:9:22-64
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:9:22-64
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:10:5-80
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:10:5-80
 MERGED from [net.gotev:uploadservice:4.7.0] C:\Users\DELL\.gradle\caches\transforms-3\c468c9a89484950d3fa00849c2d207d1\transformed\jetified-uploadservice-4.7.0\AndroidManifest.xml:12:5-80
 MERGED from [net.gotev:uploadservice:4.7.0] C:\Users\DELL\.gradle\caches\transforms-3\c468c9a89484950d3fa00849c2d207d1\transformed\jetified-uploadservice-4.7.0\AndroidManifest.xml:12:5-80
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:10:22-77
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:10:22-77
 uses-permission#android.permission.USE_FINGERPRINT
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:11:5-74
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:11:5-74
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:11:22-71
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:11:22-71
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:12:5-75
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:12:5-75
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:12:22-72
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:12:22-72
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:16:5-79
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:16:5-79
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:16:22-76
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:16:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:17:5-81
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:17:5-81
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:17:22-78
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:17:22-78
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:19:5-21:40
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:19:5-21:40
 	tools:ignore
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:21:9-37
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:21:9-37
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:20:9-65
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:20:9-65
 uses-permission#android.permission.USE_BIOMETRIC
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:23:5-72
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:23:5-72
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:23:22-69
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:23:22-69
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:25:5-27:71
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:25:5-27:71
 	tools:ignore
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:27:9-68
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:27:9-68
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:26:9-49
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:26:9-49
 uses-permission#android.permission.WRITE_MEDIA_STORAGE
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:29:5-31:47
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:29:5-31:47
 	tools:ignore
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:31:9-44
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:31:9-44
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:30:9-62
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:30:9-62
 uses-permission#android.permission.WRITE_SETTINGS
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:32:5-34:47
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:32:5-34:47
 	tools:ignore
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:34:9-44
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:34:9-44
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:33:9-57
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:33:9-57
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:35:5-80
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:35:5-80
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:35:22-77
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:35:22-77
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:36:5-71
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:36:5-71
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:36:22-68
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:36:22-68
 uses-permission#android.permission.VIBRATE
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:38:5-66
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:38:5-66
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:38:22-63
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:38:22-63
 uses-permission#android.permission.READ_MEDIA_IMAGES
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:41:5-76
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:41:5-76
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:41:22-73
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:41:22-73
 uses-permission#android.permission.READ_MEDIA_AUDIO
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:42:5-75
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:42:5-75
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:42:22-72
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:42:22-72
 uses-permission#android.permission.READ_MEDIA_VIDEO
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:43:5-75
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:43:5-75
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:43:22-72
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:43:22-72
 uses-permission#android.permission.READ_APP_PROVIDERS
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:48:5-77
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:48:5-77
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:48:22-74
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:48:22-74
 uses-permission#android.permission.BLUETOOTH
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:51:5-68
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:51:5-68
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:51:22-65
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:51:22-65
 uses-permission#android.permission.BLUETOOTH_CONNECT
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:53:5-76
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:53:5-76
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:53:22-73
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:53:22-73
 dist:module
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:56:5-40
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:56:5-40
 	dist:instant
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:56:18-37
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:56:18-37
 queries
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:58:5-69:15
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:58:5-69:15
 MERGED from [com.github.chuckerteam.chucker:library:3.5.2] C:\Users\DELL\.gradle\caches\transforms-3\8790069ab5a2981f2f934c92f23031a3\transformed\jetified-library-3.5.2\AndroidManifest.xml:7:5-13:15
 MERGED from [com.github.chuckerteam.chucker:library:3.5.2] C:\Users\DELL\.gradle\caches\transforms-3\8790069ab5a2981f2f934c92f23031a3\transformed\jetified-library-3.5.2\AndroidManifest.xml:7:5-13:15
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\18eeb2c0c513d13181cbf423bbe1a46e\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\18eeb2c0c513d13181cbf423bbe1a46e\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
 intent#action:name:android.media.action.IMAGE_CAPTURE
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:59:9-63:18
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:59:9-63:18
 action#android.media.action.IMAGE_CAPTURE
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:60:13-62:22
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:60:13-62:22
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:60:21-70
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:60:21-70
 intent#action:name:android.media.action.ACTION_VIDEO_CAPTURE
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:64:9-68:18
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:64:9-68:18
 action#android.media.action.ACTION_VIDEO_CAPTURE
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:65:13-67:22
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:65:13-67:22
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:65:21-77
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:65:21-77
 uses-sdk
-INJECTED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml
-MERGED from [:library:widget] C:\Users\DELL\Desktop\LuckyMoney\build\library\widget\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:library:widget] C:\Users\DELL\Desktop\LuckyMoney\build\library\widget\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:library:base] C:\Users\DELL\Desktop\LuckyMoney\build\library\base\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:library:base] C:\Users\DELL\Desktop\LuckyMoney\build\library\base\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml
+MERGED from [:library:widget] C:\Users\DELL\Desktop\MovieApp\build\library\widget\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:library:widget] C:\Users\DELL\Desktop\MovieApp\build\library\widget\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:library:base] C:\Users\DELL\Desktop\MovieApp\build\library\base\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:library:base] C:\Users\DELL\Desktop\MovieApp\build\library\base\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.chuckerteam.chucker:library:3.5.2] C:\Users\DELL\.gradle\caches\transforms-3\8790069ab5a2981f2f934c92f23031a3\transformed\jetified-library-3.5.2\AndroidManifest.xml:5:5-44
 MERGED from [com.github.chuckerteam.chucker:library:3.5.2] C:\Users\DELL\.gradle\caches\transforms-3\8790069ab5a2981f2f934c92f23031a3\transformed\jetified-library-3.5.2\AndroidManifest.xml:5:5-44
 MERGED from [com.github.getActivity:ShapeView:6.0] C:\Users\DELL\.gradle\caches\transforms-3\efb05db5fd87d08bcf0ac2f2768be73a\transformed\jetified-ShapeView-6.0\AndroidManifest.xml:7:5-44
 MERGED from [com.github.getActivity:ShapeView:6.0] C:\Users\DELL\.gradle\caches\transforms-3\efb05db5fd87d08bcf0ac2f2768be73a\transformed\jetified-ShapeView-6.0\AndroidManifest.xml:7:5-44
 MERGED from [com.androidadvance:topsnackbar:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\7ff45914d23c821ff7a01c0d4ce14514\transformed\jetified-topsnackbar-1.1.1\AndroidManifest.xml:7:5-9:41
 MERGED from [com.androidadvance:topsnackbar:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\7ff45914d23c821ff7a01c0d4ce14514\transformed\jetified-topsnackbar-1.1.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.material:material:1.7.0] C:\Users\DELL\.gradle\caches\transforms-3\fa3903479aee5d46fa725d77987f80af\transformed\material-1.7.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.7.0] C:\Users\DELL\.gradle\caches\transforms-3\fa3903479aee5d46fa725d77987f80af\transformed\material-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\DELL\.gradle\caches\transforms-3\ad6e58042b31fb7fe1c17721fa03d0f6\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\DELL\.gradle\caches\transforms-3\ad6e58042b31fb7fe1c17721fa03d0f6\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.ismaeldivita:chip-navigation-bar:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\170fb4daee3b044a883cf9b6e84e56d0\transformed\jetified-chip-navigation-bar-1.4.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.ismaeldivita:chip-navigation-bar:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\170fb4daee3b044a883cf9b6e84e56d0\transformed\jetified-chip-navigation-bar-1.4.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\DELL\.gradle\caches\transforms-3\2814c6a89d265262a551606f409cc77f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\DELL\.gradle\caches\transforms-3\2814c6a89d265262a551606f409cc77f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
 MERGED from [com.airbnb.android:lottie:5.2.0] C:\Users\DELL\.gradle\caches\transforms-3\12b8145c336fb6acbd864a6ef599ba1b\transformed\jetified-lottie-5.2.0\AndroidManifest.xml:5:5-7:41
@@ -592,6 +604,8 @@ MERGED from [androidx.recyclerview:recyclerview:1.3.0] C:\Users\DELL\.gradle\cac
 MERGED from [androidx.recyclerview:recyclerview:1.3.0] C:\Users\DELL\.gradle\caches\transforms-3\4c6608bd13afea05adbfe2c9cf3bb87b\transformed\recyclerview-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-fragment:2.5.3] C:\Users\DELL\.gradle\caches\transforms-3\feeeca643797fd283d66a4f1a86369b4\transformed\navigation-fragment-2.5.3\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment:2.5.3] C:\Users\DELL\.gradle\caches\transforms-3\feeeca643797fd283d66a4f1a86369b4\transformed\navigation-fragment-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [:library:jzvideo] C:\Users\DELL\Desktop\MovieApp\build\library\jzvideo\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:library:jzvideo] C:\Users\DELL\Desktop\MovieApp\build\library\jzvideo\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\9515380820508ac02a957007d8396245\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\9515380820508ac02a957007d8396245\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
 MERGED from [androidx.fragment:fragment-ktx:1.5.4] C:\Users\DELL\.gradle\caches\transforms-3\0af203d483fa9f10208df210917e4573\transformed\jetified-fragment-ktx-1.5.4\AndroidManifest.xml:20:5-22:41
@@ -676,12 +690,20 @@ MERGED from [androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transfor
 MERGED from [androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\56c13ac25edc546f5ff66b6220c17368\transformed\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.github.getActivity:EasyHttp:12.5] C:\Users\DELL\.gradle\caches\transforms-3\b74dc2db621ee1f2b5ea1a159d2e8e41\transformed\jetified-EasyHttp-12.5\AndroidManifest.xml:7:5-44
 MERGED from [com.github.getActivity:EasyHttp:12.5] C:\Users\DELL\.gradle\caches\transforms-3\b74dc2db621ee1f2b5ea1a159d2e8e41\transformed\jetified-EasyHttp-12.5\AndroidManifest.xml:7:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] C:\Users\DELL\.gradle\caches\transforms-3\0e9a4a6ca414f357a8b29d31691acaa3\transformed\navigation-runtime-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] C:\Users\DELL\.gradle\caches\transforms-3\0e9a4a6ca414f357a8b29d31691acaa3\transformed\navigation-runtime-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\DELL\.gradle\caches\transforms-3\5f8753ee481d84396137f98c2a8aba47\transformed\jetified-activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\DELL\.gradle\caches\transforms-3\5f8753ee481d84396137f98c2a8aba47\transformed\jetified-activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\DELL\.gradle\caches\transforms-3\0cf49ec91f6386c8565a4a3eff3cddfa\transformed\jetified-activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\DELL\.gradle\caches\transforms-3\0cf49ec91f6386c8565a4a3eff3cddfa\transformed\jetified-activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.5.3] C:\Users\DELL\.gradle\caches\transforms-3\51b9a67eaa79118a215a437d2000051a\transformed\navigation-common-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.3] C:\Users\DELL\.gradle\caches\transforms-3\51b9a67eaa79118a215a437d2000051a\transformed\navigation-common-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\DELL\.gradle\caches\transforms-3\f006753e8b220a323dd7787c0cc57d86\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\DELL\.gradle\caches\transforms-3\f006753e8b220a323dd7787c0cc57d86\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:databinding-adapters:7.2.2] C:\Users\DELL\.gradle\caches\transforms-3\7f805badad68a38d0e288cb85ecceaf1\transformed\databinding-adapters-7.2.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.databinding:databinding-adapters:7.2.2] C:\Users\DELL\.gradle\caches\transforms-3\7f805badad68a38d0e288cb85ecceaf1\transformed\databinding-adapters-7.2.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.databinding:databinding-runtime:7.2.2] C:\Users\DELL\.gradle\caches\transforms-3\a1137045da66d1a3c0c2af2c39cb920c\transformed\databinding-runtime-7.2.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.databinding:databinding-runtime:7.2.2] C:\Users\DELL\.gradle\caches\transforms-3\a1137045da66d1a3c0c2af2c39cb920c\transformed\databinding-runtime-7.2.2\AndroidManifest.xml:20:5-22:41
-MERGED from [:library:luckyWheel] C:\Users\DELL\Desktop\LuckyMoney\build\library\luckyWheel\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:library:luckyWheel] C:\Users\DELL\Desktop\LuckyMoney\build\library\luckyWheel\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\ccebd0a295ed516c1bf619cfa7043814\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\ccebd0a295ed516c1bf619cfa7043814\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\3da45eb1f6a5e8fefaea836375d1bf9c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
@@ -728,24 +750,18 @@ MERGED from [androidx.palette:palette:1.0.0] C:\Users\DELL\.gradle\caches\transf
 MERGED from [androidx.palette:palette:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\a981e2b35d93f071c65c6a0d001fb423\transformed\palette-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\dc379fdc16f01d2d044fff167fd05a20\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\dc379fdc16f01d2d044fff167fd05a20\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.4.3] C:\Users\DELL\.gradle\caches\transforms-3\0b1ae9805759c4fd46025b5287618580\transformed\media-1.4.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.media:media:1.4.3] C:\Users\DELL\.gradle\caches\transforms-3\0b1ae9805759c4fd46025b5287618580\transformed\media-1.4.3\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\7be7e77f4fa689ee790acfa8ae3d0fb9\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\7be7e77f4fa689ee790acfa8ae3d0fb9\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.4.3] C:\Users\DELL\.gradle\caches\transforms-3\0b1ae9805759c4fd46025b5287618580\transformed\media-1.4.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.4.3] C:\Users\DELL\.gradle\caches\transforms-3\0b1ae9805759c4fd46025b5287618580\transformed\media-1.4.3\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\bee3be8762e533d9ecd0b21c30952341\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\bee3be8762e533d9ecd0b21c30952341\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\54108f66ae03fbe3de6508877b936aeb\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\54108f66ae03fbe3de6508877b936aeb\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.13.0-alpha03] C:\Users\DELL\.gradle\caches\transforms-3\f763bf04d288fe10bfdab59e819fc9f4\transformed\core-1.13.0-alpha03\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.13.0-alpha03] C:\Users\DELL\.gradle\caches\transforms-3\f763bf04d288fe10bfdab59e819fc9f4\transformed\core-1.13.0-alpha03\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime:2.5.3] C:\Users\DELL\.gradle\caches\transforms-3\0e9a4a6ca414f357a8b29d31691acaa3\transformed\navigation-runtime-2.5.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.5.3] C:\Users\DELL\.gradle\caches\transforms-3\0e9a4a6ca414f357a8b29d31691acaa3\transformed\navigation-runtime-2.5.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.5.3] C:\Users\DELL\.gradle\caches\transforms-3\51b9a67eaa79118a215a437d2000051a\transformed\navigation-common-2.5.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.5.3] C:\Users\DELL\.gradle\caches\transforms-3\51b9a67eaa79118a215a437d2000051a\transformed\navigation-common-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.0-alpha04] C:\Users\DELL\.gradle\caches\transforms-3\0f9b7e7fe10eccf71772ec1bd7d1a0c2\transformed\core-1.13.0-alpha04\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0-alpha04] C:\Users\DELL\.gradle\caches\transforms-3\0f9b7e7fe10eccf71772ec1bd7d1a0c2\transformed\core-1.13.0-alpha04\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\DELL\.gradle\caches\transforms-3\8af133c0da3f6189858170c2cb4b7314\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\DELL\.gradle\caches\transforms-3\8af133c0da3f6189858170c2cb4b7314\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\DELL\.gradle\caches\transforms-3\d2bada45050495fab82e209562263717\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\DELL\.gradle\caches\transforms-3\d2bada45050495fab82e209562263717\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] C:\Users\DELL\.gradle\caches\transforms-3\07167244fc7a1c3fb3dd33d9839a07bb\transformed\jetified-lifecycle-service-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] C:\Users\DELL\.gradle\caches\transforms-3\07167244fc7a1c3fb3dd33d9839a07bb\transformed\jetified-lifecycle-service-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\DELL\.gradle\caches\transforms-3\a831094b823a6078078d3924d87d5c65\transformed\jetified-lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
@@ -762,8 +778,8 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\DELL\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\DELL\.gradle\caches\transforms-3\29c027ac883e30de9aba4c3f52233ae3\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\DELL\.gradle\caches\transforms-3\a47a93746c0e356a032370b9785004c8\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\DELL\.gradle\caches\transforms-3\a47a93746c0e356a032370b9785004c8\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\DELL\.gradle\caches\transforms-3\f006753e8b220a323dd7787c0cc57d86\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\DELL\.gradle\caches\transforms-3\f006753e8b220a323dd7787c0cc57d86\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\DELL\.gradle\caches\transforms-3\d2bada45050495fab82e209562263717\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\DELL\.gradle\caches\transforms-3\d2bada45050495fab82e209562263717\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\DELL\.gradle\caches\transforms-3\fe68f02eac998e1f7e8a13cbbdb6794f\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\DELL\.gradle\caches\transforms-3\fe68f02eac998e1f7e8a13cbbdb6794f\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\DELL\.gradle\caches\transforms-3\e0c1ada140692880cfdb3811f932eb6e\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
@@ -778,14 +794,10 @@ MERGED from [com.google.android.gms:play-services-measurement-base:21.2.2] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-base:21.2.2] C:\Users\DELL\.gradle\caches\transforms-3\f92734475eab95c2f360bb1291022447\transformed\jetified-play-services-measurement-base-21.2.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\3178937ecaa48525311d2f7409961e72\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\3178937ecaa48525311d2f7409961e72\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
-MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\DELL\.gradle\caches\transforms-3\a19b80d238846e21532e4e1972a21ee6\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\DELL\.gradle\caches\transforms-3\a19b80d238846e21532e4e1972a21ee6\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.6.0] C:\Users\DELL\.gradle\caches\transforms-3\2b2415e2fbb91545013c2a98240cc966\transformed\jetified-activity-1.6.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.6.0] C:\Users\DELL\.gradle\caches\transforms-3\2b2415e2fbb91545013c2a98240cc966\transformed\jetified-activity-1.6.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity-ktx:1.6.0] C:\Users\DELL\.gradle\caches\transforms-3\a8e2ef11da8b2795ed87227aad3f18c7\transformed\jetified-activity-ktx-1.6.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity-ktx:1.6.0] C:\Users\DELL\.gradle\caches\transforms-3\a8e2ef11da8b2795ed87227aad3f18c7\transformed\jetified-activity-ktx-1.6.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core-ktx:1.13.0-alpha03] C:\Users\DELL\.gradle\caches\transforms-3\17eb264ad74ddbd38ab445fb72cb999b\transformed\jetified-core-ktx-1.13.0-alpha03\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.13.0-alpha03] C:\Users\DELL\.gradle\caches\transforms-3\17eb264ad74ddbd38ab445fb72cb999b\transformed\jetified-core-ktx-1.13.0-alpha03\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.5.7] C:\Users\DELL\.gradle\caches\transforms-3\128c9cd4aab471ad72baa52622704c01\transformed\fragment-1.5.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.7] C:\Users\DELL\.gradle\caches\transforms-3\128c9cd4aab471ad72baa52622704c01\transformed\fragment-1.5.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.13.0-alpha04] C:\Users\DELL\.gradle\caches\transforms-3\bb889c2cea55e9921163ea3ce73aef6e\transformed\jetified-core-ktx-1.13.0-alpha04\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0-alpha04] C:\Users\DELL\.gradle\caches\transforms-3\bb889c2cea55e9921163ea3ce73aef6e\transformed\jetified-core-ktx-1.13.0-alpha04\AndroidManifest.xml:5:5-44
 MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\DELL\.gradle\caches\transforms-3\b76205a0707789895d489eba6c325197\transformed\jetified-rxandroid-1.2.1\AndroidManifest.xml:19:5-43
 MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\DELL\.gradle\caches\transforms-3\b76205a0707789895d489eba6c325197\transformed\jetified-rxandroid-1.2.1\AndroidManifest.xml:19:5-43
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\DELL\.gradle\caches\transforms-3\e2b94e30b568bec270593f5c98bbcb5f\transformed\jetified-rxandroid-2.1.1\AndroidManifest.xml:18:5-43
@@ -820,10 +832,10 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\cec18bed1c2360e85429e94953c28210\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\DELL\.gradle\caches\transforms-3\d5d617d988324ba693c69d71a1f21f1e\transformed\jetified-firebase-components-17.1.0\AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\DELL\.gradle\caches\transforms-3\d5d617d988324ba693c69d71a1f21f1e\transformed\jetified-firebase-components-17.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\DELL\.gradle\caches\transforms-3\e8bbd61e1047c3af1f9e0bc0fd10e91a\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\DELL\.gradle\caches\transforms-3\e8bbd61e1047c3af1f9e0bc0fd10e91a\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] C:\Users\DELL\.gradle\caches\transforms-3\002bfd65ae5761590a3d55564e8bf630\transformed\jetified-gifdecoder-4.14.2\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] C:\Users\DELL\.gradle\caches\transforms-3\002bfd65ae5761590a3d55564e8bf630\transformed\jetified-gifdecoder-4.14.2\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\DELL\.gradle\caches\transforms-3\a747cc74b3d9761ef7356fd1475bd2bf\transformed\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\DELL\.gradle\caches\transforms-3\a747cc74b3d9761ef7356fd1475bd2bf\transformed\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\DELL\.gradle\caches\transforms-3\46b61769ebceacf68272b1d7f3299f38\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\DELL\.gradle\caches\transforms-3\46b61769ebceacf68272b1d7f3299f38\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\1da4b4ea1a1d62a5cf3830cc2af7ec26\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
@@ -878,206 +890,199 @@ MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\DELL\.gradle\caches
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\DELL\.gradle\caches\transforms-3\b319e2056b9fcc4b6b3fb41de8a97325\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\55a03f2c4927bc4a139482087850948c\transformed\jetified-core-1.10.3\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\55a03f2c4927bc4a139482087850948c\transformed\jetified-core-1.10.3\AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\DELL\.gradle\caches\transforms-3\de43dda4ec325e309be33e9aa6946f8a\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\DELL\.gradle\caches\transforms-3\de43dda4ec325e309be33e9aa6946f8a\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\b6e8c2fa6c5e4e144453e7194ccc7b03\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\b6e8c2fa6c5e4e144453e7194ccc7b03\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
 MERGED from [com.github.getActivity:ToastUtils:10.5] C:\Users\DELL\.gradle\caches\transforms-3\dda73a47d1012383d4eaa074a4fde0a1\transformed\jetified-ToastUtils-10.5\AndroidManifest.xml:7:5-44
 MERGED from [com.github.getActivity:ToastUtils:10.5] C:\Users\DELL\.gradle\caches\transforms-3\dda73a47d1012383d4eaa074a4fde0a1\transformed\jetified-ToastUtils-10.5\AndroidManifest.xml:7:5-44
 MERGED from [org.simple:androideventbus:1.0.5.1] C:\Users\DELL\.gradle\caches\transforms-3\f2190c0d4e98bc6c49039cb1c29af6f5\transformed\jetified-androideventbus-1.0.5.1\AndroidManifest.xml:7:5-9:40
 MERGED from [org.simple:androideventbus:1.0.5.1] C:\Users\DELL\.gradle\caches\transforms-3\f2190c0d4e98bc6c49039cb1c29af6f5\transformed\jetified-androideventbus-1.0.5.1\AndroidManifest.xml:7:5-9:40
-INJECTED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml
+MERGED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:9:5-47
+MERGED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:9:5-47
+INJECTED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\DELL\.gradle\caches\transforms-3\01ffd2ab312477259bbab70329da00e9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:23:9-61
 	android:targetSdkVersion
-		INJECTED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml
+		MERGED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml
 intent#action:name:android.media.action.VIDEO_CAPTURE
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:80:9-82:18
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:80:9-82:18
 action#android.media.action.VIDEO_CAPTURE
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:81:13-73
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:81:13-73
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:81:21-70
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:81:21-70
 intent#action:name:com.android.camera.action.CROP
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:85:9-87:18
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:85:9-87:18
 action#com.android.camera.action.CROP
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:86:13-69
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:86:13-69
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:86:21-66
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:86:21-66
 intent#action:name:android.intent.action.DIAL
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:90:9-92:18
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:90:9-92:18
 action#android.intent.action.DIAL
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:91:13-65
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:91:13-65
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:91:21-62
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:91:21-62
 intent#action:name:android.intent.action.SEND
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:95:9-97:18
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:95:9-97:18
 action#android.intent.action.SEND
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:96:13-65
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:96:13-65
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:96:21-62
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:96:21-62
 intent#action:name:android.intent.action.VIEW
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:100:9-102:18
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:100:9-102:18
 action#android.intent.action.VIEW
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:101:13-65
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:101:13-65
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:101:21-62
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:101:21-62
 intent#action:name:android.intent.action.GET_CONTENT
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:105:9-107:18
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:105:9-107:18
 action#android.intent.action.GET_CONTENT
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:106:13-72
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:106:13-72
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:106:21-69
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:106:21-69
 provider
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:111:9-89
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:111:9-89
 	android:authorities
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:111:19-86
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:111:19-86
 meta-data#ScopedStorage
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:131:9-133:36
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:131:9-133:36
 	android:value
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:133:13-33
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:133:13-33
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:132:13-41
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:132:13-41
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:134:9-136:55
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:134:9-136:55
 	android:value
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:136:13-52
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:136:13-52
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:135:13-58
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:135:13-58
 meta-data#com.facebook.sdk.ClientToken
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:137:9-139:61
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:137:9-139:61
 	android:value
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:139:13-58
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:139:13-58
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:138:13-56
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:138:13-56
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:146:13-148:54
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:146:13-148:54
 	android:resource
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:148:17-51
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:148:17-51
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:147:17-67
-activity#vn.xdeuhug.luckyMoney.ui.activity.CrashActivity
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:152:9-157:53
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:147:17-67
+activity#vn.xdeuhug.movieXD.ui.activity.CrashActivity
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:152:9-157:53
 	android:screenOrientation
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:157:13-50
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:157:13-50
 	android:process
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:156:13-37
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:156:13-37
 	android:launchMode
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:154:13-43
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:154:13-43
 	android:priority
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:155:13-33
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:155:13-33
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:153:13-75
-activity#vn.xdeuhug.luckyMoney.ui.activity.RestartActivity
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:159:9-163:52
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:153:13-72
+activity#vn.xdeuhug.movieXD.ui.activity.RestartActivity
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:159:9-163:52
 	android:screenOrientation
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:163:13-49
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:163:13-49
 	android:launchMode
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:162:13-43
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:162:13-43
 	android:exported
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:161:13-36
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:161:13-36
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:160:13-77
-activity#vn.xdeuhug.luckyMoney.ui.activity.BrowserActivity
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:164:9-168:52
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:160:13-74
+activity#vn.xdeuhug.movieXD.ui.activity.BrowserActivity
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:164:9-168:52
 	android:screenOrientation
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:168:13-49
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:168:13-49
 	android:launchMode
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:167:13-43
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:167:13-43
 	android:exported
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:166:13-36
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:166:13-36
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:165:13-77
-activity#vn.xdeuhug.luckyMoney.ui.activity.SpinnerActivity
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:170:9-174:52
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:165:13-74
+activity#vn.xdeuhug.movieXD.ui.activity.HomeActivity
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:170:9-175:20
 	android:screenOrientation
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:174:13-49
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:174:13-49
 	android:launchMode
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:173:13-43
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:173:13-44
 	android:exported
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:172:13-37
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:172:13-36
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:171:13-77
-activity#vn.xdeuhug.luckyMoney.ui.activity.HomeActivity
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:176:9-181:20
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:171:13-71
+activity#vn.xdeuhug.movieXD.ui.activity.SplashActivity
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:177:9-189:20
 	android:screenOrientation
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:180:13-49
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:181:13-49
 	android:launchMode
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:179:13-44
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:180:13-43
 	android:exported
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:178:13-36
-	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:177:13-74
-activity#vn.xdeuhug.luckyMoney.ui.activity.SplashActivity
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:183:9-195:20
-	android:screenOrientation
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:187:13-49
-	android:launchMode
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:186:13-43
-	android:exported
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:185:13-36
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:179:13-36
 	android:theme
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:188:13-47
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:182:13-47
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:184:13-76
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:178:13-73
 intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.VIEW+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:189:13-194:29
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:183:13-188:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:190:17-69
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:184:17-69
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:190:25-66
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:184:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:193:17-77
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:187:17-77
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:193:27-74
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:187:27-74
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:197:9-199:55
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:191:9-193:55
 	android:value
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:199:13-52
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:193:13-52
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:198:13-58
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:192:13-58
 meta-data#com.google.android.gms.version
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:200:9-202:69
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:194:9-196:69
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\3178937ecaa48525311d2f7409961e72\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\3178937ecaa48525311d2f7409961e72\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:202:13-66
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:196:13-66
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:201:13-58
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:195:13-58
 meta-data#com.google.firebase.messaging.default_notification_icon
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:203:9-205:54
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:197:9-199:54
 	android:resource
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:205:13-51
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:199:13-51
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:204:13-83
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:198:13-83
 meta-data#com.google.firebase.messaging.default_notification_color
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:206:9-208:52
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:200:9-202:52
 	android:resource
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:208:13-49
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:202:13-49
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:207:13-84
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:201:13-84
 meta-data#com.google.firebase.messaging.default_notification_channel_id
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:209:9-211:71
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:203:9-205:71
 	android:value
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:211:13-68
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:205:13-68
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:210:13-89
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:204:13-89
 meta-data#firebase_messaging_auto_init_enabled
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:212:9-214:37
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:206:9-208:37
 	android:value
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:214:13-34
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:208:13-34
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:213:13-64
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:207:13-64
 meta-data#firebase_analytics_collection_enabled
-ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:215:9-217:37
+ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:209:9-211:37
 	android:value
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:217:13-34
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:211:13-34
 	android:name
-		ADDED from C:\Users\DELL\Desktop\LuckyMoney\app\src\main\AndroidManifest.xml:216:13-65
+		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:210:13-65
 intent#action:name:android.intent.action.CREATE_DOCUMENT+data:mimeType:*/*
 ADDED from [com.github.chuckerteam.chucker:library:3.5.2] C:\Users\DELL\.gradle\caches\transforms-3\8790069ab5a2981f2f934c92f23031a3\transformed\jetified-library-3.5.2\AndroidManifest.xml:8:9-12:18
 action#android.intent.action.CREATE_DOCUMENT
@@ -1132,6 +1137,40 @@ ADDED from [com.github.chuckerteam.chucker:library:3.5.2] C:\Users\DELL\.gradle\
 		ADDED from [com.github.chuckerteam.chucker:library:3.5.2] C:\Users\DELL\.gradle\caches\transforms-3\8790069ab5a2981f2f934c92f23031a3\transformed\jetified-library-3.5.2\AndroidManifest.xml:38:13-37
 	android:name
 		ADDED from [com.github.chuckerteam.chucker:library:3.5.2] C:\Users\DELL\.gradle\caches\transforms-3\8790069ab5a2981f2f934c92f23031a3\transformed\jetified-library-3.5.2\AndroidManifest.xml:36:13-88
+provider#com.luck.picture.lib.basic.PictureFileProvider
+ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-64
+	android:exported
+		ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+service#com.luck.picture.lib.service.ForegroundService
+ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-23:56
+	android:enabled
+		ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-35
+	android:foregroundServiceType
+		ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-53
+	android:name
+		ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-74
+activity#com.luck.picture.lib.basic.PictureSelectorSupporterActivity
+ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-29:20
+	android:configChanges
+		ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-74
+	android:theme
+		ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-58
+	android:name
+		ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-87
+activity#com.luck.picture.lib.basic.PictureSelectorTransparentActivity
+ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:30:9-34:20
+	android:configChanges
+		ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-74
+	android:theme
+		ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-89
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [net.gotev:uploadservice:4.7.0] C:\Users\DELL\.gradle\caches\transforms-3\c468c9a89484950d3fa00849c2d207d1\transformed\jetified-uploadservice-4.7.0\AndroidManifest.xml:9:5-68
 MERGED from [com.google.firebase:firebase-messaging-directboot:23.1.2] C:\Users\DELL\.gradle\caches\transforms-3\67360a2846ce587e607b47a6ba03694a\transformed\jetified-firebase-messaging-directboot-23.1.2\AndroidManifest.xml:28:5-68
@@ -1435,25 +1474,25 @@ ADDED from [com.google.android.gms:play-services-measurement:21.2.2] C:\Users\DE
 	android:name
 		ADDED from [com.google.android.gms:play-services-measurement:21.2.2] C:\Users\DELL\.gradle\caches\transforms-3\c05ec9b169b9fe49760c64ed2761f62c\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:40:13-87
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.0-alpha03] C:\Users\DELL\.gradle\caches\transforms-3\f763bf04d288fe10bfdab59e819fc9f4\transformed\core-1.13.0-alpha03\AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.13.0-alpha04] C:\Users\DELL\.gradle\caches\transforms-3\0f9b7e7fe10eccf71772ec1bd7d1a0c2\transformed\core-1.13.0-alpha04\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.13.0-alpha03] C:\Users\DELL\.gradle\caches\transforms-3\f763bf04d288fe10bfdab59e819fc9f4\transformed\core-1.13.0-alpha03\AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.13.0-alpha04] C:\Users\DELL\.gradle\caches\transforms-3\0f9b7e7fe10eccf71772ec1bd7d1a0c2\transformed\core-1.13.0-alpha04\AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.13.0-alpha03] C:\Users\DELL\.gradle\caches\transforms-3\f763bf04d288fe10bfdab59e819fc9f4\transformed\core-1.13.0-alpha03\AndroidManifest.xml:23:9-81
-permission#vn.xdeuhug.luckyMoney.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.0-alpha03] C:\Users\DELL\.gradle\caches\transforms-3\f763bf04d288fe10bfdab59e819fc9f4\transformed\core-1.13.0-alpha03\AndroidManifest.xml:22:5-24:47
+		ADDED from [androidx.core:core:1.13.0-alpha04] C:\Users\DELL\.gradle\caches\transforms-3\0f9b7e7fe10eccf71772ec1bd7d1a0c2\transformed\core-1.13.0-alpha04\AndroidManifest.xml:23:9-81
+permission#vn.xdeuhug.movieXD.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0-alpha04] C:\Users\DELL\.gradle\caches\transforms-3\0f9b7e7fe10eccf71772ec1bd7d1a0c2\transformed\core-1.13.0-alpha04\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.13.0-alpha03] C:\Users\DELL\.gradle\caches\transforms-3\f763bf04d288fe10bfdab59e819fc9f4\transformed\core-1.13.0-alpha03\AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.13.0-alpha04] C:\Users\DELL\.gradle\caches\transforms-3\0f9b7e7fe10eccf71772ec1bd7d1a0c2\transformed\core-1.13.0-alpha04\AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.13.0-alpha03] C:\Users\DELL\.gradle\caches\transforms-3\f763bf04d288fe10bfdab59e819fc9f4\transformed\core-1.13.0-alpha03\AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.13.0-alpha04] C:\Users\DELL\.gradle\caches\transforms-3\0f9b7e7fe10eccf71772ec1bd7d1a0c2\transformed\core-1.13.0-alpha04\AndroidManifest.xml:23:9-81
 uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.0-alpha03] C:\Users\DELL\.gradle\caches\transforms-3\f763bf04d288fe10bfdab59e819fc9f4\transformed\core-1.13.0-alpha03\AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.13.0-alpha04] C:\Users\DELL\.gradle\caches\transforms-3\0f9b7e7fe10eccf71772ec1bd7d1a0c2\transformed\core-1.13.0-alpha04\AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.13.0-alpha03] C:\Users\DELL\.gradle\caches\transforms-3\f763bf04d288fe10bfdab59e819fc9f4\transformed\core-1.13.0-alpha03\AndroidManifest.xml:26:22-94
-uses-permission#vn.xdeuhug.luckyMoney.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.0-alpha03] C:\Users\DELL\.gradle\caches\transforms-3\f763bf04d288fe10bfdab59e819fc9f4\transformed\core-1.13.0-alpha03\AndroidManifest.xml:26:5-97
+		ADDED from [androidx.core:core:1.13.0-alpha04] C:\Users\DELL\.gradle\caches\transforms-3\0f9b7e7fe10eccf71772ec1bd7d1a0c2\transformed\core-1.13.0-alpha04\AndroidManifest.xml:26:22-94
+uses-permission#vn.xdeuhug.movieXD.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0-alpha04] C:\Users\DELL\.gradle\caches\transforms-3\0f9b7e7fe10eccf71772ec1bd7d1a0c2\transformed\core-1.13.0-alpha04\AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.13.0-alpha03] C:\Users\DELL\.gradle\caches\transforms-3\f763bf04d288fe10bfdab59e819fc9f4\transformed\core-1.13.0-alpha03\AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.13.0-alpha04] C:\Users\DELL\.gradle\caches\transforms-3\0f9b7e7fe10eccf71772ec1bd7d1a0c2\transformed\core-1.13.0-alpha04\AndroidManifest.xml:26:22-94
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\DELL\.gradle\caches\transforms-3\7fdb60806b7c7e66ffefbd7075edcccd\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
 	android:value
@@ -1584,3 +1623,41 @@ ADDED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\tr
 		ADDED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\55a03f2c4927bc4a139482087850948c\transformed\jetified-core-1.10.3\AndroidManifest.xml:43:13-37
 	android:name
 		ADDED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\55a03f2c4927bc4a139482087850948c\transformed\jetified-core-1.10.3\AndroidManifest.xml:41:13-95
+activity#vn.xdeuhug.movieXD.ui.activity.PlayMediaActivity
+ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:24:9-30:41
+	android:screenOrientation
+		ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:29:13-50
+	android:launchMode
+		ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:28:13-43
+	android:hardwareAccelerated
+		ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:27:13-47
+	android:exported
+		ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:26:13-37
+	android:splitName
+		ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:30:13-38
+	android:name
+		ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:25:13-76
+activity#vn.xdeuhug.movieXD.ui.activity.DetailMovieActivity
+ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:31:9-36:41
+	android:screenOrientation
+		ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:35:13-49
+	android:launchMode
+		ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:34:13-43
+	android:exported
+		ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:33:13-37
+	android:splitName
+		ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:36:13-38
+	android:name
+		ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:32:13-78
+activity#vn.xdeuhug.movieXD.ui.activity.SearchMovieActivity
+ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:37:9-42:41
+	android:screenOrientation
+		ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:41:13-49
+	android:launchMode
+		ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:40:13-43
+	android:exported
+		ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:39:13-37
+	android:splitName
+		ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:42:13-38
+	android:name
+		ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:38:13-78

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:background="@color/black"
+    android:layout_marginBottom="@dimen/dp_8"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginVertical="@dimen/dp_4"
+        android:paddingHorizontal="@dimen/dp_8"
+        android:orientation="horizontal">
+
+        <vn.xdeuhug.movieXD.widget.AppTextViewBold
+            android:id="@+id/tvTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:text="@string/popular"
+            android:textSize="@dimen/sp_24" />
+
+        <vn.xdeuhug.movieXD.widget.AppTextView
+            android:id="@+id/tvSeeMore"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:gravity="center_vertical"
+            android:text="@string/view_all" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginVertical="@dimen/dp_2"
+        android:id="@+id/rvMovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

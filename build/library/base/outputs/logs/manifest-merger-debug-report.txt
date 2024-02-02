@@ -1,25 +1,25 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\seniorsociable\library\base\src\main\AndroidManifest.xml:1:1-39
-INJECTED from C:\seniorsociable\library\base\src\main\AndroidManifest.xml:1:1-39
-INJECTED from C:\seniorsociable\library\base\src\main\AndroidManifest.xml:1:1-39
+ADDED from C:\Users\DELL\Desktop\MovieApp\library\base\src\main\AndroidManifest.xml:1:1-39
+INJECTED from C:\Users\DELL\Desktop\MovieApp\library\base\src\main\AndroidManifest.xml:1:1-39
+INJECTED from C:\Users\DELL\Desktop\MovieApp\library\base\src\main\AndroidManifest.xml:1:1-39
 	package
-		ADDED from C:\seniorsociable\library\base\src\main\AndroidManifest.xml:1:11-36
-		INJECTED from C:\seniorsociable\library\base\src\main\AndroidManifest.xml
-		INJECTED from C:\seniorsociable\library\base\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DELL\Desktop\MovieApp\library\base\src\main\AndroidManifest.xml:1:11-36
+		INJECTED from C:\Users\DELL\Desktop\MovieApp\library\base\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL\Desktop\MovieApp\library\base\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\seniorsociable\library\base\src\main\AndroidManifest.xml:1:1-39
+		ADDED from C:\Users\DELL\Desktop\MovieApp\library\base\src\main\AndroidManifest.xml:1:1-39
 uses-sdk
-INJECTED from C:\seniorsociable\library\base\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\seniorsociable\library\base\src\main\AndroidManifest.xml
-INJECTED from C:\seniorsociable\library\base\src\main\AndroidManifest.xml
-INJECTED from C:\seniorsociable\library\base\src\main\AndroidManifest.xml
-INJECTED from C:\seniorsociable\library\base\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DELL\Desktop\MovieApp\library\base\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\DELL\Desktop\MovieApp\library\base\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DELL\Desktop\MovieApp\library\base\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DELL\Desktop\MovieApp\library\base\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DELL\Desktop\MovieApp\library\base\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\seniorsociable\library\base\src\main\AndroidManifest.xml
-		ADDED from C:\seniorsociable\library\base\src\main\AndroidManifest.xml
-		INJECTED from C:\seniorsociable\library\base\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL\Desktop\MovieApp\library\base\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DELL\Desktop\MovieApp\library\base\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL\Desktop\MovieApp\library\base\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\seniorsociable\library\base\src\main\AndroidManifest.xml
-		ADDED from C:\seniorsociable\library\base\src\main\AndroidManifest.xml
-		INJECTED from C:\seniorsociable\library\base\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL\Desktop\MovieApp\library\base\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DELL\Desktop\MovieApp\library\base\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL\Desktop\MovieApp\library\base\src\main\AndroidManifest.xml

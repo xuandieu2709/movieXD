@@ -168,12 +168,6 @@
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="vn.xdeuhug.movieXD.ui.activity.SpinnerActivity"
-            android:exported="false"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait" />
-
-        <activity
             android:name="vn.xdeuhug.movieXD.ui.activity.HomeActivity"
             android:exported="true"
             android:launchMode="singleTask"

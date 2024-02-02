@@ -14,24 +14,11 @@ android {
 
     buildTypes {
         debug {
-//            // thêm hậu tố vào tên gói
-//            //applicationIdSuffix '.debug'
-//            // chế độ gỡ lỗi
-//            debuggable true
-//            jniDebuggable true
-//            // Loại bỏ các tài nguyên vô dụng
-//            shrinkResources false
-//            // xáo trộn mã
-//            minifyEnabled false
-//            // Cấu hình thông tin
-////            signingConfig signingConfigs.config
-//
-//            addManifestPlaceholders(['app_name': 'Lì xì đầu năm'])
-//
-//            proguardFiles 'proguard-sdk.pro', 'proguard-app.pro'
+            // thêm hậu tố vào tên gói
+            //applicationIdSuffix '.debug'
             // chế độ gỡ lỗi
-            debuggable false
-            jniDebuggable false
+            debuggable true
+            jniDebuggable true
             // Loại bỏ các tài nguyên vô dụng
             shrinkResources false
             // xáo trộn mã
@@ -106,7 +93,7 @@ android {
     }
 
 
-    dynamicFeatures = [
+    dynamicFeatures = [':features:movie'
 
 
     ]
@@ -131,7 +118,8 @@ dependencies {
     // Thư viện cơ sở
     api project(':library:base')
     api project(':library:widget')
-//    api project(':library:selector')
+    api project(':library:selector')
+    api project(':library:jzvideo')
 
     api 'com.github.getActivity:EasyHttp:12.5'
     //noinspection GradleDependency
@@ -192,4 +180,17 @@ dependencies {
     api 'net.gotev:uploadservice:4.7.0'
 
     api 'com.google.android.exoplayer:exoplayer:2.17.1'
+
+    // https://github.com/ibrahimsn98/SmoothBottomBar
+//    api 'com.github.ibrahimsn98:SmoothBottomBar:1.7.9'
+
+    //https://github.com/gauravk95/bubble-navigation
+//    implementation 'com.gauravk.bubblenavigation:bubblenavigation:1.0.7'
+
+    //https://github.com/ismaeldivita/chip-navigation-bar
+    implementation 'com.github.ismaeldivita:chip-navigation-bar:1.4.0'
+
+    implementation 'com.android.support.constraint:constraint-layout:2.0.4'
+
+    api 'com.google.android.material:material:1.11.0'
 }

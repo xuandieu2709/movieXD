@@ -4,7 +4,13 @@ import android.view.View
 import androidx.recyclerview.widget.*
 import com.google.android.flexbox.FlexWrap
 import com.google.android.flexbox.FlexboxLayoutManager
+import vn.xdeuhug.movieXD.other.CenterLayoutManager
+import vn.xdeuhug.movieXD.other.PreCachingLayoutManager
+import java.math.BigDecimal
+import java.math.RoundingMode
 import java.security.SecureRandom
+import java.text.DecimalFormat
+import java.text.DecimalFormatSymbols
 import java.util.*
 
 
@@ -28,6 +34,65 @@ object AppUtils {
         recyclerView.isNestedScrollingEnabled = false
     }
 
+    fun initRecyclerViewVertical(view: RecyclerView, adapter: RecyclerView.Adapter<*>?) {
+        configRecyclerView(
+            view, PreCachingLayoutManager(
+                view.context, RecyclerView.VERTICAL, false
+            )
+        )
+        view.adapter = adapter
+    }
+
+    fun initRecyclerViewVertical(
+        view: RecyclerView, adapter: RecyclerView.Adapter<*>?, count: Int
+    ) {
+        configRecyclerView(view, GridLayoutManager(view.context, count))
+        view.adapter = adapter
+    }
+
+    fun initRecyclerViewVerticalWithStaggeredGridLayoutManager(
+        view: RecyclerView, adapter: RecyclerView.Adapter<*>?, count: Int
+    ) {
+        configRecyclerView(
+            view, StaggeredGridLayoutManager(
+                count, StaggeredGridLayoutManager.VERTICAL
+            )
+        )
+        view.adapter = adapter
+    }
+
+
+    fun initRecyclerViewHorizontal(view: RecyclerView, adapter: RecyclerView.Adapter<*>?) {
+        configRecyclerView(
+            view, PreCachingLayoutManager(
+                view.context, RecyclerView.HORIZONTAL, false
+            )
+        )
+        view.adapter = adapter
+    }
+
+    fun initRecyclerViewHorizontal(
+        view: RecyclerView, adapter: RecyclerView.Adapter<*>?, count: Int
+    ) {
+        configRecyclerView(view, GridLayoutManager(view.context, count))
+        view.adapter = adapter
+    }
+
+    fun initRecyclerViewReverse(view: RecyclerView, adapter: RecyclerView.Adapter<*>?) {
+        val preCachingLayoutManager = CenterLayoutManager(
+            view.context, RecyclerView.VERTICAL, true
+        )
+        configRecyclerView(view, preCachingLayoutManager)
+        view.adapter = adapter
+    }
+
+    fun initRecyclerViewVerticalWithFlexBoxLayout(
+        view: RecyclerView, adapter: RecyclerView.Adapter<*>?
+    ) {
+        configRecyclerViewWithFlexBoxLayout(view, FlexboxLayoutManager(view.context))
+        view.adapter = adapter
+    }
+
     private fun configRecyclerViewWithFlexBoxLayout(
         recyclerView: RecyclerView, layoutManager: FlexboxLayoutManager?
     ) {
@@ -38,6 +103,24 @@ object AppUtils {
         ((recyclerView.itemAnimator) as SimpleItemAnimator).supportsChangeAnimations = false
         recyclerView.isNestedScrollingEnabled = false
         layoutManager!!.flexWrap = FlexWrap.WRAP
+    }
+
+    // Layout post
+    fun initRecyclerViewHorizontalInPost(
+        view: RecyclerView, adapter: RecyclerView.Adapter<*>?, count: Int
+    ) {
+        val layoutManager = GridLayoutManager(view.context, count)
+        layoutManager.spanSizeLookup = object : GridLayoutManager.SpanSizeLookup() {
+            override fun getSpanSize(position: Int): Int {
+                return if (position == 0) {
+                    2 // Chiếm 2 cột cho item đầu tiên
+                } else {
+                    1 // Chiếm 1 cột cho các item khác
+                }
+            }
+        }
+        configRecyclerView(view, GridLayoutManager(view.context, count))
+        view.adapter = adapter
     }
 
     fun View.show() {
@@ -83,6 +166,97 @@ object AppUtils {
     // Extension function để chuyển đổi List thành ArrayList
     fun <T> List<T>.toArrayList(): ArrayList<T> {
         return ArrayList(this)
+    }
+
+    fun getDecimalFormattedString(value: BigDecimal): String {
+        val formatter = DecimalFormat("#,###.##", DecimalFormatSymbols(Locale.US))
+        return formatter.format(value)
+    }
+
+    fun getMoneyFormatted(value: BigDecimal): String {
+        val formatter = DecimalFormat("#,###", DecimalFormatSymbols(Locale.US))
+        return formatter.format(value)
+    }
+
+    fun getDecimalFormattedString(value: String): String {
+        var value = value
+        if (value.contains("-")) {
+            value = value.substring(1)
+            val lst = StringTokenizer(value, ".")
+            var str1 = value
+            var str2 = ""
+            if (lst.countTokens() > 1) {
+                str1 = lst.nextToken()
+                str2 = lst.nextToken()
+            }
+            var str3 = StringBuilder()
+            var i = 0
+            var j = -1 + str1.length
+            if (str1[-1 + str1.length] == '.') {
+                j--
+                str3 = StringBuilder(".")
+            }
+            var k = j
+            while (true) {
+                if (k < 0) {
+                    if (str2.length > 0) {
+                        str3.append(".").append(str2)
+                    }
+                    return String.format("-%s", str3)
+                }
+                if (i == 3) {
+                    str3.insert(0, ",")
+                    i = 0
+                }
+                str3.insert(0, str1[k])
+                i++
+                k--
+            }
+        } else {
+            val lst = StringTokenizer(value, ".")
+            var str1 = value
+            var str2 = ""
+            if (lst.countTokens() > 1) {
+                str1 = lst.nextToken()
+                str2 = lst.nextToken()
+            }
+            var str3 = StringBuilder()
+            var i = 0
+            var j = -1 + str1.length
+            if (str1[-1 + str1.length] == '.') {
+                j--
+                str3 = StringBuilder(".")
+            }
+            var k = j
+            while (true) {
+                if (k < 0) {
+                    if (str2.length > 0) {
+                        str3.append(".").append(str2)
+                    }
+                    return str3.toString()
+                }
+                if (i == 3) {
+                    str3.insert(0, ",")
+                    i = 0
+                }
+                str3.insert(0, str1[k])
+                i++
+                k--
+            }
+        }
+    }
+
+    fun roundDouble(numberF: Double?, roundTo: Int): Double {
+        val mF: Double
+        val num = java.lang.StringBuilder("#########.")
+        for (count in 0 until roundTo) {
+            num.append("0")
+        }
+        val df = DecimalFormat(num.toString())
+        df.roundingMode = RoundingMode.HALF_UP
+        val mS = df.format(numberF).replace(",", ".")
+        mF = mS.toDouble()
+        return mF
     }
 
 }

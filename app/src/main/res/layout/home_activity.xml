@@ -1,64 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/activity_main"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/bg_gradient_custom">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:gravity="center"
-        android:orientation="vertical">
+    <data>
 
-        <TextView
-            android:layout_width="wrap_content"
+    </data>
+
+    <RelativeLayout
+        android:background="@color/color_main_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/contentView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_above="@id/mBottomNavigationView" />
+
+        <com.ismaeldivita.chipnavigation.ChipNavigationBar
+            android:id="@+id/mBottomNavigationView"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/my_soul_regular"
-            android:text="@string/lucky_money"
-            android:textColor="@color/white"
-            android:textSize="@dimen/sp_30"
-            android:textStyle="bold" />
-
-        <ImageView
-            android:layout_width="@dimen/dp_184"
-            android:layout_height="@dimen/dp_184"
-            android:layout_marginTop="@dimen/dp_8"
-            android:src="@drawable/ic_logo_lucky_money" />
-
-        <Button
-            android:id="@+id/btnSetting"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/dp_16"
-            android:background="@drawable/button_rounded_rectangle"
-            android:fontFamily="@font/great_vibes_regular"
-            android:text="@string/lucky_setting"
-            android:textColor="@color/white"
-            android:textSize="@dimen/sp_20" />
-
-        <Button
-            android:id="@+id/btnSound"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/dp_16"
-            android:background="@drawable/button_rounded_rectangle"
-            android:fontFamily="@font/great_vibes_regular"
-            android:text="@string/sound"
-            android:textColor="@color/white"
-            android:textSize="@dimen/sp_20" />
-
-        <Button
-            android:id="@+id/btnStart"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/dp_16"
-            android:background="@drawable/button_rounded_rectangle"
-            android:fontFamily="@font/great_vibes_regular"
-            android:text="@string/start"
-            android:textColor="@color/white"
-            android:textSize="@dimen/sp_20" />
-    </LinearLayout>
-
-</RelativeLayout>
+            app:cnb_menuResource="@menu/menu_bottom_navigation"
+            app:cnb_orientationMode="horizontal"
+            app:cnb_addBottomInset="false"
+            app:cnb_addLeftInset="false"
+            app:cnb_addRightInset="false"
+            app:cnb_addTopInset="false"
+            app:cnb_unselectedColor="@null"
+            app:cnb_radius="8dp"
+            app:cnb_iconSize="24dp"
+            app:cnb_animationDuration="175"/>
+<!--        app:cnb_textAppearance="?myThemeTextAppearance"-->
+    </RelativeLayout>
+</layout>

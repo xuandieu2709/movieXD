@@ -1,6 +1,6 @@
 package vn.xdeuhug.movieXD.databinding;
 import vn.xdeuhug.movieXD.R;
-
+import vn.xdeuhug.movieXD.BR;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.view.View;
@@ -15,7 +15,6 @@ public class SplashActivityBindingImpl extends SplashActivityBinding  {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
         sViewsWithIds.put(R.id.iv_splash_debug, 1);
-        sViewsWithIds.put(R.id.tvLuckyMoney, 2);
     }
     // views
     @NonNull
@@ -26,12 +25,11 @@ public class SplashActivityBindingImpl extends SplashActivityBinding  {
     // Inverse Binding Event Handlers
 
     public SplashActivityBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 3, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 2, sIncludes, sViewsWithIds));
     }
     private SplashActivityBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (vn.xdeuhug.widget.view.SlantedTextView) bindings[1]
-            , (android.widget.TextView) bindings[2]
             );
         this.mboundView0 = (android.widget.FrameLayout) bindings[0];
         this.mboundView0.setTag(null);

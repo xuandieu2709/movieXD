@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/dp_240"
+    android:layout_height="@dimen/dp_400"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginHorizontal="@dimen/dp_8"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_default"
+        android:contentDescription="@string/default_images" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/dp_4"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:orientation="vertical"
+        android:paddingVertical="@dimen/dp_4">
+
+        <vn.xdeuhug.movieXD.widget.AppTextViewBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textSize="@dimen/sp_20"
+            android:background="@drawable/bg_border_gray_200_no_stroke"
+            android:backgroundTint="#E7E8EB"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_8"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_4"
+                android:contentDescription="@string/default_images"
+                android:src="@drawable/ic_star"
+                app:tint="@color/gray_200"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_4"
+                android:contentDescription="@string/default_images"
+                android:src="@drawable/ic_star"
+                app:tint="@color/gray_200"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_4"
+                android:contentDescription="@string/default_images"
+                android:src="@drawable/ic_star"
+                app:tint="@color/gray_200"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_4"
+                android:contentDescription="@string/default_images"
+                android:src="@drawable/ic_star"
+                app:tint="@color/gray_200"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_4"
+                android:contentDescription="@string/default_images"
+                android:src="@drawable/ic_star"
+                app:tint="@color/gray_200"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

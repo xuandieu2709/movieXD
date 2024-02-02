@@ -10,6 +10,7 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/color_main_bg"
         android:orientation="vertical"
         tools:context=".ui.activity.SplashActivity">
 
@@ -32,25 +33,22 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:orientation="vertical">
-            <com.airbnb.lottie.LottieAnimationView
-                android:layout_width="@dimen/dp_240"
-                android:layout_height="@dimen/dp_240"
-                app:lottie_autoPlay="true"
-                app:lottie_loop="true"
-                app:lottie_rawRes="@raw/lixi_update" />
+            <ImageView
+                android:layout_width="@dimen/dp_160"
+                android:layout_height="@dimen/dp_160"
+                android:src="@drawable/ic_movie" />
 
             <TextView
-                android:id="@+id/tvLuckyMoney"
                 android:textSize="@dimen/sp_24"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/gray_800"
+                android:textColor="@color/white"
                 android:textStyle="bold"
                 android:paddingVertical="@dimen/dp_4"
-                android:gravity="center_vertical"
+                android:gravity="center"
                 android:layout_marginTop="@dimen/dp_8"
                 android:fontFamily="@font/my_soul_regular"
-                android:text="@string/lucky_money" />
+                android:text="@string/the_movie_xd" />
         </LinearLayout>
 
         <LinearLayout

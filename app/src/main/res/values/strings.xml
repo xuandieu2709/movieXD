@@ -70,6 +70,19 @@
     <string name="not_have_money">Hết tiền lì xì rồi!</string>
     <string name="add_money">Thêm lì xì</string>
     <string name="spinner_lucky">Vòng quay lì xì</string>
+    <string name="title_movie">Module Title</string>
+    <!--  STRING NEW  -->
+    <string name="api_key_the_movie_db">b7c3309b3ea8fdf5c9afa62154eefc7f</string>
+    <string name="movie">Phim</string>
+    <string name="default_images">default_images</string>
+    <string name="view_all">Xem tất cả</string>
+    <string name="popular">Phổ biến</string>
+    <string name="see_more">Xem thêm</string>
+    <string name="trending">Nổi bật</string>
+    <string name="play">Phát</string>
+    <string name="summary">"Tóm tắt "</string>
+    <string name="search_movie">Tìm kiếm tên phim...</string>
+    <string name="the_movie_xd">Phim XD</string>
 </resources>
 
 

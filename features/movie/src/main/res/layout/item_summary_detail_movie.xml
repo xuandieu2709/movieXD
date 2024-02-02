@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:background="@color/color_main_bg">
+
+    <LinearLayout
+        android:id="@+id/llPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_rounded_rectangle"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingVertical="@dimen/dp_8">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dp_16"
+            android:contentDescription="@string/default_images"
+            android:src="@drawable/ic_play" />
+
+        <vn.xdeuhug.movieXD.widget.AppTextView
+            android:id="@+id/tvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/play"
+            android:textColor="@color/gray_200"
+            android:textSize="@dimen/sp_18" />
+    </LinearLayout>
+
+    <vn.xdeuhug.movieXD.widget.AppTextViewBold
+        android:layout_marginTop="@dimen/dp_16"
+        android:id="@+id/tvSummary"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/summary" />
+    <vn.xdeuhug.movieXD.widget.AppTextView
+        android:id="@+id/tvContent"
+        android:layout_marginTop="@dimen/dp_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text=".... . . . . .. . . . . .. . . . .. . . . . .. ."
+        android:textColor="@color/gray_200"
+        android:textSize="@dimen/sp_14" />
+</LinearLayout>

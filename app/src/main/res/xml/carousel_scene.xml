@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        android:id="@+id/forward"
+        motion:constraintSetEnd="@+id/next"
+        motion:constraintSetStart="@id/start"
+        motion:duration="1000">
+
+        <OnSwipe
+            motion:dragDirection="dragStart"
+            motion:touchAnchorSide="start" />
+    </Transition>
+
+    <Transition
+        android:id="@+id/backward"
+        motion:constraintSetEnd="@+id/previous"
+        motion:constraintSetStart="@id/start"
+        motion:duration="1000">
+        <OnSwipe
+            motion:dragDirection="dragEnd"
+            motion:touchAnchorSide="end" />
+    </Transition>
+
+    <ConstraintSet android:id="@+id/previous">
+        <Constraint android:id="@+id/card1">
+            <Layout
+                android:layout_width="250dp"
+                android:layout_height="400dp"
+                motion:layout_constraintBottom_toBottomOf="parent"
+                motion:layout_constraintEnd_toStartOf="@+id/card2"
+                motion:layout_constraintTop_toTopOf="parent" />
+            <Transform
+                android:scaleX="0.4"
+                android:scaleY="0.7"
+                android:transformPivotX="220dp"
+                android:transformPivotY="200dp" />
+            <PropertySet android:alpha="0.6" />
+        </Constraint>
+
+        <Constraint android:id="@+id/card2">
+            <Layout
+                android:layout_width="250dp"
+                android:layout_height="400dp"
+                motion:layout_constraintBottom_toBottomOf="parent"
+                motion:layout_constraintEnd_toEndOf="parent"
+                motion:layout_constraintStart_toStartOf="parent"
+                motion:layout_constraintTop_toTopOf="parent" />
+            <Transform
+                android:scaleX="1"
+                android:scaleY="1"
+                android:transformPivotX="125dp"
+                android:transformPivotY="200dp" />
+            <PropertySet android:alpha="1" />
+        </Constraint>
+
+        <Constraint android:id="@+id/card3">
+            <Layout
+                android:layout_width="250dp"
+                android:layout_height="400dp"
+                motion:layout_constraintBottom_toBottomOf="parent"
+                motion:layout_constraintStart_toEndOf="@+id/card2"
+                motion:layout_constraintTop_toTopOf="parent" />
+            <Transform
+                android:scaleX="0.4"
+                android:scaleY="0.7"
+                android:transformPivotX="30dp"
+                android:transformPivotY="200dp" />
+            <PropertySet android:alpha="0.6" />
+        </Constraint>
+
+        <Constraint android:id="@+id/card4">
+            <Layout
+                android:layout_width="250dp"
+                android:layout_height="400dp"
+                motion:layout_constraintBottom_toBottomOf="parent"
+                motion:layout_constraintStart_toEndOf="parent"
+                motion:layout_constraintTop_toTopOf="parent" />
+            <Transform
+                android:scaleX="0.4"
+                android:scaleY="0.4"
+                android:transformPivotX="125dp"
+                android:transformPivotY="200dp" />
+            <PropertySet android:alpha="0" />
+        </Constraint>
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/start" />
+
+    <ConstraintSet android:id="@+id/next">
+        <Constraint android:id="@+id/card2">
+            <Layout
+                android:layout_width="250dp"
+                android:layout_height="400dp"
+                motion:layout_constraintBottom_toBottomOf="parent"
+                motion:layout_constraintEnd_toStartOf="parent"
+                motion:layout_constraintTop_toTopOf="parent" />
+            <Transform
+                android:scaleX="0.4"
+                android:scaleY="0.4"
+                android:transformPivotX="125dp"
+                android:transformPivotY="200dp" />
+            <PropertySet android:alpha="0" />
+        </Constraint>
+
+        <Constraint android:id="@+id/card3">
+            <Layout
+                android:layout_width="250dp"
+                android:layout_height="400dp"
+                motion:layout_constraintBottom_toBottomOf="parent"
+                motion:layout_constraintEnd_toStartOf="@+id/card4"
+                motion:layout_constraintTop_toTopOf="parent" />
+            <Transform
+                android:scaleX="0.4"
+                android:scaleY="0.7"
+                android:transformPivotX="220dp"
+                android:transformPivotY="200dp" />
+            <PropertySet android:alpha="0.6" />
+        </Constraint>
+
+        <Constraint android:id="@+id/card4">
+            <Layout
+                android:layout_width="250dp"
+                android:layout_height="400dp"
+                motion:layout_constraintBottom_toBottomOf="parent"
+                motion:layout_constraintEnd_toEndOf="parent"
+                motion:layout_constraintStart_toStartOf="parent"
+                motion:layout_constraintTop_toTopOf="parent" />
+            <Transform
+                android:scaleX="1"
+                android:scaleY="1"
+                android:transformPivotX="125dp"
+                android:transformPivotY="200dp" />
+            <PropertySet android:alpha="1" />
+        </Constraint>
+
+        <Constraint android:id="@+id/card5">
+            <Layout
+                android:layout_width="250dp"
+                android:layout_height="400dp"
+                motion:layout_constraintBottom_toBottomOf="parent"
+                motion:layout_constraintStart_toEndOf="@+id/card4"
+                motion:layout_constraintTop_toTopOf="parent" />
+            <Transform
+                android:scaleX="0.4"
+                android:scaleY="0.7"
+                android:transformPivotX="30dp"
+                android:transformPivotY="200dp" />
+            <PropertySet android:alpha="0.6" />
+        </Constraint>
+    </ConstraintSet>
+</MotionScene>

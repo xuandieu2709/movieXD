@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "vn.xdeuhug.luckyMoney.app-mergeDebugResources-74:/values-v24/values-v24.xml",
+            "outputFile": "vn.xdeuhug.movieXD.app-mergeDebugResources-75:/values-v24/values-v24.xml",
             "map": [
                 {
                     "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\d9da8e647f9af907f708199106b3316f\\transformed\\appcompat-1.6.1\\res\\values-v24\\values-v24.xml",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\fa3903479aee5d46fa725d77987f80af\\transformed\\material-1.7.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\ad6e58042b31fb7fe1c17721fa03d0f6\\transformed\\material-1.11.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",

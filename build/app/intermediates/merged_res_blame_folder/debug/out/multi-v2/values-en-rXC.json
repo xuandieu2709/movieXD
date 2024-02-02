@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "vn.xdeuhug.luckyMoney.app-mergeDebugResources-74:/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "vn.xdeuhug.movieXD.app-mergeDebugResources-75:/values-en-rXC/values-en-rXC.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\f763bf04d288fe10bfdab59e819fc9f4\\transformed\\core-1.13.0-alpha03\\res\\values-en-rXC\\values-en-rXC.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,251,456,657,858,1065,1270,1482",
-                        "endColumns": "195,204,200,200,206,204,211,203",
-                        "endOffsets": "246,451,652,853,1060,1265,1477,1681"
-                    },
-                    "to": {
-                        "startLines": "29,30,31,32,33,34,35,41",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "5528,5724,5929,6130,6331,6538,6743,7953",
-                        "endColumns": "195,204,200,200,206,204,211,203",
-                        "endOffsets": "5719,5924,6125,6326,6533,6738,6950,8152"
-                    }
-                },
                 {
                     "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\d9da8e647f9af907f708199106b3316f\\transformed\\appcompat-1.6.1\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
@@ -52,6 +35,23 @@
                         "startOffsets": "6955,7155,7354,7565",
                         "endColumns": "199,198,210,201",
                         "endOffsets": "7150,7349,7560,7762"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\0f9b7e7fe10eccf71772ec1bd7d1a0c2\\transformed\\core-1.13.0-alpha04\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,251,456,657,858,1065,1270,1482",
+                        "endColumns": "195,204,200,200,206,204,211,203",
+                        "endOffsets": "246,451,652,853,1060,1265,1477,1681"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32,33,34,35,41",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "5528,5724,5929,6130,6331,6538,6743,7953",
+                        "endColumns": "195,204,200,200,206,204,211,203",
+                        "endOffsets": "5719,5924,6125,6326,6533,6738,6950,8152"
                     }
                 }
             ]

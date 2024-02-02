@@ -34,10 +34,15 @@
 
     <color name="gray_100">#F5F6FA</color>
     <color name="gray_200">#F1F2F5</color>
+    <color name="gray_500">#A7A8AB</color>
     <color name="gray_300">#E7E8EB</color>
+    <color name="gray_400">#C5C6C9</color>
     <color name="gray_600">#7D7E81</color>
+    <color name="gray_700">#696A6C</color>
     <color name="gray_800">#494A4D</color>
     <color name="gray_900">#28282B</color>
+    <color name="grey_bg">#d8d8d8</color>
+    <color name="gray_setting">#F3F2F7</color>
 
     <color name="blue_app_senior_sociable">#1684AC</color>
 
@@ -51,6 +56,8 @@
     <color name="colorAccent">#D81B60</color>
     <color name="white">#ffffff</color>
     <color name="black">#000000</color>
+
+    <color name="color_main_bg">#00152e</color>
 
     <!-- Chat Activity -->
 

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/black"
+    app:layoutDescription="@xml/carousel_scene">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card5"
+        android:layout_width="250dp"
+        android:layout_height="400dp"
+        android:alpha="0"
+        android:scaleX="0.4"
+        android:scaleY="0.4"
+        android:transformPivotX="125dp"
+        android:transformPivotY="200dp"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:cardBackgroundColor="@android:color/holo_red_dark">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card4"
+        android:layout_width="250dp"
+        android:layout_height="400dp"
+        android:alpha="0.6"
+        android:scaleX="0.4"
+        android:scaleY="0.7"
+        android:transformPivotX="30dp"
+        android:transformPivotY="200dp"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/card3"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:cardBackgroundColor="@android:color/holo_green_dark">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card3"
+        android:layout_width="250dp"
+        android:layout_height="400dp"
+        android:transformPivotX="125dp"
+        android:transformPivotY="200dp"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:cardBackgroundColor="@android:color/holo_blue_dark">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card2"
+        android:layout_width="250dp"
+        android:layout_height="400dp"
+        android:alpha="0.6"
+        android:scaleX="0.4"
+        android:scaleY="0.7"
+        android:transformPivotX="220dp"
+        android:transformPivotY="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/card3"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:cardBackgroundColor="@android:color/holo_purple">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card1"
+        android:layout_width="250dp"
+        android:layout_height="400dp"
+        android:alpha="0"
+        android:scaleX="0.4"
+        android:scaleY="0.4"
+        android:transformPivotX="125dp"
+        android:transformPivotY="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:cardBackgroundColor="@android:color/holo_orange_dark">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <androidx.constraintlayout.helper.widget.Carousel
+        android:id="@+id/slider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:carousel_backwardTransition="@+id/backward"
+        app:carousel_firstView="@+id/card3"
+        app:carousel_forwardTransition="@+id/forward"
+        app:carousel_infinite="true"
+        app:carousel_nextState="@+id/next"
+        app:carousel_previousState="@+id/previous"
+        app:constraint_referenced_ids="card1, card2, card3, card4, card5" />
+</androidx.constraintlayout.motion.widget.MotionLayout>

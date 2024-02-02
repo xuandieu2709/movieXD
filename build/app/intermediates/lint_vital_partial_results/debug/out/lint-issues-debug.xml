@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<incidents format="6" by="lint 7.2.2" type="configured_issues">
-    <config id="ContentDescription" severity="ignore"/>
-    <config id="HardcodedText" severity="ignore"/>
-
-</incidents>

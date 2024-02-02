@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/dp_240"
+    android:layout_height="@dimen/dp_400"
+    android:layout_marginHorizontal="@dimen/dp_8"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imvMovie"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:scaleType="fitXY"
+        tools:src="@drawable/ic_default"
+        android:contentDescription="@string/default_images" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/dp_4"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:orientation="vertical"
+        android:paddingVertical="@dimen/dp_4">
+
+        <vn.xdeuhug.movieXD.widget.AppTextViewBold
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textSize="@dimen/sp_20"
+            tools:text="Kungfu Panda" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_8"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imvStart1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_4"
+                android:contentDescription="@string/default_images"
+                android:src="@drawable/ic_star" />
+
+            <ImageView
+                android:id="@+id/imvStart2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_4"
+                android:contentDescription="@string/default_images"
+                android:src="@drawable/ic_star" />
+
+            <ImageView
+                android:id="@+id/imvStart3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_4"
+                android:contentDescription="@string/default_images"
+                android:src="@drawable/ic_star" />
+
+            <ImageView
+                android:id="@+id/imvStart4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_4"
+                android:contentDescription="@string/default_images"
+                android:src="@drawable/ic_star" />
+
+            <ImageView
+                android:id="@+id/imvStart5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_4"
+                android:contentDescription="@string/default_images"
+                android:src="@drawable/ic_star" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

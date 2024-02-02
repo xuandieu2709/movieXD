@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><!--<layout xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+<!--    <data>-->
+
+<!--    </data>-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:name="vn.xdeuhug.movieXD.ui.fragment.MovieFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <com.hjq.bar.TitleBar
+        android:id="@+id/tbTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/color_main_bg"
+        app:leftIcon="@drawable/ic_movie"
+        app:rightIcon="@drawable/ic_search_white" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tbTitle"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvTopic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <!--   item popular     -->
+            <!--    <include-->
+            <!--        android:id="@+id/itemSlider"-->
+            <!--        layout="@layout/item_slider_image" />-->
+            <!--   item trending     -->
+            <include
+                android:id="@+id/itemTrending"
+                layout="@layout/item_layout" />
+            <!--   item popular     -->
+            <include
+                android:id="@+id/itemPopular"
+                layout="@layout/item_layout" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout><!--</layout>-->

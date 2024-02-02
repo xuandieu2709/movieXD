@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "vn.xdeuhug.luckyMoney.app-mergeDebugResources-74:/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "vn.xdeuhug.movieXD.app-mergeDebugResources-75:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
                     "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\9c9b8b4c369f81c43f9ef9c2fcc684f6\\transformed\\jetified-exoplayer-ui-2.17.1\\res\\values-en-rAU\\values-en-rAU.xml",
@@ -74,7 +74,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\f763bf04d288fe10bfdab59e819fc9f4\\transformed\\core-1.13.0-alpha03\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\0f9b7e7fe10eccf71772ec1bd7d1a0c2\\transformed\\core-1.13.0-alpha04\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

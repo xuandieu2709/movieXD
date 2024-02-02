@@ -47,18 +47,13 @@
 <!--        <item name="vn.xdeuhug.luckyMoney:windowBackground">@drawable/splash_background</item>-->
     </style>
 
-    <!-- Kiểu nút mặc định -->
-
-    <!--    //SheetDialog-->
-
-    <!--    Hiển thị dialog-->
-    <!-- Kiểu hộp văn bản mặc định -->
-    <!--chu chay-->
-
-
-    <!-- Custom item spinner   -->
-    <!--  TEXT MARQUEE  -->
-    <!--  TEXT PRICE  -->
-    <!--Reaction Button Style-->
-
+    <style name="SearchView">
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:queryHint">@color/gray_500</item>
+        <item name="android:editTextColor">@color/gray_900</item>
+        <item name="android:textColorHint">@color/gray_500</item>
+        <item name="title">@string/search_movie</item>
+        <item name="titleColor">@color/gray_500</item>
+        <item name="android:inputType">text</item>
+    </style>
 </resources>

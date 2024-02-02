@@ -17,12 +17,8 @@ import java.util.HashMap;
 import java.util.List;
 import vn.xdeuhug.movieXD.databinding.CrashActivityBindingImpl;
 import vn.xdeuhug.movieXD.databinding.DialogConfirmBindingImpl;
-import vn.xdeuhug.movieXD.databinding.DialogLuckyBoxBindingImpl;
-import vn.xdeuhug.movieXD.databinding.DialogLuckyMoneyBindingImpl;
-import vn.xdeuhug.movieXD.databinding.DialogNotHaveMoneyBindingImpl;
 import vn.xdeuhug.movieXD.databinding.DialogNotificationBindingImpl;
-import vn.xdeuhug.movieXD.databinding.DialogSettingMoneyBindingImpl;
-import vn.xdeuhug.movieXD.databinding.DialogSoundBindingImpl;
+import vn.xdeuhug.movieXD.databinding.HomeActivityBindingImpl;
 import vn.xdeuhug.movieXD.databinding.SplashActivityBindingImpl;
 import vn.xdeuhug.movieXD.databinding.SuccessDialogBindingImpl;
 import vn.xdeuhug.movieXD.databinding.WaitDialogBindingImpl;
@@ -32,35 +28,23 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_DIALOGCONFIRM = 2;
 
-  private static final int LAYOUT_DIALOGLUCKYBOX = 3;
+  private static final int LAYOUT_DIALOGNOTIFICATION = 3;
 
-  private static final int LAYOUT_DIALOGLUCKYMONEY = 4;
+  private static final int LAYOUT_HOMEACTIVITY = 4;
 
-  private static final int LAYOUT_DIALOGNOTHAVEMONEY = 5;
+  private static final int LAYOUT_SPLASHACTIVITY = 5;
 
-  private static final int LAYOUT_DIALOGNOTIFICATION = 6;
+  private static final int LAYOUT_SUCCESSDIALOG = 6;
 
-  private static final int LAYOUT_DIALOGSETTINGMONEY = 7;
+  private static final int LAYOUT_WAITDIALOG = 7;
 
-  private static final int LAYOUT_DIALOGSOUND = 8;
-
-  private static final int LAYOUT_SPLASHACTIVITY = 9;
-
-  private static final int LAYOUT_SUCCESSDIALOG = 10;
-
-  private static final int LAYOUT_WAITDIALOG = 11;
-
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(11);
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(7);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(vn.xdeuhug.movieXD.R.layout.crash_activity, LAYOUT_CRASHACTIVITY);
     INTERNAL_LAYOUT_ID_LOOKUP.put(vn.xdeuhug.movieXD.R.layout.dialog_confirm, LAYOUT_DIALOGCONFIRM);
-    INTERNAL_LAYOUT_ID_LOOKUP.put(vn.xdeuhug.movieXD.R.layout.dialog_lucky_box, LAYOUT_DIALOGLUCKYBOX);
-    INTERNAL_LAYOUT_ID_LOOKUP.put(vn.xdeuhug.movieXD.R.layout.dialog_lucky_money, LAYOUT_DIALOGLUCKYMONEY);
-    INTERNAL_LAYOUT_ID_LOOKUP.put(vn.xdeuhug.movieXD.R.layout.dialog_not_have_money, LAYOUT_DIALOGNOTHAVEMONEY);
     INTERNAL_LAYOUT_ID_LOOKUP.put(vn.xdeuhug.movieXD.R.layout.dialog_notification, LAYOUT_DIALOGNOTIFICATION);
-    INTERNAL_LAYOUT_ID_LOOKUP.put(vn.xdeuhug.movieXD.R.layout.dialog_setting_money, LAYOUT_DIALOGSETTINGMONEY);
-    INTERNAL_LAYOUT_ID_LOOKUP.put(vn.xdeuhug.movieXD.R.layout.dialog_sound, LAYOUT_DIALOGSOUND);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(vn.xdeuhug.movieXD.R.layout.home_activity, LAYOUT_HOMEACTIVITY);
     INTERNAL_LAYOUT_ID_LOOKUP.put(vn.xdeuhug.movieXD.R.layout.splash_activity, LAYOUT_SPLASHACTIVITY);
     INTERNAL_LAYOUT_ID_LOOKUP.put(vn.xdeuhug.movieXD.R.layout.success_dialog, LAYOUT_SUCCESSDIALOG);
     INTERNAL_LAYOUT_ID_LOOKUP.put(vn.xdeuhug.movieXD.R.layout.wait_dialog, LAYOUT_WAITDIALOG);
@@ -87,41 +71,17 @@ public class DataBinderMapperImpl extends DataBinderMapper {
           }
           throw new IllegalArgumentException("The tag for dialog_confirm is invalid. Received: " + tag);
         }
-        case  LAYOUT_DIALOGLUCKYBOX: {
-          if ("layout/dialog_lucky_box_0".equals(tag)) {
-            return new DialogLuckyBoxBindingImpl(component, view);
-          }
-          throw new IllegalArgumentException("The tag for dialog_lucky_box is invalid. Received: " + tag);
-        }
-        case  LAYOUT_DIALOGLUCKYMONEY: {
-          if ("layout/dialog_lucky_money_0".equals(tag)) {
-            return new DialogLuckyMoneyBindingImpl(component, view);
-          }
-          throw new IllegalArgumentException("The tag for dialog_lucky_money is invalid. Received: " + tag);
-        }
-        case  LAYOUT_DIALOGNOTHAVEMONEY: {
-          if ("layout/dialog_not_have_money_0".equals(tag)) {
-            return new DialogNotHaveMoneyBindingImpl(component, view);
-          }
-          throw new IllegalArgumentException("The tag for dialog_not_have_money is invalid. Received: " + tag);
-        }
         case  LAYOUT_DIALOGNOTIFICATION: {
           if ("layout/dialog_notification_0".equals(tag)) {
             return new DialogNotificationBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for dialog_notification is invalid. Received: " + tag);
         }
-        case  LAYOUT_DIALOGSETTINGMONEY: {
-          if ("layout/dialog_setting_money_0".equals(tag)) {
-            return new DialogSettingMoneyBindingImpl(component, view);
+        case  LAYOUT_HOMEACTIVITY: {
+          if ("layout/home_activity_0".equals(tag)) {
+            return new HomeActivityBindingImpl(component, view);
           }
-          throw new IllegalArgumentException("The tag for dialog_setting_money is invalid. Received: " + tag);
-        }
-        case  LAYOUT_DIALOGSOUND: {
-          if ("layout/dialog_sound_0".equals(tag)) {
-            return new DialogSoundBindingImpl(component, view);
-          }
-          throw new IllegalArgumentException("The tag for dialog_sound is invalid. Received: " + tag);
+          throw new IllegalArgumentException("The tag for home_activity is invalid. Received: " + tag);
         }
         case  LAYOUT_SPLASHACTIVITY: {
           if ("layout/splash_activity_0".equals(tag)) {
@@ -194,17 +154,13 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(11);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(7);
 
     static {
       sKeys.put("layout/crash_activity_0", vn.xdeuhug.movieXD.R.layout.crash_activity);
       sKeys.put("layout/dialog_confirm_0", vn.xdeuhug.movieXD.R.layout.dialog_confirm);
-      sKeys.put("layout/dialog_lucky_box_0", vn.xdeuhug.movieXD.R.layout.dialog_lucky_box);
-      sKeys.put("layout/dialog_lucky_money_0", vn.xdeuhug.movieXD.R.layout.dialog_lucky_money);
-      sKeys.put("layout/dialog_not_have_money_0", vn.xdeuhug.movieXD.R.layout.dialog_not_have_money);
       sKeys.put("layout/dialog_notification_0", vn.xdeuhug.movieXD.R.layout.dialog_notification);
-      sKeys.put("layout/dialog_setting_money_0", vn.xdeuhug.movieXD.R.layout.dialog_setting_money);
-      sKeys.put("layout/dialog_sound_0", vn.xdeuhug.movieXD.R.layout.dialog_sound);
+      sKeys.put("layout/home_activity_0", vn.xdeuhug.movieXD.R.layout.home_activity);
       sKeys.put("layout/splash_activity_0", vn.xdeuhug.movieXD.R.layout.splash_activity);
       sKeys.put("layout/success_dialog_0", vn.xdeuhug.movieXD.R.layout.success_dialog);
       sKeys.put("layout/wait_dialog_0", vn.xdeuhug.movieXD.R.layout.wait_dialog);

@@ -1,6 +1,6 @@
 package vn.xdeuhug.movieXD.databinding;
 import vn.xdeuhug.movieXD.R;
-
+import vn.xdeuhug.movieXD.BR;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.view.View;
