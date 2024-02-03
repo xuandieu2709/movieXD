@@ -11,10 +11,24 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+
+
     buildTypes {
-        release {
+
+        debug {
+            debuggable true
+            jniDebuggable true
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+
+        preview.initWith(debug)
+
+        preview {
+
+        }
+
+        release {
+            proguardFiles 'proguard-sdk.pro', 'proguard-app.pro'
         }
     }
     

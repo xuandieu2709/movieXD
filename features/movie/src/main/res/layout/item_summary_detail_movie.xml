@@ -7,13 +7,41 @@
     tools:background="@color/color_main_bg">
 
     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_16"
+        android:orientation="vertical">
+        <vn.xdeuhug.movieXD.widget.AppTextViewBold
+            android:id="@+id/tvTrailer"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_4"
+            android:text="@string/trailer" />
+        <View
+            android:layout_marginTop="@dimen/dp_2"
+            android:layout_marginHorizontal="@dimen/dp_2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_2"
+            android:background="@color/green_007"/>
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/wvTrailer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_240"
+        android:layout_marginBottom="@dimen/dp_8"/>
+
+    <LinearLayout
         android:id="@+id/llPlay"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/button_rounded_rectangle"
         android:gravity="center"
         android:orientation="horizontal"
-        android:paddingVertical="@dimen/dp_8">
+        android:paddingVertical="@dimen/dp_8"
+        android:layout_marginHorizontal="@dimen/dp_16">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -31,14 +59,26 @@
             android:textSize="@dimen/sp_18" />
     </LinearLayout>
 
-    <vn.xdeuhug.movieXD.widget.AppTextViewBold
-        android:layout_marginTop="@dimen/dp_16"
-        android:id="@+id/tvSummary"
-        android:textColor="@color/white"
-        android:textSize="@dimen/sp_24"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/summary" />
+        android:layout_marginTop="@dimen/dp_16"
+        android:orientation="vertical">
+        <vn.xdeuhug.movieXD.widget.AppTextViewBold
+            android:id="@+id/tvSummary"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/overview" />
+        <View
+            android:layout_marginTop="@dimen/dp_2"
+            android:layout_marginHorizontal="@dimen/dp_2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_2"
+            android:background="@color/green_007"/>
+    </LinearLayout>
+
     <vn.xdeuhug.movieXD.widget.AppTextView
         android:id="@+id/tvContent"
         android:layout_marginTop="@dimen/dp_8"

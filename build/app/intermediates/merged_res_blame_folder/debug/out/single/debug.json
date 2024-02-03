@@ -1,366 +1,370 @@
 [
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_progress_gradient_bg.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\progress_gradient_bg.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\menu_menu_bottom_navigation.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\menu\\menu_bottom_navigation.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_password_off_ic.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/password_off_ic.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_ic_search_border_circle.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/ic_search_border_circle.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_bg_gradient_custom.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/bg_gradient_custom.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\font_roboto_regular.ttf.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\font\\roboto_regular.ttf"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/xml_network_security_config.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/xml/network_security_config.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/font_roboto_regular.ttf.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/font/roboto_regular.ttf"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\layout_item_spinner.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\item_spinner.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_ic_play.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/ic_play.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\font_my_soul_regular.ttf.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\font\\my_soul_regular.ttf"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_ic_gift_box.png.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\ic_gift_box.png"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/raw_lixi_update.json.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/raw/lixi_update.json"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\layout_widget_status_layout.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\widget_status_layout.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/layout_item_spinner.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/item_spinner.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\layout_input_dialog.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\input_dialog.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_cau_doi.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/cau_doi.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_password_off_ic.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\password_off_ic.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/font_roboto_medium.ttf.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/font/roboto_medium.ttf"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_ic_back_white.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\ic_back_white.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_ic_search.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/ic_search.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\layout_activity_browser.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\activity_browser.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_ic_info.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/ic_info.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\layout_custom_loading.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\custom_loading.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_password_on_ic.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\password_on_ic.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/layout_item_money.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/item_money.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\raw_lixi_update.json.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\raw\\lixi_update.json"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_button_circle_rounded.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/button_circle_rounded.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_status_error_ic.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\status_error_ic.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_ic_cross.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/ic_cross.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\layout_wait_dialog.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\wait_dialog.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_ic_back_gray_group.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/ic_back_gray_group.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_picture_anim_progress.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\picture_anim_progress.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_dialog_input_bg.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/dialog_input_bg.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\raw_ad_block.txt.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\raw\\ad_block.txt"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_transparent_selector.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/transparent_selector.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\layout_dialog_confirm.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\dialog_confirm.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_bg_border_left_button.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/bg_border_left_button.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_ic_senior_sociable_no_slogan.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\ic_senior_sociable_no_slogan.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_ic_back_blue.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/ic_back_blue.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_ic_logo_lucky_money.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\ic_logo_lucky_money.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/raw_congratulation_new.json.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/raw/congratulation_new.json"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_button_rounded_rectangle.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\button_rounded_rectangle.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_bg_border_header_dialog.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/bg_border_header_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_button_circle_rounded.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\button_circle_rounded.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_ic_senior_sociable_no_slogan.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/ic_senior_sociable_no_slogan.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\raw_loading_style_2.json.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\raw\\loading_style_2.json"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/layout_tips_dialog.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/tips_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\layout_splash_activity.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\splash_activity.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_top_bg.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/top_bg.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\raw_bg_lucky_money.mp3.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\raw\\bg_lucky_money.mp3"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_ic_cursor.png.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/ic_cursor.png"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_button_rounded_rectangle.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/button_rounded_rectangle.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\raw_loading.json.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\raw\\loading.json"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable-xxhdpi_divider_with_padding.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable-xxhdpi/divider_with_padding.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_ic_share.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\ic_share.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/layout_wait_dialog.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/wait_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable-xxhdpi_picture_icon_progress.png.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable-xxhdpi\\picture_icon_progress.png"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/raw_tap_notification.mp3.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/raw/tap_notification.mp3"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_ic_back_blue.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\ic_back_blue.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_bg_border_status.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/bg_border_status.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\raw_adblockserverlist.txt.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\raw\\adblockserverlist.txt"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/layout_home_activity.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/home_activity.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\raw_lucky_box.json.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\raw\\lucky_box.json"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\anim_left_out_activity.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\anim\\left_out_activity.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_ic_check_success.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/ic_check_success.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_ic_search_border_circle.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\ic_search_border_circle.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_bg_border_dialog.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/bg_border_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\layout_message_dialog.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\message_dialog.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/xml_carousel_scene.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/xml/carousel_scene.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_ic_reboot.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\ic_reboot.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_ic_default.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/ic_default.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_cau_doi.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\cau_doi.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_ic_logo_lucky_money.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/ic_logo_lucky_money.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_ic_arrow_down_orange.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\ic_arrow_down_orange.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/layout_message_dialog.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/message_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_bg_border_gray_200_no_stroke.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\bg_border_gray_200_no_stroke.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_bg_button_gradient_disco.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/bg_button_gradient_disco.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_ic_cursor.png.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\ic_cursor.png"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/layout_input_dialog.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/input_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_ic_close.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\ic_close.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/font_rubik_regular.ttf.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/font/rubik_regular.ttf"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_bg_border_left_button.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\bg_border_left_button.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_bg_item_genres.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/bg_item_genres.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_ic_cross.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\ic_cross.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/anim_left_in_activity.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/anim/left_in_activity.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_bg_button_gradient_disco.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\bg_button_gradient_disco.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/layout_ui_dialog.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/ui_dialog.xml"
     },
     {
-        "merged": "vn.xdeuhug.movieXD.app-merged_res-77:/layout_splash_activity.xml.flat",
-        "source": "vn.xdeuhug.movieXD.app-main-69:/layout/splash_activity.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_ic_logo_movie.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/ic_logo_movie.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\anim_left_in_activity.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\anim\\left_in_activity.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/layout_custom_loading.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/custom_loading.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\raw_congratulation_new.json.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\raw\\congratulation_new.json"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/layout_dialog_notification.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/dialog_notification.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_ic_movie.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\ic_movie.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_ic_arrow_down_orange.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/ic_arrow_down_orange.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\xml_file_paths.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\xml\\file_paths.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/raw_loading_style_2.json.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/raw/loading_style_2.json"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\font_roboto_medium.ttf.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\font\\roboto_medium.ttf"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/font_sfprodisplay_bold.ttf.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/font/sfprodisplay_bold.ttf"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_log_xdhug_team_border.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\log_xdhug_team_border.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/color_color_text_selected.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/color/color_text_selected.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_ic_star.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\ic_star.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_log_xdhug_team_border.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/log_xdhug_team_border.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_ic_search.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\ic_search.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_ic_movie.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/ic_movie.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_ic_search_white.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\ic_search_white.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_ic_back_white.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/ic_back_white.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\layout_ui_dialog.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\ui_dialog.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\layout_tips_dialog.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\tips_dialog.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/raw_loading.json.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/raw/loading.json"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\xml_network_security_config.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\xml\\network_security_config.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/layout_dialog_confirm.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/dialog_confirm.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\font_rubik_regular.ttf.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\font\\rubik_regular.ttf"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/raw_lucky_box.json.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/raw/lucky_box.json"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_ic_star.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/ic_star.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_bg_border_right_button_green.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\bg_border_right_button_green.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable-xxhdpi_picture_icon_progress.png.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable-xxhdpi/picture_icon_progress.png"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_transparent_selector.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\transparent_selector.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_bg_border_right_button_green.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/bg_border_right_button_green.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_ic_check_success.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\ic_check_success.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/menu_menu_bottom_navigation.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/menu/menu_bottom_navigation.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_top_bg.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\top_bg.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/layout_activity_browser.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/activity_browser.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_bg_border_header_dialog.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\bg_border_header_dialog.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/layout_splash_activity.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/splash_activity.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_bg_border_status.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\bg_border_status.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/font_my_soul_regular.ttf.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/font/my_soul_regular.ttf"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\layout_dialog_notification.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\dialog_notification.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/raw_bg_lucky_money.mp3.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/raw/bg_lucky_money.mp3"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\layout_success_dialog.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\success_dialog.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_ic_user_default.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/ic_user_default.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\font_great_vibes_regular.ttf.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\font\\great_vibes_regular.ttf"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_ic_search_white.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/ic_search_white.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_ic_back_gray_group.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\ic_back_gray_group.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/raw_adblockserverlist.txt.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/raw/adblockserverlist.txt"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable-xxhdpi_divider_with_padding.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable-xxhdpi\\divider_with_padding.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/font_great_vibes_regular.ttf.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/font/great_vibes_regular.ttf"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_ic_logo_movie.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\ic_logo_movie.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/raw_ad_block.txt.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/raw/ad_block.txt"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\xml_carousel_scene.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\xml\\carousel_scene.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_ic_close.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/ic_close.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\font_sfprodisplay_bold.ttf.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\font\\sfprodisplay_bold.ttf"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_tips_warning_ic.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/tips_warning_ic.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_ic_reboot.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/ic_reboot.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_ic_default.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\ic_default.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_picture_anim_progress.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/picture_anim_progress.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\layout_crash_activity.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\crash_activity.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_ic_share.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/ic_share.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_bg_gradient_custom.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\bg_gradient_custom.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_bg_border_gray_200_no_stroke.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/bg_border_gray_200_no_stroke.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\layout_home_activity.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\home_activity.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_status_network_ic.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/status_network_ic.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_ic_user_default.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\ic_user_default.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/layout_widget_status_layout.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/widget_status_layout.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_dialog_input_bg.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\dialog_input_bg.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_password_on_ic.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/password_on_ic.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\layout_item_money.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\item_money.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_status_network_ic.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\status_network_ic.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/layout_crash_activity.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/crash_activity.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_ic_info.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\ic_info.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_progress_gradient_bg.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/progress_gradient_bg.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\raw_tap_notification.mp3.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\raw\\tap_notification.mp3"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_status_error_ic.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/status_error_ic.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_tips_warning_ic.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\tips_warning_ic.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/drawable_ic_gift_box.png.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/drawable/ic_gift_box.png"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_bg_border_dialog.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\bg_border_dialog.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/anim_left_out_activity.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/anim/left_out_activity.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-merged_res-77:\\drawable_ic_play.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\drawable\\ic_play.xml"
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/xml_file_paths.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/xml/file_paths.xml"
+    },
+    {
+        "merged": "vn.xdeuhug.movieXD.app-merged_res-78:/layout_success_dialog.xml.flat",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/success_dialog.xml"
     }
 ]

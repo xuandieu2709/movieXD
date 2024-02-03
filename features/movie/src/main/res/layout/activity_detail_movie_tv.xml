@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?><!--<layout xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+<!--    <data>-->
+
+<!--    </data>-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_main_bg"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:id="@+id/llTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingVertical="@dimen/dp_4">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="@dimen/dp_24"
+            android:layout_height="@dimen/dp_24"
+            android:layout_marginStart="@dimen/dp_8"
+            android:contentDescription="@string/default_images"
+            android:rotation="90"
+            android:src="@drawable/ic_arrow_down_orange"
+            app:tint="@color/white" />
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/llTop"
+        android:layout_marginTop="@dimen/dp_4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/dp_4">
+            <!--  item head  -->
+            <!--  item content  -->
+            <include
+                android:id="@+id/itemHead"
+                layout="@layout/item_head_detail_movie" />
+
+            <include
+                android:id="@+id/itemSeries"
+                layout="@layout/item_series" />
+
+            <include
+                android:id="@+id/itemDetail"
+                layout="@layout/item_summary_detail_movie" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout><!--</layout>-->

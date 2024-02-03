@@ -118,8 +118,6 @@ dependencies {
     // Thư viện cơ sở
     api project(':library:base')
     api project(':library:widget')
-    api project(':library:selector')
-    api project(':library:jzvideo')
 
     api 'com.github.getActivity:EasyHttp:12.5'
     //noinspection GradleDependency
@@ -193,4 +191,7 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:2.0.4'
 
     api 'com.google.android.material:material:1.11.0'
+
+    //link:https://github.com/facebook/shimmer-android
+    api 'com.facebook.shimmer:shimmer:0.5.0@aar'
 }

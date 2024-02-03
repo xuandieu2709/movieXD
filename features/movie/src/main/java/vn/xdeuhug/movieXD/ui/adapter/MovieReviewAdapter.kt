@@ -9,7 +9,7 @@ import vn.xdeuhug.movieXD.databinding.ItemMovieBinding
 import vn.xdeuhug.movieXD.databinding.ItemMovieReviewBinding
 import vn.xdeuhug.movieXD.model.modelListMovie.Movie
 import vn.xdeuhug.movieXD.router.APITheMovieDBRouter
-import vn.xdeuhug.seniorsociable.utils.PhotoShowUtils
+import vn.xdeuhug.movieXD.utils.PhotoShowUtils
 
 /**
  * @Author: NGUYEN XUAN DIEU
@@ -74,13 +74,27 @@ class MovieReviewAdapter(context: Context) : AppAdapter<Movie>(context) {
 
         override fun onBindView(position: Int) {
             val item = getItem(position)
-            PhotoShowUtils.loadPhotoImageNormal(
-                APITheMovieDBRouter.HOST_IMAGE_BIG_SIZE + item.posterPath, binding.imvMovie
-            )
-            if (item.mediaType != "tv") {
-                binding.tvTitle.text = item.title
-            } else {
-                binding.tvTitle.text = item.originalName
+            if(item.knownFor.isNotEmpty())
+            {
+
+                PhotoShowUtils.loadPhotoImageNormal(
+                    APITheMovieDBRouter.HOST_IMAGE_BIG_SIZE +  item.knownFor[0].posterPath, binding.imvMovie
+                )
+                if (item.knownFor[0].mediaType != "tv") {
+                    binding.tvTitle.text = item.knownFor[0].title
+                } else {
+                    binding.tvTitle.text = item.knownFor[0].originalTitle
+                }
+            }else{
+
+                PhotoShowUtils.loadPhotoImageNormal(
+                    APITheMovieDBRouter.HOST_IMAGE_BIG_SIZE + item.posterPath, binding.imvMovie
+                )
+                if (item.mediaType != "tv") {
+                    binding.tvTitle.text = item.title
+                } else {
+                    binding.tvTitle.text = item.originalName
+                }
             }
         }
 

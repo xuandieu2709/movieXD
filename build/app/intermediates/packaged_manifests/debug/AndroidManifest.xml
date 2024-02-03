@@ -242,31 +242,6 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/chucker_provider_paths" />
         </provider>
-        <provider
-            android:name="com.luck.picture.lib.basic.PictureFileProvider"
-            android:authorities="vn.xdeuhug.movieXD.luckProvider"
-            android:exported="false"
-            android:grantUriPermissions="true" >
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/ps_file_paths" />
-        </provider>
-
-        <service
-            android:name="com.luck.picture.lib.service.ForegroundService"
-            android:enabled="true"
-            android:foregroundServiceType="location" />
-
-        <activity
-            android:name="com.luck.picture.lib.basic.PictureSelectorSupporterActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:theme="@style/Base.Theme.NoActionBar" >
-        </activity>
-        <activity
-            android:name="com.luck.picture.lib.basic.PictureSelectorTransparentActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:theme="@style/Picture.Theme.Translucent" >
-        </activity>
 
         <service
             android:name="net.gotev.uploadservice.UploadService"
@@ -494,6 +469,11 @@
             android:screenOrientation="landscape" />
         <activity
             android:name="vn.xdeuhug.movieXD.ui.activity.DetailMovieActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="vn.xdeuhug.movieXD.ui.activity.DetailMovieTVActivity"
             android:exported="false"
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />

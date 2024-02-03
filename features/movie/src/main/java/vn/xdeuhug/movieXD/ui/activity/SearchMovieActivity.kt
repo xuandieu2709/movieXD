@@ -108,6 +108,22 @@ class SearchMovieActivity : AppActivity(), MovieReviewAdapter.OnClickItem {
     }
 
     override fun onClick(movie: Movie) {
-        startActivity<DetailMovieActivity>(AppConstants.ID_IMDB to movie.id)
+        if(movie.knownFor.isNotEmpty())
+        {
+            if(movie.mediaType == "tv")
+            {
+                startActivity<DetailMovieTVActivity>(AppConstants.ID_IMDB to movie.knownFor[0].id)
+            }else{
+                startActivity<DetailMovieActivity>(AppConstants.ID_IMDB to movie.knownFor[0].id)
+            }
+        }else{
+            if(movie.mediaType == "tv")
+            {
+                startActivity<DetailMovieTVActivity>(AppConstants.ID_IMDB to movie.id)
+            }else{
+                startActivity<DetailMovieActivity>(AppConstants.ID_IMDB to movie.id)
+            }
+        }
+
     }
 }

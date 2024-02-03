@@ -5,8 +5,6 @@ MERGED from [com.github.chuckerteam.chucker:library:3.5.2] C:\Users\DELL\.gradle
 MERGED from [com.github.chuckerteam.chucker:library:3.5.2] C:\Users\DELL\.gradle\caches\transforms-3\8790069ab5a2981f2f934c92f23031a3\transformed\jetified-library-3.5.2\AndroidManifest.xml:15:5-44:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\DELL\.gradle\caches\transforms-3\ad6e58042b31fb7fe1c17721fa03d0f6\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\DELL\.gradle\caches\transforms-3\ad6e58042b31fb7fe1c17721fa03d0f6\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
-MERGED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-35:19
-MERGED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-35:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\DELL\.gradle\caches\transforms-3\2814c6a89d265262a551606f409cc77f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\DELL\.gradle\caches\transforms-3\2814c6a89d265262a551606f409cc77f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [com.airbnb.android:lottie:5.2.0] C:\Users\DELL\.gradle\caches\transforms-3\12b8145c336fb6acbd864a6ef599ba1b\transformed\jetified-lottie-5.2.0\AndroidManifest.xml:9:5-20
@@ -125,8 +123,8 @@ MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\DELL\.gradle\caches\tran
 MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\DELL\.gradle\caches\transforms-3\71c3a28013823d7192403d08f0a2149b\transformed\room-runtime-2.3.0\AndroidManifest.xml:24:5-29:19
 MERGED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\55a03f2c4927bc4a139482087850948c\transformed\jetified-core-1.10.3\AndroidManifest.xml:15:5-44:19
 MERGED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\55a03f2c4927bc4a139482087850948c\transformed\jetified-core-1.10.3\AndroidManifest.xml:15:5-44:19
-MERGED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:21:5-43:19
-MERGED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:21:5-43:19
+MERGED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:21:5-49:19
+MERGED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:21:5-49:19
 	android:extractNativeLibs
 		ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:23:9-42
 	android:requestLegacyExternalStorage
@@ -186,7 +184,6 @@ MERGED from [com.github.chuckerteam.chucker:library:3.5.2] C:\Users\DELL\.gradle
 MERGED from [com.github.getActivity:ShapeView:6.0] C:\Users\DELL\.gradle\caches\transforms-3\efb05db5fd87d08bcf0ac2f2768be73a\transformed\jetified-ShapeView-6.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.androidadvance:topsnackbar:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\7ff45914d23c821ff7a01c0d4ce14514\transformed\jetified-topsnackbar-1.1.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\DELL\.gradle\caches\transforms-3\ad6e58042b31fb7fe1c17721fa03d0f6\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
-MERGED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-37:12
 MERGED from [com.github.ismaeldivita:chip-navigation-bar:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\170fb4daee3b044a883cf9b6e84e56d0\transformed\jetified-chip-navigation-bar-1.4.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\DELL\.gradle\caches\transforms-3\2814c6a89d265262a551606f409cc77f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [com.airbnb.android:lottie:5.2.0] C:\Users\DELL\.gradle\caches\transforms-3\12b8145c336fb6acbd864a6ef599ba1b\transformed\jetified-lottie-5.2.0\AndroidManifest.xml:2:1-11:12
@@ -204,7 +201,6 @@ MERGED from [com.google.android.exoplayer:exoplayer:2.17.1] C:\Users\DELL\.gradl
 MERGED from [com.google.android.exoplayer:exoplayer-ui:2.17.1] C:\Users\DELL\.gradle\caches\transforms-3\9c9b8b4c369f81c43f9ef9c2fcc684f6\transformed\jetified-exoplayer-ui-2.17.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.3.0] C:\Users\DELL\.gradle\caches\transforms-3\4c6608bd13afea05adbfe2c9cf3bb87b\transformed\recyclerview-1.3.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-fragment:2.5.3] C:\Users\DELL\.gradle\caches\transforms-3\feeeca643797fd283d66a4f1a86369b4\transformed\navigation-fragment-2.5.3\AndroidManifest.xml:17:1-24:12
-MERGED from [:library:jzvideo] C:\Users\DELL\Desktop\MovieApp\build\library\jzvideo\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\9515380820508ac02a957007d8396245\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.fragment:fragment-ktx:1.5.4] C:\Users\DELL\.gradle\caches\transforms-3\0af203d483fa9f10208df210917e4573\transformed\jetified-fragment-ktx-1.5.4\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\DELL\.gradle\caches\transforms-3\01ffd2ab312477259bbab70329da00e9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:17:1-75:12
@@ -277,8 +273,8 @@ MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\DELL\.g
 MERGED from [androidx.palette:palette-ktx:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\344fcbf908a7ca9c5fe8189a2fa9c1dd\transformed\jetified-palette-ktx-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.palette:palette:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\a981e2b35d93f071c65c6a0d001fb423\transformed\palette-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\dc379fdc16f01d2d044fff167fd05a20\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\7be7e77f4fa689ee790acfa8ae3d0fb9\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.media:media:1.4.3] C:\Users\DELL\.gradle\caches\transforms-3\0b1ae9805759c4fd46025b5287618580\transformed\media-1.4.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\7be7e77f4fa689ee790acfa8ae3d0fb9\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\bee3be8762e533d9ecd0b21c30952341\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\54108f66ae03fbe3de6508877b936aeb\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.13.0-alpha04] C:\Users\DELL\.gradle\caches\transforms-3\0f9b7e7fe10eccf71772ec1bd7d1a0c2\transformed\core-1.13.0-alpha04\AndroidManifest.xml:17:1-30:12
@@ -299,7 +295,7 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\User
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.2] C:\Users\DELL\.gradle\caches\transforms-3\888ebb10ef3476c4d745af951f3b4da4\transformed\jetified-play-services-measurement-sdk-api-21.2.2\AndroidManifest.xml:17:1-28:12
 MERGED from [com.google.android.gms:play-services-measurement-base:21.2.2] C:\Users\DELL\.gradle\caches\transforms-3\f92734475eab95c2f360bb1291022447\transformed\jetified-play-services-measurement-base-21.2.2\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\3178937ecaa48525311d2f7409961e72\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
-MERGED from [androidx.fragment:fragment:1.5.7] C:\Users\DELL\.gradle\caches\transforms-3\128c9cd4aab471ad72baa52622704c01\transformed\fragment-1.5.7\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\DELL\.gradle\caches\transforms-3\a19b80d238846e21532e4e1972a21ee6\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.13.0-alpha04] C:\Users\DELL\.gradle\caches\transforms-3\bb889c2cea55e9921163ea3ce73aef6e\transformed\jetified-core-ktx-1.13.0-alpha04\AndroidManifest.xml:2:1-7:12
 MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\DELL\.gradle\caches\transforms-3\b76205a0707789895d489eba6c325197\transformed\jetified-rxandroid-1.2.1\AndroidManifest.xml:15:1-21:12
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\DELL\.gradle\caches\transforms-3\e2b94e30b568bec270593f5c98bbcb5f\transformed\jetified-rxandroid-2.1.1\AndroidManifest.xml:15:1-20:12
@@ -313,13 +309,14 @@ MERGED from [com.tencent:mmkv-static:1.2.14] C:\Users\DELL\.gradle\caches\transf
 MERGED from [com.kyleduo.switchbutton:library:2.1.0] C:\Users\DELL\.gradle\caches\transforms-3\8f25965589994a18108ba6b039d31d96\transformed\jetified-library-2.1.0\AndroidManifest.xml:2:1-9:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\DELL\.gradle\caches\transforms-3\9a9feb255545a169a19645131ca95812\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.flexbox:flexbox:3.0.0] C:\Users\DELL\.gradle\caches\transforms-3\9641ba1621d7eeb9182820fb5adcabcb\transformed\jetified-flexbox-3.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.shimmer:shimmer:0.5.0] C:\Users\DELL\.gradle\caches\transforms-3\b44eb97ecdfcee497344b09ac1b6d3af\transformed\jetified-shimmer-0.5.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:viewbinding:7.2.2] C:\Users\DELL\.gradle\caches\transforms-3\dd5cd22311ac9960c7d59c3543cd5c5d\transformed\jetified-viewbinding-7.2.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\de3c9744091c7c58936148dcbdf96359\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\f76a3084743206e89f7f61ab40da755a\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\cec18bed1c2360e85429e94953c28210\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\DELL\.gradle\caches\transforms-3\d5d617d988324ba693c69d71a1f21f1e\transformed\jetified-firebase-components-17.1.0\AndroidManifest.xml:15:1-22:12
-MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\DELL\.gradle\caches\transforms-3\e8bbd61e1047c3af1f9e0bc0fd10e91a\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] C:\Users\DELL\.gradle\caches\transforms-3\002bfd65ae5761590a3d55564e8bf630\transformed\jetified-gifdecoder-4.14.2\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\DELL\.gradle\caches\transforms-3\a747cc74b3d9761ef7356fd1475bd2bf\transformed\exifinterface-1.3.3\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\DELL\.gradle\caches\transforms-3\46b61769ebceacf68272b1d7f3299f38\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\1da4b4ea1a1d62a5cf3830cc2af7ec26\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\85d8c9d2ed9f268d1217d1832b75d9d5\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -350,7 +347,7 @@ MERGED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\t
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\b6e8c2fa6c5e4e144453e7194ccc7b03\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.github.getActivity:ToastUtils:10.5] C:\Users\DELL\.gradle\caches\transforms-3\dda73a47d1012383d4eaa074a4fde0a1\transformed\jetified-ToastUtils-10.5\AndroidManifest.xml:2:1-9:12
 MERGED from [org.simple:androideventbus:1.0.5.1] C:\Users\DELL\.gradle\caches\transforms-3\f2190c0d4e98bc6c49039cb1c29af6f5\transformed\jetified-androideventbus-1.0.5.1\AndroidManifest.xml:2:1-11:12
-MERGED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:2:1-45:12
+MERGED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:2:1-51:12
 INJECTED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:2:1-215:12
 INJECTED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:2:1-215:12
 INJECTED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:2:1-215:12
@@ -374,8 +371,6 @@ INJECTED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:2:
 		ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:7:5-79
-MERGED from [:library:jzvideo] C:\Users\DELL\Desktop\MovieApp\build\library\jzvideo\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
-MERGED from [:library:jzvideo] C:\Users\DELL\Desktop\MovieApp\build\library\jzvideo\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
 MERGED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\DELL\.gradle\caches\transforms-3\01ffd2ab312477259bbab70329da00e9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\DELL\.gradle\caches\transforms-3\01ffd2ab312477259bbab70329da00e9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:26:5-79
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\18eeb2c0c513d13181cbf423bbe1a46e\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
@@ -568,8 +563,6 @@ MERGED from [com.androidadvance:topsnackbar:1.1.1] C:\Users\DELL\.gradle\caches\
 MERGED from [com.androidadvance:topsnackbar:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\7ff45914d23c821ff7a01c0d4ce14514\transformed\jetified-topsnackbar-1.1.1\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\DELL\.gradle\caches\transforms-3\ad6e58042b31fb7fe1c17721fa03d0f6\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\DELL\.gradle\caches\transforms-3\ad6e58042b31fb7fe1c17721fa03d0f6\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
-MERGED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.ismaeldivita:chip-navigation-bar:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\170fb4daee3b044a883cf9b6e84e56d0\transformed\jetified-chip-navigation-bar-1.4.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.ismaeldivita:chip-navigation-bar:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\170fb4daee3b044a883cf9b6e84e56d0\transformed\jetified-chip-navigation-bar-1.4.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\DELL\.gradle\caches\transforms-3\2814c6a89d265262a551606f409cc77f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
@@ -604,8 +597,6 @@ MERGED from [androidx.recyclerview:recyclerview:1.3.0] C:\Users\DELL\.gradle\cac
 MERGED from [androidx.recyclerview:recyclerview:1.3.0] C:\Users\DELL\.gradle\caches\transforms-3\4c6608bd13afea05adbfe2c9cf3bb87b\transformed\recyclerview-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-fragment:2.5.3] C:\Users\DELL\.gradle\caches\transforms-3\feeeca643797fd283d66a4f1a86369b4\transformed\navigation-fragment-2.5.3\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment:2.5.3] C:\Users\DELL\.gradle\caches\transforms-3\feeeca643797fd283d66a4f1a86369b4\transformed\navigation-fragment-2.5.3\AndroidManifest.xml:20:5-22:41
-MERGED from [:library:jzvideo] C:\Users\DELL\Desktop\MovieApp\build\library\jzvideo\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:library:jzvideo] C:\Users\DELL\Desktop\MovieApp\build\library\jzvideo\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\9515380820508ac02a957007d8396245\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\9515380820508ac02a957007d8396245\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
 MERGED from [androidx.fragment:fragment-ktx:1.5.4] C:\Users\DELL\.gradle\caches\transforms-3\0af203d483fa9f10208df210917e4573\transformed\jetified-fragment-ktx-1.5.4\AndroidManifest.xml:20:5-22:41
@@ -750,10 +741,10 @@ MERGED from [androidx.palette:palette:1.0.0] C:\Users\DELL\.gradle\caches\transf
 MERGED from [androidx.palette:palette:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\a981e2b35d93f071c65c6a0d001fb423\transformed\palette-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\dc379fdc16f01d2d044fff167fd05a20\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\dc379fdc16f01d2d044fff167fd05a20\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\7be7e77f4fa689ee790acfa8ae3d0fb9\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\7be7e77f4fa689ee790acfa8ae3d0fb9\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.4.3] C:\Users\DELL\.gradle\caches\transforms-3\0b1ae9805759c4fd46025b5287618580\transformed\media-1.4.3\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.media:media:1.4.3] C:\Users\DELL\.gradle\caches\transforms-3\0b1ae9805759c4fd46025b5287618580\transformed\media-1.4.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\7be7e77f4fa689ee790acfa8ae3d0fb9\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\7be7e77f4fa689ee790acfa8ae3d0fb9\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\bee3be8762e533d9ecd0b21c30952341\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\bee3be8762e533d9ecd0b21c30952341\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\54108f66ae03fbe3de6508877b936aeb\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
@@ -794,8 +785,8 @@ MERGED from [com.google.android.gms:play-services-measurement-base:21.2.2] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-base:21.2.2] C:\Users\DELL\.gradle\caches\transforms-3\f92734475eab95c2f360bb1291022447\transformed\jetified-play-services-measurement-base-21.2.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\3178937ecaa48525311d2f7409961e72\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\3178937ecaa48525311d2f7409961e72\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
-MERGED from [androidx.fragment:fragment:1.5.7] C:\Users\DELL\.gradle\caches\transforms-3\128c9cd4aab471ad72baa52622704c01\transformed\fragment-1.5.7\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.5.7] C:\Users\DELL\.gradle\caches\transforms-3\128c9cd4aab471ad72baa52622704c01\transformed\fragment-1.5.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\DELL\.gradle\caches\transforms-3\a19b80d238846e21532e4e1972a21ee6\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\DELL\.gradle\caches\transforms-3\a19b80d238846e21532e4e1972a21ee6\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core-ktx:1.13.0-alpha04] C:\Users\DELL\.gradle\caches\transforms-3\bb889c2cea55e9921163ea3ce73aef6e\transformed\jetified-core-ktx-1.13.0-alpha04\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.13.0-alpha04] C:\Users\DELL\.gradle\caches\transforms-3\bb889c2cea55e9921163ea3ce73aef6e\transformed\jetified-core-ktx-1.13.0-alpha04\AndroidManifest.xml:5:5-44
 MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\DELL\.gradle\caches\transforms-3\b76205a0707789895d489eba6c325197\transformed\jetified-rxandroid-1.2.1\AndroidManifest.xml:19:5-43
@@ -822,6 +813,8 @@ MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\DELL\.gradle\caches\tr
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\DELL\.gradle\caches\transforms-3\9a9feb255545a169a19645131ca95812\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.flexbox:flexbox:3.0.0] C:\Users\DELL\.gradle\caches\transforms-3\9641ba1621d7eeb9182820fb5adcabcb\transformed\jetified-flexbox-3.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.flexbox:flexbox:3.0.0] C:\Users\DELL\.gradle\caches\transforms-3\9641ba1621d7eeb9182820fb5adcabcb\transformed\jetified-flexbox-3.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.shimmer:shimmer:0.5.0] C:\Users\DELL\.gradle\caches\transforms-3\b44eb97ecdfcee497344b09ac1b6d3af\transformed\jetified-shimmer-0.5.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.shimmer:shimmer:0.5.0] C:\Users\DELL\.gradle\caches\transforms-3\b44eb97ecdfcee497344b09ac1b6d3af\transformed\jetified-shimmer-0.5.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:viewbinding:7.2.2] C:\Users\DELL\.gradle\caches\transforms-3\dd5cd22311ac9960c7d59c3543cd5c5d\transformed\jetified-viewbinding-7.2.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.databinding:viewbinding:7.2.2] C:\Users\DELL\.gradle\caches\transforms-3\dd5cd22311ac9960c7d59c3543cd5c5d\transformed\jetified-viewbinding-7.2.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\de3c9744091c7c58936148dcbdf96359\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
@@ -832,10 +825,10 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\cec18bed1c2360e85429e94953c28210\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\DELL\.gradle\caches\transforms-3\d5d617d988324ba693c69d71a1f21f1e\transformed\jetified-firebase-components-17.1.0\AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\DELL\.gradle\caches\transforms-3\d5d617d988324ba693c69d71a1f21f1e\transformed\jetified-firebase-components-17.1.0\AndroidManifest.xml:18:5-20:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\DELL\.gradle\caches\transforms-3\e8bbd61e1047c3af1f9e0bc0fd10e91a\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\DELL\.gradle\caches\transforms-3\e8bbd61e1047c3af1f9e0bc0fd10e91a\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] C:\Users\DELL\.gradle\caches\transforms-3\002bfd65ae5761590a3d55564e8bf630\transformed\jetified-gifdecoder-4.14.2\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] C:\Users\DELL\.gradle\caches\transforms-3\002bfd65ae5761590a3d55564e8bf630\transformed\jetified-gifdecoder-4.14.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\DELL\.gradle\caches\transforms-3\a747cc74b3d9761ef7356fd1475bd2bf\transformed\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\DELL\.gradle\caches\transforms-3\a747cc74b3d9761ef7356fd1475bd2bf\transformed\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\DELL\.gradle\caches\transforms-3\46b61769ebceacf68272b1d7f3299f38\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\DELL\.gradle\caches\transforms-3\46b61769ebceacf68272b1d7f3299f38\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\1da4b4ea1a1d62a5cf3830cc2af7ec26\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
@@ -1137,40 +1130,6 @@ ADDED from [com.github.chuckerteam.chucker:library:3.5.2] C:\Users\DELL\.gradle\
 		ADDED from [com.github.chuckerteam.chucker:library:3.5.2] C:\Users\DELL\.gradle\caches\transforms-3\8790069ab5a2981f2f934c92f23031a3\transformed\jetified-library-3.5.2\AndroidManifest.xml:38:13-37
 	android:name
 		ADDED from [com.github.chuckerteam.chucker:library:3.5.2] C:\Users\DELL\.gradle\caches\transforms-3\8790069ab5a2981f2f934c92f23031a3\transformed\jetified-library-3.5.2\AndroidManifest.xml:36:13-88
-provider#com.luck.picture.lib.basic.PictureFileProvider
-ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
-	android:grantUriPermissions
-		ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
-	android:authorities
-		ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-64
-	android:exported
-		ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
-	android:name
-		ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
-service#com.luck.picture.lib.service.ForegroundService
-ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-23:56
-	android:enabled
-		ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-35
-	android:foregroundServiceType
-		ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-53
-	android:name
-		ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-74
-activity#com.luck.picture.lib.basic.PictureSelectorSupporterActivity
-ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-29:20
-	android:configChanges
-		ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-74
-	android:theme
-		ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-58
-	android:name
-		ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-87
-activity#com.luck.picture.lib.basic.PictureSelectorTransparentActivity
-ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:30:9-34:20
-	android:configChanges
-		ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-74
-	android:theme
-		ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-61
-	android:name
-		ADDED from [:library:selector] C:\Users\DELL\Desktop\MovieApp\build\library\selector\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-89
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [net.gotev:uploadservice:4.7.0] C:\Users\DELL\.gradle\caches\transforms-3\c468c9a89484950d3fa00849c2d207d1\transformed\jetified-uploadservice-4.7.0\AndroidManifest.xml:9:5-68
 MERGED from [com.google.firebase:firebase-messaging-directboot:23.1.2] C:\Users\DELL\.gradle\caches\transforms-3\67360a2846ce587e607b47a6ba03694a\transformed\jetified-firebase-messaging-directboot-23.1.2\AndroidManifest.xml:28:5-68
@@ -1649,7 +1608,7 @@ ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie
 		ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:36:13-38
 	android:name
 		ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:32:13-78
-activity#vn.xdeuhug.movieXD.ui.activity.SearchMovieActivity
+activity#vn.xdeuhug.movieXD.ui.activity.DetailMovieTVActivity
 ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:37:9-42:41
 	android:screenOrientation
 		ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:41:13-49
@@ -1660,4 +1619,16 @@ ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie
 	android:splitName
 		ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:42:13-38
 	android:name
-		ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:38:13-78
+		ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:38:13-80
+activity#vn.xdeuhug.movieXD.ui.activity.SearchMovieActivity
+ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:43:9-48:41
+	android:screenOrientation
+		ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:47:13-49
+	android:launchMode
+		ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:46:13-43
+	android:exported
+		ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:45:13-37
+	android:splitName
+		ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:48:13-38
+	android:name
+		ADDED from [:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:44:13-78

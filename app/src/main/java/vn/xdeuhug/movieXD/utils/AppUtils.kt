@@ -1,11 +1,14 @@
 package vn.xdeuhug.movieXD.utils
 
+import android.content.Context
 import android.view.View
+import androidx.annotation.RawRes
 import androidx.recyclerview.widget.*
 import com.google.android.flexbox.FlexWrap
 import com.google.android.flexbox.FlexboxLayoutManager
 import vn.xdeuhug.movieXD.other.CenterLayoutManager
 import vn.xdeuhug.movieXD.other.PreCachingLayoutManager
+import java.io.InputStream
 import java.math.BigDecimal
 import java.math.RoundingMode
 import java.security.SecureRandom
@@ -257,6 +260,10 @@ object AppUtils {
         val mS = df.format(numberF).replace(",", ".")
         mF = mS.toDouble()
         return mF
+    }
+
+    fun Context.getRawInput(@RawRes resourceId: Int): InputStream {
+        return resources.openRawResource(resourceId)
     }
 
 }

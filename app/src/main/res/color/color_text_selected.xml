@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- is active -->
+    <item android:color="@color/green_007" android:state_selected="true" />
+    <!-- is not active -->
+    <item android:color="@color/red_app_senior_sociable" android:state_enabled="false" />
+    <item android:color="@color/red_app_senior_sociable" android:state_selected="false" />
+    <item android:color="@color/red_app_senior_sociable" />
+</selector>

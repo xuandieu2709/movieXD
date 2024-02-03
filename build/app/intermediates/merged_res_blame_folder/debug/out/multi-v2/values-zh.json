@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "vn.xdeuhug.movieXD.app-mergeDebugResources-75:/values-zh/values-zh.xml",
+            "outputFile": "vn.xdeuhug.movieXD.app-mergeDebugResources-76:/values-zh/values-zh.xml",
             "map": [
                 {
                     "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\e6e4bf187105b8fddd24a4a090336ea3\\transformed\\jetified-refresh-layout-kernel-2.0.3\\res\\values-zh\\values-zh.xml",
@@ -11,30 +11,6 @@
                         "startOffsets": "55,163",
                         "endColumns": "107,91",
                         "endOffsets": "158,250"
-                    },
-                    "to": {
-                        "startLines": "5,6",
-                        "startColumns": "4,4",
-                        "startOffsets": "185,293",
-                        "endColumns": "107,91",
-                        "endOffsets": "288,380"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\DELL\\Desktop\\MovieApp\\build\\library\\jzvideo\\intermediates\\packaged_res\\debug\\values-zh\\values-zh.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,105,147,185,249,303,358",
-                        "endColumns": "49,41,37,63,53,54,55",
-                        "endOffsets": "100,142,180,244,298,353,409"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,105,147,385,449,503,558",
-                        "endColumns": "49,41,37,63,53,54,55",
-                        "endOffsets": "100,142,180,444,498,553,609"
                     }
                 }
             ]

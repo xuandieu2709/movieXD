@@ -3,25 +3,30 @@
 <!--    <data>-->
 
 <!--    </data>-->
-
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.scwang.smart.refresh.layout.SmartRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/srlRefresh"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/color_main_bg">
-
-    <WebView
-        android:id="@+id/wvLoadVideo"
-        android:background="@color/color_main_bg"
+    android:layout_height="match_parent">
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-    <ImageView
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"
-        android:src="@drawable/log_xdhug_team_border"
-        android:layout_marginTop="@dimen/dp_20"
-        android:layout_marginEnd="@dimen/dp_20"
-        android:layout_width="wrap_content"
-        android:scaleType="fitXY"
-        android:layout_height="@dimen/dp_32"
-        android:contentDescription="@string/default_images" />
-</RelativeLayout><!--</layout>-->
+        android:layout_height="match_parent"
+        android:background="@color/color_main_bg">
+
+        <WebView
+            android:id="@+id/wvLoadVideo"
+            android:background="@color/color_main_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/log_xdhug_team_border"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginEnd="@dimen/dp_8"
+            android:layout_width="@dimen/dp_140"
+            android:scaleType="fitXY"
+            android:layout_height="@dimen/dp_48"
+            android:contentDescription="@string/default_images" />
+    </RelativeLayout><!--</layout>-->
+</com.scwang.smart.refresh.layout.SmartRefreshLayout>

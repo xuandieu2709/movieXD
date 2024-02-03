@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_item_genres"
+    android:backgroundTint="@color/color_text_selected"
+    android:paddingVertical="@dimen/dp_8"
+    android:paddingHorizontal="@dimen/dp_8"
+    android:layout_marginVertical="@dimen/dp_4"
+    android:layout_marginEnd="@dimen/dp_4"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+        <vn.xdeuhug.movieXD.widget.AppTextViewBold
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:gravity="start"
+            android:textSize="@dimen/sp_12"
+            tools:text="1000gfewwewerwdsfdsfdsdsadasdsfdsfdsfdsfdsfdsfdsfdsfdsfdsfdsfdsfsdferwerew"/>
+    </LinearLayout>
+</LinearLayout>

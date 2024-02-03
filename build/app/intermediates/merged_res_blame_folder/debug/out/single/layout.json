@@ -1,70 +1,66 @@
 [
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\widget_status_layout.xml",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\widget_status_layout.xml"
+        "merged": "vn.xdeuhug.movieXD.app-mergeDebugResources-77:/layout/ui_dialog.xml",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/ui_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\tips_dialog.xml",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\tips_dialog.xml"
+        "merged": "vn.xdeuhug.movieXD.app-mergeDebugResources-77:/layout/wait_dialog.xml",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/wait_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\home_activity.xml",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\home_activity.xml"
+        "merged": "vn.xdeuhug.movieXD.app-mergeDebugResources-77:/layout/dialog_confirm.xml",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/dialog_confirm.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\splash_activity.xml",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\splash_activity.xml"
+        "merged": "vn.xdeuhug.movieXD.app-mergeDebugResources-77:/layout/splash_activity.xml",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/splash_activity.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\success_dialog.xml",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\success_dialog.xml"
+        "merged": "vn.xdeuhug.movieXD.app-mergeDebugResources-77:/layout/item_spinner.xml",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/item_spinner.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\wait_dialog.xml",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\wait_dialog.xml"
+        "merged": "vn.xdeuhug.movieXD.app-mergeDebugResources-77:/layout/dialog_notification.xml",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/dialog_notification.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\item_money.xml",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\item_money.xml"
+        "merged": "vn.xdeuhug.movieXD.app-mergeDebugResources-77:/layout/input_dialog.xml",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/input_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\item_spinner.xml",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\item_spinner.xml"
+        "merged": "vn.xdeuhug.movieXD.app-mergeDebugResources-77:/layout/tips_dialog.xml",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/tips_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\dialog_confirm.xml",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\dialog_confirm.xml"
+        "merged": "vn.xdeuhug.movieXD.app-mergeDebugResources-77:/layout/custom_loading.xml",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/custom_loading.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\crash_activity.xml",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\crash_activity.xml"
+        "merged": "vn.xdeuhug.movieXD.app-mergeDebugResources-77:/layout/success_dialog.xml",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/success_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\message_dialog.xml",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\message_dialog.xml"
+        "merged": "vn.xdeuhug.movieXD.app-mergeDebugResources-77:/layout/activity_browser.xml",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/activity_browser.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\custom_loading.xml",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\custom_loading.xml"
+        "merged": "vn.xdeuhug.movieXD.app-mergeDebugResources-77:/layout/item_money.xml",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/item_money.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\activity_browser.xml",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\activity_browser.xml"
+        "merged": "vn.xdeuhug.movieXD.app-mergeDebugResources-77:/layout/message_dialog.xml",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/message_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\dialog_notification.xml",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\dialog_notification.xml"
+        "merged": "vn.xdeuhug.movieXD.app-mergeDebugResources-77:/layout/crash_activity.xml",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/crash_activity.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\input_dialog.xml",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\input_dialog.xml"
+        "merged": "vn.xdeuhug.movieXD.app-mergeDebugResources-77:/layout/widget_status_layout.xml",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/widget_status_layout.xml"
     },
     {
-        "merged": "vn.xdeuhug.movieXD.app-mergeDebugResources-76:/layout/splash_activity.xml",
-        "source": "vn.xdeuhug.movieXD.app-main-69:/layout/splash_activity.xml"
-    },
-    {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-mergeDebugResources-76:\\layout\\ui_dialog.xml",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\vn.xdeuhug.movieXD.app-main-69:\\layout\\ui_dialog.xml"
+        "merged": "vn.xdeuhug.movieXD.app-mergeDebugResources-77:/layout/home_activity.xml",
+        "source": "vn.xdeuhug.movieXD.app-main-70:/layout/home_activity.xml"
     }
 ]

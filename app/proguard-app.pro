@@ -4,19 +4,19 @@
 # Làm xáo trộn và bảo vệ một phần mã của dự án của riêng bạn và các gói jar của bên thứ ba được tham chiếu
 #-libraryjars libs/xxxxxxxxx.jar
 
--keep class vn.techres.seniorsociable.http.api.** {
+-keep class vn.xdeuhug.movieXD.http.api.** {
     <fields>;
 }
--keep class vn.techres.seniorsociable.http.response.** {
+-keep class vn.xdeuhug.movieXD.http.response.** {
     <fields>;
 }
--keep class vn.techres.seniorsociable.http.model.** {
+-keep class vn.xdeuhug.movieXD.http.model.** {
     <fields>;
 }
 
 
 -keepclassmembernames class ** {
-    @vn.techres.seniorsociable.aop.Log <methods>;
+    @vn.xdeuhug.movieXD.aop.Log <methods>;
 }
 
 -keepattributes *Annotation*

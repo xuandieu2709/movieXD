@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/dp_240"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/dp_240"
     android:layout_marginBottom="@dimen/dp_8"
     tools:background="@color/color_main_bg"
     android:orientation="horizontal">
@@ -22,13 +23,24 @@
         android:layout_weight="1"
         android:orientation="vertical">
 
-        <vn.xdeuhug.movieXD.widget.AppTextViewBold
-            android:id="@+id/tvTitle"
-            android:textSize="@dimen/sp_20"
-            android:textColor="@color/white"
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="Kungfu Panda" />
+            android:orientation="vertical">
+            <vn.xdeuhug.movieXD.widget.AppTextViewBold
+                android:id="@+id/tvTitle"
+                android:textSize="@dimen/sp_20"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Kungfu Panda" />
+            <View
+                android:layout_marginTop="@dimen/dp_2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_2"
+                android:layout_marginHorizontal="@dimen/dp_2"
+                android:background="@color/green_007"/>
+        </LinearLayout>
 
         <vn.xdeuhug.movieXD.widget.AppTextView
             android:id="@+id/tvReleaseDate"
@@ -51,5 +63,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:text="2020" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvGenre"
+            android:layout_marginTop="@dimen/dp_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
     </LinearLayout>
 </LinearLayout>

@@ -13,7 +13,13 @@ AppConstants {
     const val PAGE_SIZE = 20
 
     const val ID_IMDB = "ID_IMDB"
+    const val TYPE_MOVIE = "TYPE_MOVIE"
+    // ### TYPE ###
+    const val IS_TYPE_MOVIE = 1
+    const val IS_TYPE_MOVIE_TV = 2
     const val ID_IMDB_STR = "ID_IMDB_STR"
+    const val SEASON = "SEASON"
+    const val EPISODE = "EPISODE"
 
     const val CACHE_HTTP_LOG = "CACHE_HTTP_LOG"
     const val CACHE_MUSIC = "CACHE_MUSIC"

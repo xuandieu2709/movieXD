@@ -23,6 +23,11 @@
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />
         <activity
+            android:name="vn.xdeuhug.movieXD.ui.activity.DetailMovieTVActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
             android:name="vn.xdeuhug.movieXD.ui.activity.SearchMovieActivity"
             android:exported="false"
             android:launchMode="singleTop"

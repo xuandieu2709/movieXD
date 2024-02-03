@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.view.View
 import com.hjq.http.EasyHttp
 import com.hjq.http.listener.HttpCallbackProxy
+import org.jetbrains.anko.startActivity
 import org.jetbrains.anko.support.v4.startActivity
 import vn.xdeuhug.movieXD.app.AppFragment
 import vn.xdeuhug.movieXD.constants.AppConstants
@@ -14,11 +15,13 @@ import vn.xdeuhug.movieXD.model.modelListMovie.Movie
 import vn.xdeuhug.movieXD.model.modelListMovie.MovieResponse
 import vn.xdeuhug.movieXD.router.APITheMovieDBRouter
 import vn.xdeuhug.movieXD.ui.activity.DetailMovieActivity
+import vn.xdeuhug.movieXD.ui.activity.DetailMovieTVActivity
 import vn.xdeuhug.movieXD.ui.activity.HomeActivity
-import vn.xdeuhug.movieXD.ui.activity.PlayMediaActivity
 import vn.xdeuhug.movieXD.ui.activity.SearchMovieActivity
 import vn.xdeuhug.movieXD.ui.adapter.MovieReviewAdapter
 import vn.xdeuhug.movieXD.utils.AppUtils
+import vn.xdeuhug.movieXD.utils.AppUtils.hide
+import vn.xdeuhug.movieXD.utils.AppUtils.show
 import java.util.ArrayList
 
 /**
@@ -42,10 +45,13 @@ class MovieFragment : AppFragment<HomeActivity>(), MovieReviewAdapter.OnClickIte
     }
 
     override fun initData() {
+        startShimmer()
         initRecycleView()
         setViewData()
-        getDataMovie()
-        getDataTrending()
+        postDelayed({
+            getDataTrending()
+            getDataMovie()
+        },1000)
         setClickSearch()
     }
 
@@ -64,6 +70,7 @@ class MovieFragment : AppFragment<HomeActivity>(), MovieReviewAdapter.OnClickIte
                     listReviewMoviePopular.clear()
                     listReviewMoviePopular.addAll(listData)
                     movieReviewPopularAdapter.notifyDataSetChanged()
+                    stopShimmerPopular()
                 }
             })
     }
@@ -77,6 +84,7 @@ class MovieFragment : AppFragment<HomeActivity>(), MovieReviewAdapter.OnClickIte
                     listReviewMovieTrending.clear()
                     listReviewMovieTrending.addAll(listData)
                     movieReviewTrendingAdapter.notifyDataSetChanged()
+                    stopShimmerTrending()
                 }
             })
     }
@@ -102,7 +110,52 @@ class MovieFragment : AppFragment<HomeActivity>(), MovieReviewAdapter.OnClickIte
         AppUtils.initRecyclerViewHorizontal(binding.itemPopular.rvMovie, movieReviewPopularAdapter)
     }
 
+    private fun stopShimmerTrending() {
+        postDelayed({
+            // hide and stop simmer
+            binding.sflTrending.stopShimmer()
+            binding.sflTrending.hide()
+            binding.itemTrending.rvMovie.show()
+        }, 1000)
+
+    }
+
+    private fun stopShimmerPopular() {
+        postDelayed({
+            // hide and stop simmer
+            binding.sflPopular.stopShimmer()
+            binding.sflPopular.hide()
+            binding.itemPopular.rvMovie.show()
+        }, 1000)
+
+    }
+
+
+
+    private fun startShimmer() {
+        binding.itemPopular.rvMovie.hide()
+        binding.itemTrending.rvMovie.hide()
+        binding.sflTrending.startShimmer()
+        binding.sflPopular.startShimmer()
+    }
+
     override fun onClick(movie: Movie) {
-        startActivity<DetailMovieActivity>(AppConstants.ID_IMDB to movie.id)
+        if(movie.knownFor.isNotEmpty())
+        {
+            if(movie.mediaType == "tv")
+            {
+                startActivity<DetailMovieTVActivity>(AppConstants.ID_IMDB to movie.knownFor[0].id)
+            }else{
+                startActivity<DetailMovieActivity>(AppConstants.ID_IMDB to movie.knownFor[0].id)
+            }
+        }else{
+            if(movie.mediaType == "tv")
+            {
+                startActivity<DetailMovieTVActivity>(AppConstants.ID_IMDB to movie.id)
+            }else{
+                startActivity<DetailMovieActivity>(AppConstants.ID_IMDB to movie.id)
+            }
+        }
+
     }
 }

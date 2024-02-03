@@ -3,7 +3,6 @@ package vn.xdeuhug.movieXD.model.modelListMovie
 
 import com.google.gson.annotations.SerializedName
 import com.hjq.http.annotation.HttpRename
-import vn.xdeuhug.movieXD.model.modelListMovie.Movie
 
 class MovieResponse {
     var page = 0

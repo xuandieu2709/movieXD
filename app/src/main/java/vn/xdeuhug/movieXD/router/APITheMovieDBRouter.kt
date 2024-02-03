@@ -11,6 +11,10 @@ object APITheMovieDBRouter {
     const val API_KEY = "b7c3309b3ea8fdf5c9afa62154eefc7f"
 
 
+
+//    https://www.2embed.cc/embedtv/tt3107288&s=1&e=1 SERIES
+
+
     const val HOST_IMAGE = "https://image.tmdb.org/t/p/original"
     const val HOST_IMAGE_BIG_SIZE = "https://image.tmdb.org/t/p/w500"
 
@@ -29,7 +33,12 @@ object APITheMovieDBRouter {
     fun API_TRENDING(): String {
         return "trending/all/day"
     }
+
     fun API_SEARCH_MOVIE(): String {
         return "search/multi"
+    }
+
+    fun API_TV_SERIES(idIMDB: String):String {
+        return idIMDB
     }
 }
