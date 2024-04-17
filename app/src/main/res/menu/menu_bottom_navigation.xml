@@ -4,14 +4,14 @@
     <item
         android:id="@+id/itemMovie"
         android:icon="@drawable/ic_movie"
-        android:title="@string/movie" />
-    <item
-        android:id="@+id/itemMovie1"
-        android:icon="@drawable/ic_movie"
-        android:title="@string/movie" />
-    <item
-        android:id="@+id/itemMovie2"
-        android:icon="@drawable/ic_movie"
-        android:title="@string/movie" />
+        android:title="" />
+<!--    <item-->
+<!--        android:id="@+id/itemMovie1"-->
+<!--        android:icon="@drawable/ic_movie"-->
+<!--        android:title="@string/movie" />-->
+<!--    <item-->
+<!--        android:id="@+id/itemMovie2"-->
+<!--        android:icon="@drawable/ic_movie"-->
+<!--        android:title="@string/movie" />-->
 
 </menu>

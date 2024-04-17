@@ -266,4 +266,15 @@ object AppUtils {
         return resources.openRawResource(resourceId)
     }
 
+    fun roundAndFormat(number: Double): String {
+        val rounded = BigDecimal(number).setScale(1, RoundingMode.HALF_UP).toDouble()
+        var formatted = if (rounded % 1 == 0.0) {
+            rounded.toInt().toString()
+        } else {
+            rounded.toString()
+        }
+
+        return formatted
+    }
+
 }

@@ -7,32 +7,33 @@
     </data>
 
     <RelativeLayout
-        android:background="@color/color_main_bg"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/color_main_bg">
 
         <androidx.viewpager2.widget.ViewPager2
             android:id="@+id/contentView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_alignParentTop="true"
-            android:layout_above="@id/mBottomNavigationView" />
+            android:layout_above="@id/mBottomNavigationView"
+            android:layout_alignParentTop="true" />
 
         <com.ismaeldivita.chipnavigation.ChipNavigationBar
             android:id="@+id/mBottomNavigationView"
-            android:layout_alignParentBottom="true"
+            android:visibility="visible"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:cnb_menuResource="@menu/menu_bottom_navigation"
-            app:cnb_orientationMode="horizontal"
+            android:layout_alignParentBottom="true"
             app:cnb_addBottomInset="false"
             app:cnb_addLeftInset="false"
             app:cnb_addRightInset="false"
             app:cnb_addTopInset="false"
-            app:cnb_unselectedColor="@null"
-            app:cnb_radius="8dp"
+            app:cnb_animationDuration="175"
             app:cnb_iconSize="24dp"
-            app:cnb_animationDuration="175"/>
-<!--        app:cnb_textAppearance="?myThemeTextAppearance"-->
+            app:cnb_menuResource="@menu/menu_bottom_navigation"
+            app:cnb_orientationMode="horizontal"
+            app:cnb_radius="8dp"
+            app:cnb_unselectedColor="@null" />
+        <!--        app:cnb_textAppearance="?myThemeTextAppearance"-->
     </RelativeLayout>
 </layout>

@@ -57,7 +57,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\9c9b8b4c369f81c43f9ef9c2fcc684f6\\transformed\\jetified-exoplayer-ui-2.17.1\\res\\values-vi\\values-vi.xml",
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\2426d9c93a441bc2cc1b78800b2df74d\\transformed\\jetified-exoplayer-ui-2.17.1\\res\\values-vi\\values-vi.xml",
                     "from": {
                         "startLines": "2,11,15,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -76,6 +76,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\cffe8fae5a4e17edd0a002445022c2ed\\transformed\\core-1.13.0-rc01\\res\\values-vi\\values-vi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,254,353,453,556,669,785",
+                        "endColumns": "96,101,98,99,102,112,115,100",
+                        "endOffsets": "147,249,348,448,551,664,780,881"
+                    },
+                    "to": {
+                        "startLines": "55,56,57,58,59,60,61,199",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3994,4091,4193,4292,4392,4495,4608,16174",
+                        "endColumns": "96,101,98,99,102,112,115,100",
+                        "endOffsets": "4086,4188,4287,4387,4490,4603,4719,16270"
+                    }
+                },
+                {
                     "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\d9da8e647f9af907f708199106b3316f\\transformed\\appcompat-1.6.1\\res\\values-vi\\values-vi.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
@@ -90,23 +107,6 @@
                         "startOffsets": "907,1014,1116,1225,1309,1412,1531,1609,1685,1776,1869,1964,2058,2158,2251,2346,2440,2531,2622,2706,2810,2918,3019,3124,3239,3344,3501,16089",
                         "endColumns": "106,101,108,83,102,118,77,75,90,92,94,93,99,92,94,93,90,90,83,103,107,100,104,114,104,156,98,84",
                         "endOffsets": "1009,1111,1220,1304,1407,1526,1604,1680,1771,1864,1959,2053,2153,2246,2341,2435,2526,2617,2701,2805,2913,3014,3119,3234,3339,3496,3595,16169"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\0f9b7e7fe10eccf71772ec1bd7d1a0c2\\transformed\\core-1.13.0-alpha04\\res\\values-vi\\values-vi.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,152,254,353,453,556,669,785",
-                        "endColumns": "96,101,98,99,102,112,115,100",
-                        "endOffsets": "147,249,348,448,551,664,780,881"
-                    },
-                    "to": {
-                        "startLines": "55,56,57,58,59,60,61,199",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3994,4091,4193,4292,4392,4495,4608,16174",
-                        "endColumns": "96,101,98,99,102,112,115,100",
-                        "endOffsets": "4086,4188,4287,4387,4490,4603,4719,16270"
                     }
                 },
                 {

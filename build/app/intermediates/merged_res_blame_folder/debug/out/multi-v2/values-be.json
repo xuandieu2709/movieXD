@@ -4,7 +4,7 @@
             "outputFile": "vn.xdeuhug.movieXD.app-mergeDebugResources-76:/values-be/values-be.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\9c9b8b4c369f81c43f9ef9c2fcc684f6\\transformed\\jetified-exoplayer-ui-2.17.1\\res\\values-be\\values-be.xml",
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\2426d9c93a441bc2cc1b78800b2df74d\\transformed\\jetified-exoplayer-ui-2.17.1\\res\\values-be\\values-be.xml",
                     "from": {
                         "startLines": "2,11,17,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -54,23 +54,6 @@
                         "startOffsets": "7764,11759,11867,11979",
                         "endColumns": "108,107,111,106",
                         "endOffsets": "7868,11862,11974,12081"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\0f9b7e7fe10eccf71772ec1bd7d1a0c2\\transformed\\core-1.13.0-alpha04\\res\\values-be\\values-be.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,153,255,355,456,562,665,786",
-                        "endColumns": "97,101,99,100,105,102,120,100",
-                        "endOffsets": "148,250,350,451,557,660,781,882"
-                    },
-                    "to": {
-                        "startLines": "61,62,63,64,65,66,67,205",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "4489,4587,4689,4789,4890,4996,5099,16874",
-                        "endColumns": "97,101,99,100,105,102,120,100",
-                        "endOffsets": "4582,4684,4784,4885,4991,5094,5215,16970"
                     }
                 },
                 {
@@ -141,6 +124,23 @@
                         "startOffsets": "5532,5639,5801,5926,6036,6191,6317,6432,6682,6844,6951,7114,7242,7395,7554,7623,7685",
                         "endColumns": "106,161,124,109,154,125,114,103,161,106,162,127,152,158,68,61,78",
                         "endOffsets": "5634,5796,5921,6031,6186,6312,6427,6531,6839,6946,7109,7237,7390,7549,7618,7680,7759"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\cffe8fae5a4e17edd0a002445022c2ed\\transformed\\core-1.13.0-rc01\\res\\values-be\\values-be.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,355,456,562,665,786",
+                        "endColumns": "97,101,99,100,105,102,120,100",
+                        "endOffsets": "148,250,350,451,557,660,781,882"
+                    },
+                    "to": {
+                        "startLines": "61,62,63,64,65,66,67,205",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "4489,4587,4689,4789,4890,4996,5099,16874",
+                        "endColumns": "97,101,99,100,105,102,120,100",
+                        "endOffsets": "4582,4684,4784,4885,4991,5094,5215,16970"
                     }
                 }
             ]

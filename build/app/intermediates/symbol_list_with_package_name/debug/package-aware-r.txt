@@ -4211,6 +4211,8 @@ drawable ic_search_white
 drawable ic_senior_sociable_no_slogan
 drawable ic_share
 drawable ic_star
+drawable ic_star_not_active
+drawable ic_star_selected
 drawable ic_user_default
 drawable input_delete_ic
 drawable ksw_md_thumb
@@ -4670,8 +4672,6 @@ id inward
 id is_pooling_container_tag
 id italic
 id itemMovie
-id itemMovie1
-id itemMovie2
 id item_touch_helper_previous_elevation
 id iv_crash_info
 id iv_crash_restart
@@ -5696,6 +5696,7 @@ string mtrl_switch_track_path
 string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
 string notification
+string number_of_rate
 string overview
 string password_toggle_content_description
 string path_password_eye
@@ -5705,6 +5706,7 @@ string path_password_strike_through
 string play
 string popular
 string project_id
+string rate
 string rating
 string saturday
 string search_menu_title
@@ -5732,6 +5734,7 @@ string token_expired
 string trailer
 string trending
 string tuesday
+string undefine
 string view_all
 string wednesday
 style AlertDialog_AppCompat

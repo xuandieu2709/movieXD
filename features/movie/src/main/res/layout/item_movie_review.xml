@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="@dimen/dp_240"
-    android:layout_height="@dimen/dp_400"
+    android:layout_width="@dimen/dp_200"
+    android:layout_height="@dimen/dp_320"
     android:layout_marginHorizontal="@dimen/dp_8"
     android:orientation="vertical">
 
-    <ImageView
+    <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/imvMovie"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -38,7 +38,7 @@
             android:layout_marginTop="@dimen/dp_8"
             android:orientation="horizontal">
 
-            <ImageView
+            <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/imvStart1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
                 android:contentDescription="@string/default_images"
                 android:src="@drawable/ic_star" />
 
-            <ImageView
+            <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/imvStart2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -54,7 +54,7 @@
                 android:contentDescription="@string/default_images"
                 android:src="@drawable/ic_star" />
 
-            <ImageView
+            <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/imvStart3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -62,7 +62,7 @@
                 android:contentDescription="@string/default_images"
                 android:src="@drawable/ic_star" />
 
-            <ImageView
+            <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/imvStart4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -70,7 +70,7 @@
                 android:contentDescription="@string/default_images"
                 android:src="@drawable/ic_star" />
 
-            <ImageView
+            <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/imvStart5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

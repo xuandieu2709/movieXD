@@ -4,6 +4,23 @@
             "outputFile": "vn.xdeuhug.movieXD.app-mergeDebugResources-76:/values-mn/values-mn.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\cffe8fae5a4e17edd0a002445022c2ed\\transformed\\core-1.13.0-rc01\\res\\values-mn\\values-mn.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,356,454,559,671,790",
+                        "endColumns": "97,101,100,97,104,111,118,100",
+                        "endOffsets": "148,250,351,449,554,666,785,886"
+                    },
+                    "to": {
+                        "startLines": "55,56,57,58,59,60,61,199",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "4031,4129,4231,4332,4430,4535,4647,16272",
+                        "endColumns": "97,101,100,97,104,111,118,100",
+                        "endOffsets": "4124,4226,4327,4425,4530,4642,4761,16368"
+                    }
+                },
+                {
                     "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\ad6e58042b31fb7fe1c17721fa03d0f6\\transformed\\material-1.11.0\\res\\values-mn\\values-mn.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73",
@@ -57,7 +74,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\9c9b8b4c369f81c43f9ef9c2fcc684f6\\transformed\\jetified-exoplayer-ui-2.17.1\\res\\values-mn\\values-mn.xml",
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\2426d9c93a441bc2cc1b78800b2df74d\\transformed\\jetified-exoplayer-ui-2.17.1\\res\\values-mn\\values-mn.xml",
                     "from": {
                         "startLines": "2,11,15,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -90,23 +107,6 @@
                         "startOffsets": "932,1046,1146,1255,1341,1447,1561,1644,1725,1816,1909,2004,2100,2197,2290,2384,2476,2567,2657,2737,2844,2947,3044,3151,3253,3366,3525,16191",
                         "endColumns": "113,99,108,85,105,113,82,80,90,92,94,95,96,92,93,91,90,89,79,106,102,96,106,101,112,158,98,80",
                         "endOffsets": "1041,1141,1250,1336,1442,1556,1639,1720,1811,1904,1999,2095,2192,2285,2379,2471,2562,2652,2732,2839,2942,3039,3146,3248,3361,3520,3619,16267"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\0f9b7e7fe10eccf71772ec1bd7d1a0c2\\transformed\\core-1.13.0-alpha04\\res\\values-mn\\values-mn.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,153,255,356,454,559,671,790",
-                        "endColumns": "97,101,100,97,104,111,118,100",
-                        "endOffsets": "148,250,351,449,554,666,785,886"
-                    },
-                    "to": {
-                        "startLines": "55,56,57,58,59,60,61,199",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "4031,4129,4231,4332,4430,4535,4647,16272",
-                        "endColumns": "97,101,100,97,104,111,118,100",
-                        "endOffsets": "4124,4226,4327,4425,4530,4642,4761,16368"
                     }
                 },
                 {

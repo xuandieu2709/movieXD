@@ -52,6 +52,7 @@ android {
             addManifestPlaceholders(['app_name': '@string/app_name'])
 
             proguardFiles 'proguard-sdk.pro', 'proguard-app.pro'
+            signingConfig signingConfigs.debug
         }
     }
 
@@ -194,4 +195,7 @@ dependencies {
 
     //link:https://github.com/facebook/shimmer-android
     api 'com.facebook.shimmer:shimmer:0.5.0@aar'
+
+    // https://github.com/MonsterTechnoGits/WebViewAdblock-Library
+    api 'com.github.MonsterTechnoGits:WebViewAdblock:1.1'
 }

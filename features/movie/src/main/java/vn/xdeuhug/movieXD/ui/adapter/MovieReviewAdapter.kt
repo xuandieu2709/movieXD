@@ -1,5 +1,6 @@
 package vn.xdeuhug.movieXD.ui.adapter
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -49,6 +50,7 @@ class MovieReviewAdapter(context: Context) : AppAdapter<Movie>(context) {
 
         override fun onBindView(position: Int) {
             val item = getItem(position)
+            setRate(item)
             PhotoShowUtils.loadPhotoImageNormal(
                 APITheMovieDBRouter.HOST_IMAGE_BIG_SIZE + item.posterPath, binding.imvMovie
             )
@@ -58,6 +60,48 @@ class MovieReviewAdapter(context: Context) : AppAdapter<Movie>(context) {
                 binding.tvTitle.text = item.originalName
             }
         }
+
+        @SuppressLint("DiscouragedApi")
+        private fun setRate(item: Movie) {
+            when(item.voteAverage){
+                in 0.0 .. 2.0 ->{
+                    binding.imvStart1.setImageResource(getResources().getIdentifier("ic_star", "drawable", getContext().packageName))
+                    binding.imvStart2.setImageResource(getResources().getIdentifier("ic_star_not_active", "drawable", getContext().packageName))
+                    binding.imvStart3.setImageResource(getResources().getIdentifier("ic_star_not_active", "drawable", getContext().packageName))
+                    binding.imvStart4.setImageResource(getResources().getIdentifier("ic_star_not_active", "drawable", getContext().packageName))
+                    binding.imvStart5.setImageResource(getResources().getIdentifier("ic_star_not_active", "drawable", getContext().packageName))
+                }
+                in 2.0 .. 4.0 ->{
+                    binding.imvStart1.setImageResource(getResources().getIdentifier("ic_star", "drawable", getContext().packageName))
+                    binding.imvStart2.setImageResource(getResources().getIdentifier("ic_star", "drawable", getContext().packageName))
+                    binding.imvStart3.setImageResource(getResources().getIdentifier("ic_star_not_active", "drawable", getContext().packageName))
+                    binding.imvStart4.setImageResource(getResources().getIdentifier("ic_star_not_active", "drawable", getContext().packageName))
+                    binding.imvStart5.setImageResource(getResources().getIdentifier("ic_star_not_active", "drawable", getContext().packageName))
+                }
+                in 4.0 .. 6.0 ->{
+                    binding.imvStart1.setImageResource(getResources().getIdentifier("ic_star", "drawable", getContext().packageName))
+                    binding.imvStart2.setImageResource(getResources().getIdentifier("ic_star", "drawable", getContext().packageName))
+                    binding.imvStart3.setImageResource(getResources().getIdentifier("ic_star", "drawable", getContext().packageName))
+                    binding.imvStart4.setImageResource(getResources().getIdentifier("ic_star_not_active", "drawable", getContext().packageName))
+                    binding.imvStart5.setImageResource(getResources().getIdentifier("ic_star_not_active", "drawable", getContext().packageName))
+                }
+                in 6.0 .. 8.0 ->{
+                    binding.imvStart1.setImageResource(getResources().getIdentifier("ic_star", "drawable", getContext().packageName))
+                    binding.imvStart2.setImageResource(getResources().getIdentifier("ic_star", "drawable", getContext().packageName))
+                    binding.imvStart3.setImageResource(getResources().getIdentifier("ic_star", "drawable", getContext().packageName))
+                    binding.imvStart4.setImageResource(getResources().getIdentifier("ic_star", "drawable", getContext().packageName))
+                    binding.imvStart5.setImageResource(getResources().getIdentifier("ic_star_not_active", "drawable", getContext().packageName))
+                }
+                in 8.0 .. 10.0 ->{
+                    binding.imvStart1.setImageResource(getResources().getIdentifier("ic_star", "drawable", getContext().packageName))
+                    binding.imvStart2.setImageResource(getResources().getIdentifier("ic_star", "drawable", getContext().packageName))
+                    binding.imvStart3.setImageResource(getResources().getIdentifier("ic_star", "drawable", getContext().packageName))
+                    binding.imvStart4.setImageResource(getResources().getIdentifier("ic_star", "drawable", getContext().packageName))
+                    binding.imvStart5.setImageResource(getResources().getIdentifier("ic_star", "drawable", getContext().packageName))
+                }
+            }
+        }
+
 
     }
 
@@ -74,18 +118,19 @@ class MovieReviewAdapter(context: Context) : AppAdapter<Movie>(context) {
 
         override fun onBindView(position: Int) {
             val item = getItem(position)
-            if(item.knownFor.isNotEmpty())
-            {
+            setRate(item)
+            if (item.knownFor.isNotEmpty()) {
 
                 PhotoShowUtils.loadPhotoImageNormal(
-                    APITheMovieDBRouter.HOST_IMAGE_BIG_SIZE +  item.knownFor[0].posterPath, binding.imvMovie
+                    APITheMovieDBRouter.HOST_IMAGE_BIG_SIZE + item.knownFor[0].posterPath,
+                    binding.imvMovie
                 )
                 if (item.knownFor[0].mediaType != "tv") {
                     binding.tvTitle.text = item.knownFor[0].title
                 } else {
                     binding.tvTitle.text = item.knownFor[0].originalTitle
                 }
-            }else{
+            } else {
 
                 PhotoShowUtils.loadPhotoImageNormal(
                     APITheMovieDBRouter.HOST_IMAGE_BIG_SIZE + item.posterPath, binding.imvMovie
@@ -94,6 +139,48 @@ class MovieReviewAdapter(context: Context) : AppAdapter<Movie>(context) {
                     binding.tvTitle.text = item.title
                 } else {
                     binding.tvTitle.text = item.originalName
+                }
+            }
+
+        }
+
+        @SuppressLint("DiscouragedApi")
+        private fun setRate(item: Movie) {
+            when(item.voteAverage){
+                in 0.0 .. 2.0 ->{
+                    binding.imvStart1.setImageResource(getResources().getIdentifier("ic_star", "drawable", getContext().packageName))
+                    binding.imvStart2.setImageResource(getResources().getIdentifier("ic_star_not_active", "drawable", getContext().packageName))
+                    binding.imvStart3.setImageResource(getResources().getIdentifier("ic_star_not_active", "drawable", getContext().packageName))
+                    binding.imvStart4.setImageResource(getResources().getIdentifier("ic_star_not_active", "drawable", getContext().packageName))
+                    binding.imvStart5.setImageResource(getResources().getIdentifier("ic_star_not_active", "drawable", getContext().packageName))
+                }
+                in 2.0 .. 4.0 ->{
+                    binding.imvStart1.setImageResource(getResources().getIdentifier("ic_star", "drawable", getContext().packageName))
+                    binding.imvStart2.setImageResource(getResources().getIdentifier("ic_star", "drawable", getContext().packageName))
+                    binding.imvStart3.setImageResource(getResources().getIdentifier("ic_star_not_active", "drawable", getContext().packageName))
+                    binding.imvStart4.setImageResource(getResources().getIdentifier("ic_star_not_active", "drawable", getContext().packageName))
+                    binding.imvStart5.setImageResource(getResources().getIdentifier("ic_star_not_active", "drawable", getContext().packageName))
+                }
+                in 4.0 .. 6.0 ->{
+                    binding.imvStart1.setImageResource(getResources().getIdentifier("ic_star", "drawable", getContext().packageName))
+                    binding.imvStart2.setImageResource(getResources().getIdentifier("ic_star", "drawable", getContext().packageName))
+                    binding.imvStart3.setImageResource(getResources().getIdentifier("ic_star", "drawable", getContext().packageName))
+                    binding.imvStart4.setImageResource(getResources().getIdentifier("ic_star_not_active", "drawable", getContext().packageName))
+                    binding.imvStart5.setImageResource(getResources().getIdentifier("ic_star_not_active", "drawable", getContext().packageName))
+                }
+                in 6.0 .. 8.0 ->{
+                    binding.imvStart1.setImageResource(getResources().getIdentifier("ic_star", "drawable", getContext().packageName))
+                    binding.imvStart2.setImageResource(getResources().getIdentifier("ic_star", "drawable", getContext().packageName))
+                    binding.imvStart3.setImageResource(getResources().getIdentifier("ic_star", "drawable", getContext().packageName))
+                    binding.imvStart4.setImageResource(getResources().getIdentifier("ic_star", "drawable", getContext().packageName))
+                    binding.imvStart5.setImageResource(getResources().getIdentifier("ic_star_not_active", "drawable", getContext().packageName))
+                }
+                in 8.0 .. 10.0 ->{
+                    binding.imvStart1.setImageResource(getResources().getIdentifier("ic_star", "drawable", getContext().packageName))
+                    binding.imvStart2.setImageResource(getResources().getIdentifier("ic_star", "drawable", getContext().packageName))
+                    binding.imvStart3.setImageResource(getResources().getIdentifier("ic_star", "drawable", getContext().packageName))
+                    binding.imvStart4.setImageResource(getResources().getIdentifier("ic_star", "drawable", getContext().packageName))
+                    binding.imvStart5.setImageResource(getResources().getIdentifier("ic_star", "drawable", getContext().packageName))
                 }
             }
         }

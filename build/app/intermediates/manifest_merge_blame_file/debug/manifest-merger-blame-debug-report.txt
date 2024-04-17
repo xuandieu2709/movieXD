@@ -221,15 +221,15 @@
 115-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\DELL\.gradle\caches\transforms-3\c05ec9b169b9fe49760c64ed2761f62c\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:26:22-107
 116
 117    <permission
-117-->[androidx.core:core:1.13.0-alpha04] C:\Users\DELL\.gradle\caches\transforms-3\0f9b7e7fe10eccf71772ec1bd7d1a0c2\transformed\core-1.13.0-alpha04\AndroidManifest.xml:22:5-24:47
+117-->[androidx.core:core:1.13.0-rc01] C:\Users\DELL\.gradle\caches\transforms-3\cffe8fae5a4e17edd0a002445022c2ed\transformed\core-1.13.0-rc01\AndroidManifest.xml:22:5-24:47
 118        android:name="vn.xdeuhug.movieXD.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-118-->[androidx.core:core:1.13.0-alpha04] C:\Users\DELL\.gradle\caches\transforms-3\0f9b7e7fe10eccf71772ec1bd7d1a0c2\transformed\core-1.13.0-alpha04\AndroidManifest.xml:23:9-81
+118-->[androidx.core:core:1.13.0-rc01] C:\Users\DELL\.gradle\caches\transforms-3\cffe8fae5a4e17edd0a002445022c2ed\transformed\core-1.13.0-rc01\AndroidManifest.xml:23:9-81
 119        android:protectionLevel="signature" />
-119-->[androidx.core:core:1.13.0-alpha04] C:\Users\DELL\.gradle\caches\transforms-3\0f9b7e7fe10eccf71772ec1bd7d1a0c2\transformed\core-1.13.0-alpha04\AndroidManifest.xml:24:9-44
+119-->[androidx.core:core:1.13.0-rc01] C:\Users\DELL\.gradle\caches\transforms-3\cffe8fae5a4e17edd0a002445022c2ed\transformed\core-1.13.0-rc01\AndroidManifest.xml:24:9-44
 120
 121    <uses-permission android:name="vn.xdeuhug.movieXD.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-121-->[androidx.core:core:1.13.0-alpha04] C:\Users\DELL\.gradle\caches\transforms-3\0f9b7e7fe10eccf71772ec1bd7d1a0c2\transformed\core-1.13.0-alpha04\AndroidManifest.xml:26:5-97
-121-->[androidx.core:core:1.13.0-alpha04] C:\Users\DELL\.gradle\caches\transforms-3\0f9b7e7fe10eccf71772ec1bd7d1a0c2\transformed\core-1.13.0-alpha04\AndroidManifest.xml:26:22-94
+121-->[androidx.core:core:1.13.0-rc01] C:\Users\DELL\.gradle\caches\transforms-3\cffe8fae5a4e17edd0a002445022c2ed\transformed\core-1.13.0-rc01\AndroidManifest.xml:26:5-97
+121-->[androidx.core:core:1.13.0-rc01] C:\Users\DELL\.gradle\caches\transforms-3\cffe8fae5a4e17edd0a002445022c2ed\transformed\core-1.13.0-rc01\AndroidManifest.xml:26:22-94
 122
 123    <application
 124        android:name="vn.xdeuhug.movieXD.app.AppApplication"
@@ -237,7 +237,7 @@
 125        android:allowBackup="true"
 125-->C:\Users\DELL\Desktop\MovieApp\app\src\main\AndroidManifest.xml:116:9-35
 126        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-126-->[androidx.core:core:1.13.0-alpha04] C:\Users\DELL\.gradle\caches\transforms-3\0f9b7e7fe10eccf71772ec1bd7d1a0c2\transformed\core-1.13.0-alpha04\AndroidManifest.xml:28:18-86
+126-->[androidx.core:core:1.13.0-rc01] C:\Users\DELL\.gradle\caches\transforms-3\cffe8fae5a4e17edd0a002445022c2ed\transformed\core-1.13.0-rc01\AndroidManifest.xml:28:18-86
 127        android:debuggable="true"
 127-->[:features:movie] C:\Users\DELL\Desktop\MovieApp\build\features\movie\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:22:9-34
 128        android:enableOnBackInvokedCallback="true"

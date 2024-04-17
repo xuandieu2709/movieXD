@@ -8,6 +8,7 @@ import android.widget.Toast
 import com.hjq.http.EasyHttp
 import com.hjq.http.listener.HttpCallbackProxy
 import org.jetbrains.anko.startActivity
+import vn.xdeuhug.movieXD.R
 import vn.xdeuhug.movieXD.app.AppActivity
 import vn.xdeuhug.movieXD.constants.AppConstants
 import vn.xdeuhug.movieXD.databinding.ActivityDetailMovieBinding
@@ -71,6 +72,7 @@ class DetailMovieActivity : AppActivity() {
         }
     }
 
+    @SuppressLint("DiscouragedApi")
     private fun setClickButtonPlay() {
         binding.itemDetail.llPlay.clickWithDebounce {
             if (movie.status in arrayListOf("Released", "Returning Series", "Ended")) {
@@ -80,7 +82,7 @@ class DetailMovieActivity : AppActivity() {
                 )
             } else {
                 Toast.makeText(
-                    getContext(), "Phim này sẽ sớm ra mắt vào ngày - ${
+                    getContext(), "${getString(getResources().getIdentifier("movie_coming_soon", "string", getContext().packageName))} - ${
                         DateUtils.formatDate(
                             movie.releaseDate
                         )
@@ -116,7 +118,7 @@ class DetailMovieActivity : AppActivity() {
             })
     }
 
-    @SuppressLint("SetTextI18n")
+    @SuppressLint("SetTextI18n", "DiscouragedApi")
     private fun setDataForView() {
         PhotoShowUtils.loadPhotoImageNormal(
             APITheMovieDBRouter.HOST_IMAGE_BIG_SIZE + movie.posterPath,
@@ -127,13 +129,13 @@ class DetailMovieActivity : AppActivity() {
             binding.itemHead.tvReleaseDate.text = DateUtils.formatDate(
                 movie.releaseDate
             )
-        } else {
-
-            binding.itemHead.tvReleaseDate.text = "Không xác định"
+        }else{
+            binding.itemHead.tvReleaseDate.text =
+                getString(getResources().getIdentifier("undefine", "string", getContext().packageName))
         }
-        binding.itemHead.tvVoteCount.text = "Đánh giá: ${movie.voteAverage}/10"
+        binding.itemHead.tvVoteCount.text = "${getString(getResources().getIdentifier("rate", "string", getContext().packageName))}: ${AppUtils.roundAndFormat(movie.voteAverage)}/10"
         binding.itemHead.tvSumVoteCount.text =
-            "Số lượng đánh giá: ${AppUtils.getMoneyFormatted(movie.voteCount.toBigDecimal())}"
+            "${getString(getResources().getIdentifier("number_of_rate", "string", getContext().packageName))}: ${AppUtils.getMoneyFormatted(movie.voteCount.toBigDecimal())}"
         binding.itemDetail.tvContent.text = movie.overview
     }
 }

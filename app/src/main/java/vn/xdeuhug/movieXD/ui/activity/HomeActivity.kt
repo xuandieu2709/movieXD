@@ -73,7 +73,7 @@ class HomeActivity : AppActivity() {
 
         //Chặn viewpager2 vuốt
         binding.contentView.isUserInputEnabled = false
-        binding.mBottomNavigationView.setItemSelected(R.id.itemMovie1,true)
+        binding.mBottomNavigationView.setItemSelected(R.id.itemMovie,true)
         binding.mBottomNavigationView.setOnItemSelectedListener {
             // Thay đổi
         }

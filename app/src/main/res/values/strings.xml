@@ -3,7 +3,7 @@
     <string name="facebook_app_id">1459597228217742</string>
     <string name="facebook_client_token">86d3e326ccabd6b54ef1258edac47b5d</string>
     <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
-    <string name="app_name" translatable="false">Techres - Senior Sociable</string>
+    <string name="app_name" translatable="false">Phim XD</string>
     <string name="start">Bắt đầu</string>
     <string name="token_expired">Phiên đăng nhập hết hạn. Vui lòng đăng nhập lại</string>
     <string name="loading">Đang tải…</string>
@@ -74,6 +74,9 @@
     <string name="sum_of_rating">Số lượng đánh giá</string>
     <string name="episode">Episode</string>
     <string name="seasons">Seasons</string>
+    <string name="undefine">Không xác định</string>
+    <string name="rate">Đánh giá</string>
+    <string name="number_of_rate">Số lượng đánh giá</string>
 </resources>
 
 

@@ -48,7 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/dp_16"
             android:contentDescription="@string/default_images"
-            android:src="@drawable/ic_play" />
+            android:src="@drawable/ic_movie" />
 
         <vn.xdeuhug.movieXD.widget.AppTextView
             android:id="@+id/tvTime"
