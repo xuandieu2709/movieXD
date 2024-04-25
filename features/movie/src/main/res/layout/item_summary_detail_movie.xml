@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -11,37 +12,39 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/dp_16"
         android:orientation="vertical">
+
         <vn.xdeuhug.movieXD.widget.AppTextViewBold
             android:id="@+id/tvTrailer"
-            android:textColor="@color/white"
-            android:textSize="@dimen/sp_24"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/dp_4"
-            android:text="@string/trailer" />
+            android:text="@string/trailer"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_24" />
+
         <View
-            android:layout_marginTop="@dimen/dp_2"
-            android:layout_marginHorizontal="@dimen/dp_2"
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_2"
-            android:background="@color/green_007"/>
+            android:layout_marginHorizontal="@dimen/dp_2"
+            android:layout_marginTop="@dimen/dp_2"
+            android:background="@color/green_007" />
     </LinearLayout>
 
     <WebView
         android:id="@+id/wvTrailer"
         android:layout_width="match_parent"
         android:layout_height="@dimen/dp_240"
-        android:layout_marginBottom="@dimen/dp_8"/>
+        android:layout_marginBottom="@dimen/dp_8" />
 
     <LinearLayout
         android:id="@+id/llPlay"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp_16"
         android:background="@drawable/button_rounded_rectangle"
         android:gravity="center"
         android:orientation="horizontal"
-        android:paddingVertical="@dimen/dp_8"
-        android:layout_marginHorizontal="@dimen/dp_16">
+        android:paddingVertical="@dimen/dp_8">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -64,27 +67,36 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dp_16"
         android:orientation="vertical">
+
         <vn.xdeuhug.movieXD.widget.AppTextViewBold
             android:id="@+id/tvSummary"
-            android:textColor="@color/white"
-            android:textSize="@dimen/sp_24"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/overview" />
+            android:text="@string/overview"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_24" />
+
         <View
-            android:layout_marginTop="@dimen/dp_2"
-            android:layout_marginHorizontal="@dimen/dp_2"
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_2"
-            android:background="@color/green_007"/>
+            android:layout_marginHorizontal="@dimen/dp_2"
+            android:layout_marginTop="@dimen/dp_2"
+            android:background="@color/green_007" />
     </LinearLayout>
 
     <vn.xdeuhug.movieXD.widget.AppTextView
         android:id="@+id/tvContent"
-        android:layout_marginTop="@dimen/dp_8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text=".... . . . . .. . . . . .. . . . .. . . . . .. ."
+        android:layout_marginTop="@dimen/dp_8"
         android:textColor="@color/gray_200"
-        android:textSize="@dimen/sp_14" />
+        android:textSize="@dimen/sp_14"
+        tools:text=".... . . . . .. . . . . .. . . . .. . . . . .. ." />
+
+    <io.husaynhakeem.tradur.TradurTextView
+        android:id="@+id/tvTranslate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_14"
+        app:translate_field="@+id/tvContent" />
 </LinearLayout>

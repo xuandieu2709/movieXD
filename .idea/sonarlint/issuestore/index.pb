@@ -113,3 +113,5 @@ t
 Dlibrary/base/src/main/java/vn/xdeuhug/base/action/ResourcesAction.kt,6\9\6998b90a87bc991115ea6a28287e8cbb13c280e0
 g
 7app/src/main/java/vn/xdeuhug/movieXD/other/AppConfig.kt,8\8\88f9032a1f5c24a000b90732f15efd6bbd816cd4
+v
+Fapp/src/main/java/vn/xdeuhug/movieXD/constants/ModuleClassConstants.kt,9\6\96777314c1d55b2f296cd26acc6177df3b4e7a0e

@@ -4,7 +4,6 @@ import android.annotation.SuppressLint
 import android.view.View
 import com.hjq.http.EasyHttp
 import com.hjq.http.listener.HttpCallbackProxy
-import org.jetbrains.anko.startActivity
 import org.jetbrains.anko.support.v4.startActivity
 import vn.xdeuhug.movieXD.app.AppFragment
 import vn.xdeuhug.movieXD.constants.AppConstants

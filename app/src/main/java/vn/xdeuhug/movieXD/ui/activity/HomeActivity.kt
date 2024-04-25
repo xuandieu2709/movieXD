@@ -3,6 +3,8 @@ package vn.xdeuhug.movieXD.ui.activity
 import android.view.View
 import androidx.activity.OnBackPressedCallback
 import androidx.annotation.RequiresApi
+import androidx.core.view.get
+import androidx.core.widget.NestedScrollView
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationItemView
 import vn.xdeuhug.base.PagerAdapter
@@ -57,10 +59,9 @@ class HomeActivity : AppActivity() {
     private fun setUpBottomBar()
     {
         val fragments: List<Fragment>
+        val fragment = Class.forName(ModuleClassConstants.MOVIE_FRAGMENT).newInstance() as AppFragment<*>
         fragments = listOf(
-            Class.forName(ModuleClassConstants.MOVIE_FRAGMENT).newInstance() as AppFragment<*>,
-            Class.forName(ModuleClassConstants.MOVIE_FRAGMENT).newInstance() as AppFragment<*>,
-            Class.forName(ModuleClassConstants.MOVIE_FRAGMENT).newInstance() as AppFragment<*>
+            fragment
         )
 
 
@@ -68,15 +69,11 @@ class HomeActivity : AppActivity() {
 
         //Setup menu
         binding.contentView.adapter = adapter
-        binding.contentView.offscreenPageLimit = adapter.itemCount - 1
-        binding.contentView.setCurrentItem(1, false)
+//        binding.contentView.offscreenPageLimit = adapter.itemCount - 1
+        binding.contentView.setCurrentItem(0, false)
 
         //Chặn viewpager2 vuốt
         binding.contentView.isUserInputEnabled = false
-        binding.mBottomNavigationView.setItemSelected(R.id.itemMovie,true)
-        binding.mBottomNavigationView.setOnItemSelectedListener {
-            // Thay đổi
-        }
     }
 
 }

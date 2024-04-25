@@ -49,7 +49,7 @@ android {
             // Cấu hình thông tin
 //            signingConfig signingConfigs.config
 
-            addManifestPlaceholders(['app_name': '@string/app_name'])
+            addManifestPlaceholders(['app_name': 'Phim XD'])
 
             proguardFiles 'proguard-sdk.pro', 'proguard-app.pro'
             signingConfig signingConfigs.debug
@@ -198,4 +198,7 @@ dependencies {
 
     // https://github.com/MonsterTechnoGits/WebViewAdblock-Library
     api 'com.github.MonsterTechnoGits:WebViewAdblock:1.1'
+
+    // https://github.com/husaynhakeem/android-tradur
+    api 'com.github.husaynhakeem:android-tradur:2.0'
 }

@@ -112,7 +112,7 @@ object PhotoShowUtils {
                 ).centerCrop().transform(
                     MultiTransformation(
                         RoundedCorners(
-                            view.context.resources.getDimension(R.dimen.dp_8).toInt()
+                            view.context.resources.getDimension(R.dimen.dp_4).toInt()
                         )
                     )
                 ).into(view)
@@ -124,11 +124,15 @@ object PhotoShowUtils {
             ).diskCacheStrategy(DiskCacheStrategy.ALL).centerCrop().transform(
                 MultiTransformation(
                     RoundedCorners(
-                        view.context.resources.getDimension(R.dimen.dp_8).toInt()
+                        view.context.resources.getDimension(R.dimen.dp_4).toInt()
                     )
                 )
             ).apply(
-                RequestOptions().placeholder(R.drawable.ic_default)
+                RequestOptions().centerCrop().transform(MultiTransformation(
+                    RoundedCorners(
+                        view.context.resources.getDimension(R.dimen.dp_4).toInt()
+                    )
+                )).placeholder(R.drawable.ic_default)
                     .error(R.drawable.ic_default)
             ).into(view)
         }

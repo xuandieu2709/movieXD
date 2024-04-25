@@ -2,6 +2,7 @@ package vn.xdeuhug.movieXD.ui.activity
 
 import android.annotation.SuppressLint
 import android.net.ConnectivityManager
+import android.view.KeyEvent
 import android.view.View
 import android.webkit.WebChromeClient
 import android.webkit.WebResourceRequest
@@ -9,6 +10,7 @@ import android.webkit.WebResourceResponse
 import android.webkit.WebSettings
 import android.webkit.WebView
 import android.webkit.WebViewClient
+import com.google.gson.GsonBuilder
 import com.monstertechno.adblocker.AdBlockerWebView
 import com.monstertechno.adblocker.util.AdBlocker
 import timber.log.Timber
@@ -21,6 +23,10 @@ import java.io.ByteArrayInputStream
 import java.io.IOException
 import java.io.InputStream
 import java.io.InputStreamReader
+import java.util.LinkedList
+
+
+
 
 
 /**
@@ -223,16 +229,30 @@ class PlayMediaActivity : AppActivity() {
             view: WebView?,
             request: WebResourceRequest?
         ): WebResourceResponse? {
-//            if (AdBlockerWebView.blockAds(
-//                    view,
-//                    request?.url.toString()
-//                )
-//            ) {
-//                return AdBlocker.createEmptyResource()
-//            } else {
-//                return super.shouldInterceptRequest(view, request?.url.toString())
-//            }
-            return super.shouldInterceptRequest(view, request?.url.toString())
+            return if (AdBlockerWebView.blockAds(
+                    view,
+                    request?.url.toString()
+                )
+            ) {
+                AdBlocker.createEmptyResource()
+            } else {
+                super.shouldInterceptRequest(view, request?.url.toString())
+            }
+//            return super.shouldInterceptRequest(view, request?.url.toString())
+        }
+
+        override fun onUnhandledKeyEvent(view: WebView?, event: KeyEvent?) {
+            if ((event?.keyCode == KeyEvent.KEYCODE_BACK) && view!!.canGoBack()) {
+                view.goBack()
+            }
+            super.onUnhandledKeyEvent(view, event)
+        }
+
+        override fun onPageFinished(view: WebView?, url: String?) {
+            if (!navigationHistory.contains(url)) // Check for duplicate urls
+                navigationHistory.add(url?:"") // add each loading url to List
+            toast(GsonBuilder().setPrettyPrinting().create().toJson(navigationHistory))
+            super.onPageFinished(view, url)
         }
 
     }
@@ -240,4 +260,23 @@ class PlayMediaActivity : AppActivity() {
     override fun initData() {
         //
     }
+
+    @Deprecated("Deprecated in Java")
+    override fun onBackPressed() {
+        if (navigationHistory.isNotEmpty()) // Check if the url is empty
+        {
+            navigationHistory.removeLast(); // Remove the last url
+
+            if (navigationHistory.isNotEmpty()) {
+                // Load the last page
+                binding.wvLoadVideo.loadUrl(navigationHistory.getLast())
+            } else {
+                super.onBackPressed()
+            }
+        } else {
+            super.onBackPressed()
+        }
+    }
+
+    private var navigationHistory = LinkedList<String>()
 }

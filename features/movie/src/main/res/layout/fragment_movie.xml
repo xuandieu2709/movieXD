@@ -22,6 +22,7 @@
         app:rightIcon="@drawable/ic_search_white" />
 
     <androidx.core.widget.NestedScrollView
+        android:id="@+id/svMovie"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/tbTitle"

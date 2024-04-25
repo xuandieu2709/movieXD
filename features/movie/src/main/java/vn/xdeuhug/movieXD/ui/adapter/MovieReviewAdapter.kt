@@ -121,7 +121,7 @@ class MovieReviewAdapter(context: Context) : AppAdapter<Movie>(context) {
             setRate(item)
             if (item.knownFor.isNotEmpty()) {
 
-                PhotoShowUtils.loadPhotoImageNormal(
+                PhotoShowUtils.loadPhotoRound(
                     APITheMovieDBRouter.HOST_IMAGE_BIG_SIZE + item.knownFor[0].posterPath,
                     binding.imvMovie
                 )

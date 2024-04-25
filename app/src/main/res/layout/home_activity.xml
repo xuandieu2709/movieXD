@@ -15,25 +15,48 @@
             android:id="@+id/contentView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_above="@id/mBottomNavigationView"
+            android:layout_marginBottom="-48dp"
+            android:layout_above="@id/llBottom"
             android:layout_alignParentTop="true" />
 
-        <com.ismaeldivita.chipnavigation.ChipNavigationBar
-            android:id="@+id/mBottomNavigationView"
-            android:visibility="visible"
+        <!--        <com.ismaeldivita.chipnavigation.ChipNavigationBar-->
+        <!--            android:id="@+id/mBottomNavigationView"-->
+        <!--            android:visibility="visible"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_alignParentBottom="true"-->
+        <!--            app:cnb_addBottomInset="false"-->
+        <!--            app:cnb_addLeftInset="false"-->
+        <!--            app:cnb_addRightInset="false"-->
+        <!--            app:cnb_addTopInset="false"-->
+        <!--            app:cnb_animationDuration="175"-->
+        <!--            app:cnb_iconSize="24dp"-->
+        <!--            app:cnb_menuResource="@menu/menu_bottom_navigation"-->
+        <!--            app:cnb_orientationMode="horizontal"-->
+        <!--            app:cnb_radius="8dp"-->
+        <!--            app:cnb_unselectedColor="@null" />-->
+        <LinearLayout
+            android:id="@+id/llBottom"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/bg_shadow"
             android:layout_alignParentBottom="true"
-            app:cnb_addBottomInset="false"
-            app:cnb_addLeftInset="false"
-            app:cnb_addRightInset="false"
-            app:cnb_addTopInset="false"
-            app:cnb_animationDuration="175"
-            app:cnb_iconSize="24dp"
-            app:cnb_menuResource="@menu/menu_bottom_navigation"
-            app:cnb_orientationMode="horizontal"
-            app:cnb_radius="8dp"
-            app:cnb_unselectedColor="@null" />
+            android:gravity="center">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btnHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                app:cardCornerRadius="@dimen/dp_100">
+
+                <androidx.constraintlayout.utils.widget.ImageFilterView
+                    android:layout_width="@dimen/dp_48"
+                    android:layout_height="@dimen/dp_48"
+                    android:layout_margin="@dimen/dp_16"
+                    android:src="@drawable/ic_logo_movie" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
         <!--        app:cnb_textAppearance="?myThemeTextAppearance"-->
     </RelativeLayout>
 </layout>
