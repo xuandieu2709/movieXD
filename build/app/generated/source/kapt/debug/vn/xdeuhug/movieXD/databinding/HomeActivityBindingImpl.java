@@ -15,7 +15,8 @@ public class HomeActivityBindingImpl extends HomeActivityBinding  {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
         sViewsWithIds.put(R.id.contentView, 1);
-        sViewsWithIds.put(R.id.mBottomNavigationView, 2);
+        sViewsWithIds.put(R.id.llBottom, 2);
+        sViewsWithIds.put(R.id.btnHome, 3);
     }
     // views
     @NonNull
@@ -26,12 +27,13 @@ public class HomeActivityBindingImpl extends HomeActivityBinding  {
     // Inverse Binding Event Handlers
 
     public HomeActivityBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 3, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 4, sIncludes, sViewsWithIds));
     }
     private HomeActivityBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
+            , (androidx.cardview.widget.CardView) bindings[3]
             , (androidx.viewpager2.widget.ViewPager2) bindings[1]
-            , (com.ismaeldivita.chipnavigation.ChipNavigationBar) bindings[2]
+            , (android.widget.LinearLayout) bindings[2]
             );
         this.mboundView0 = (android.widget.RelativeLayout) bindings[0];
         this.mboundView0.setTag(null);

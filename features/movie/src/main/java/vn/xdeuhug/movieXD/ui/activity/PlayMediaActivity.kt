@@ -51,6 +51,8 @@ class PlayMediaActivity : AppActivity() {
 
     private var src = ""
 
+    private var html = ""
+
     @SuppressLint("SetJavaScriptEnabled")
     private fun setWebViewWithADsBlock() {
         binding.wvLoadVideo.webViewClient = AdsBlockWebViewClient()
@@ -139,7 +141,6 @@ class PlayMediaActivity : AppActivity() {
         binding.wvLoadVideo.settings.cacheMode = WebSettings.LOAD_NO_CACHE
         binding.wvLoadVideo.requestFocus(View.FOCUS_DOWN)
         val type = intent.getIntExtra(AppConstants.TYPE_MOVIE, -1)
-        var src = ""
         when (type) {
             AppConstants.IS_TYPE_MOVIE -> {
                 val id = intent.getStringExtra(AppConstants.ID_IMDB_STR)
@@ -154,10 +155,11 @@ class PlayMediaActivity : AppActivity() {
             }
         }
         Timber.tag("LOG SRC").i(src)
-        val html =
+        html =
             "<html><body style='margin:0;padding:0;'><iframe width=\"100%\" height=\"100%\" src=\"$src\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></body></html>"
         binding.wvLoadVideo.loadData(html, "text/html", null)
         binding.wvLoadVideo.loadUrl("javascript:document.getElementsByClassName('playbtnx').style.display = 'none';")
+        navigationHistory.add(src)
         val webSettings = binding.wvLoadVideo.settings
         //
         val cm = this.getSystemService(CONNECTIVITY_SERVICE) as ConnectivityManager
@@ -251,8 +253,20 @@ class PlayMediaActivity : AppActivity() {
         override fun onPageFinished(view: WebView?, url: String?) {
             if (!navigationHistory.contains(url)) // Check for duplicate urls
                 navigationHistory.add(url?:"") // add each loading url to List
-            toast(GsonBuilder().setPrettyPrinting().create().toJson(navigationHistory))
             super.onPageFinished(view, url)
+        }
+
+        override fun shouldOverrideUrlLoading(
+            view: WebView?,
+            request: WebResourceRequest?
+        ): Boolean {
+            return if(request?.isRedirect == true){
+                toast(getString(getResources().getIdentifier("have_ads", "string", getContext().packageName)))
+                binding.wvLoadVideo.loadData(html, "text/html", null)
+                false
+            }else{
+                true
+            }
         }
 
     }
